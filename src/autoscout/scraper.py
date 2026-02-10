@@ -6,6 +6,7 @@ import random
 from pathlib import Path
 
 from playwright.async_api import Browser, BrowserContext, Page, Response, async_playwright
+from playwright_stealth import Stealth
 
 from autoscout.models import Listing, SearchResultItem
 from autoscout.parser import parse_listing, parse_search_results
@@ -84,7 +85,12 @@ class Auto24Scraper:
             locale="en-US",
         )
         self._page = await self._context.new_page()
-        logger.info("Browser started (headless=%s)", self.headless)
+
+        # Apply stealth mode to evade bot detection
+        stealth_config = Stealth()
+        await stealth_config.apply_stealth_async(self._page)
+
+        logger.info("Browser started (headless=%s, stealth=enabled)", self.headless)
 
     async def close(self) -> None:
         """Shut down browser and Playwright."""

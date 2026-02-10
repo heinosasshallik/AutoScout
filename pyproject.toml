@@ -5,6 +5,7 @@ description = "Car finder that scrapes auto24.ee and evaluates listings with AI"
 requires-python = ">=3.11"
 dependencies = [
     "playwright>=1.40",
+    "playwright-stealth>=1.0",
     "beautifulsoup4>=4.12",
     "lxml>=5.0",
     "pydantic>=2.0",
