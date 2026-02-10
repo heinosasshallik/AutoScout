@@ -121,7 +121,55 @@ def parse_search_results(html: str) -> list[SearchResultItem]:
             items.append(item)
 
     logger.info("Parsed %d search results from HTML", len(items))
+
+    # Validation: warn if field population is suspiciously low
+    if items:
+        _validate_search_results_quality(items)
+
     return items
+
+
+def _validate_search_results_quality(items: list[SearchResultItem]) -> None:
+    """Validate search results have reasonable field population.
+
+    Logs warnings if too many items are missing critical fields, which
+    may indicate that auto24.ee has changed their HTML structure.
+    """
+    if not items:
+        return
+
+    total = len(items)
+    with_price = sum(1 for item in items if item.price_eur is not None)
+    with_year = sum(1 for item in items if item.year is not None)
+    with_mileage = sum(1 for item in items if item.mileage_km is not None)
+
+    # Warn if less than 70% have critical fields (indicates parsing problems)
+    if with_price / total < 0.70:
+        logger.warning(
+            "Only %d/%d (%.1f%%) search results have price. "
+            "auto24.ee HTML structure may have changed!",
+            with_price,
+            total,
+            with_price / total * 100,
+        )
+
+    if with_year / total < 0.70:
+        logger.warning(
+            "Only %d/%d (%.1f%%) search results have year. "
+            "auto24.ee HTML structure may have changed!",
+            with_year,
+            total,
+            with_year / total * 100,
+        )
+
+    if with_mileage / total < 0.70:
+        logger.warning(
+            "Only %d/%d (%.1f%%) search results have mileage. "
+            "auto24.ee HTML structure may have changed!",
+            with_mileage,
+            total,
+            with_mileage / total * 100,
+        )
 
 
 def _parse_result_row(row: Tag) -> SearchResultItem | None:
@@ -196,6 +244,53 @@ def _parse_result_row(row: Tag) -> SearchResultItem | None:
 # Listing page parsing
 # ---------------------------------------------------------------------------
 
+
+def _validate_listing_quality(listing: Listing) -> None:
+    """Validate listing has critical fields populated.
+
+    Logs warnings if important fields are missing, which may indicate
+    that auto24.ee has changed their HTML structure and our parser
+    needs to be updated.
+    """
+    missing_critical = []
+    missing_important = []
+
+    # Critical fields (should always be present)
+    if not listing.make:
+        missing_critical.append("make")
+    if not listing.model:
+        missing_critical.append("model")
+    if not listing.year:
+        missing_critical.append("year")
+    if not listing.price_eur:
+        missing_critical.append("price_eur")
+
+    # Important fields (should usually be present)
+    if not listing.mileage_km:
+        missing_important.append("mileage_km")
+    if not listing.fuel_type:
+        missing_important.append("fuel_type")
+    if not listing.transmission:
+        missing_important.append("transmission")
+    if not listing.photo_urls:
+        missing_important.append("photo_urls")
+
+    if missing_critical:
+        logger.warning(
+            "Listing %s is MISSING CRITICAL FIELDS: %s. "
+            "auto24.ee HTML structure may have changed!",
+            listing.id,
+            ", ".join(missing_critical),
+        )
+
+    if missing_important:
+        logger.warning(
+            "Listing %s is missing important fields: %s",
+            listing.id,
+            ", ".join(missing_important),
+        )
+
+
 def parse_listing(html: str, listing_id: str) -> Listing:
     """Parse a full listing page (/vehicles/{ID}) into a Listing model."""
     soup = BeautifulSoup(html, "lxml")
@@ -228,7 +323,7 @@ def parse_listing(html: str, listing_id: str) -> Listing:
     # Engine text from main data (e.g., "1.6 97kW")
     engine_text = details.get("engine")
 
-    return Listing(
+    listing = Listing(
         id=listing_id,
         url=url,
         make=make,
@@ -251,6 +346,11 @@ def parse_listing(html: str, listing_id: str) -> Listing:
         photo_urls=photo_urls,
         raw_html=html,
     )
+
+    # Validation: warn if critical fields are missing (possible site change)
+    _validate_listing_quality(listing)
+
+    return listing
 
 
 def _extract_main_data(soup: BeautifulSoup) -> dict[str, str]:

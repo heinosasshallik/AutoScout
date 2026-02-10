@@ -35,6 +35,9 @@ pytest tests/test_parser.py
 # Run only unit tests (skip integration tests that hit real services)
 pytest -m "not integration"
 
+# Run integration tests (hits real auto24.ee website)
+pytest -m integration
+
 # Run with verbose output
 pytest -v
 
@@ -44,6 +47,27 @@ pytest tests/test_parser.py::TestParsePrice::test_euro_sign_suffix
 ```
 
 **Note:** Integration tests against real HTML fixtures require running the scraper discovery mode first to fetch fixtures. See "Scraper Discovery Mode" below.
+
+### Website Change Detection
+
+The project has multiple layers of protection against auto24.ee changing their HTML:
+
+1. **Canary tests** (`test_scraper_validation.py`) - Run with `-m integration`:
+   - Validate field population rates against live site
+   - Fail loudly if < 80% of listings have critical fields
+   - Show detailed parsing quality metrics in logs
+
+2. **Parser-level warnings** - Automatic validation in `parser.py`:
+   - Warns when individual listings miss critical fields
+   - Warns when search result batches have low field population
+   - Helps catch subtle changes before they cause major issues
+
+3. **Integration tests** (`test_scraper.py`) - Basic smoke tests that site still loads
+
+**Recommended:** Run validation tests weekly or when deployment behavior changes:
+```bash
+pytest tests/test_scraper_validation.py -m integration -v --log-cli-level=INFO
+```
 
 ### Running the Scraper
 
