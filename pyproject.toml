@@ -1,0 +1,30 @@
+[project]
+name = "autoscout"
+version = "0.1.0"
+description = "Car finder that scrapes auto24.ee and evaluates listings with AI"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.40",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+markers = [
+    "integration: tests that hit real external services (deselect with '-m not integration')",
+]

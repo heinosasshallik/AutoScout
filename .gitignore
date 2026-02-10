@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Testing
+.pytest_cache/
+
+# Runtime data
+data/
+
+# HTML fixtures (large, fetched by scraper)
+tests/fixtures/*.html
+
+# IDE
+.idea/
+.vscode/
