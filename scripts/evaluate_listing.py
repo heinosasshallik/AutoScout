@@ -14,20 +14,12 @@ import subprocess
 import sys
 from pathlib import Path
 
+from autoscout.config import load_config
 from autoscout.scraper import Auto24Scraper
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 CONFIG_DIR = ROOT_DIR / "config"
 LISTINGS_DIR = ROOT_DIR / "listings"
-
-
-def load_config():
-    """Load configuration from config/ directory."""
-    search_cfg = json.loads((CONFIG_DIR / "search.json").read_text(encoding="utf-8"))
-    score_weights = json.loads((CONFIG_DIR / "scoring.json").read_text(encoding="utf-8"))
-    prompt = (CONFIG_DIR / "prompt.md").read_text(encoding="utf-8")
-    schema = json.loads((CONFIG_DIR / "eval-output-schema.json").read_text(encoding="utf-8"))
-    return search_cfg, score_weights, prompt, schema
 
 
 logging.basicConfig(
@@ -143,7 +135,7 @@ def main() -> None:
         print(f"Usage: {sys.argv[0]} <listing_id_or_url>", file=sys.stderr)
         sys.exit(1)
 
-    search_cfg, score_weights, prompt, schema = load_config()
+    search_cfg, score_weights, prompt, schema = load_config(CONFIG_DIR)
     listing_id = extract_listing_id(sys.argv[1])
 
     # Step 1: Scrape
