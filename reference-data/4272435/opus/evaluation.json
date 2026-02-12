@@ -1,0 +1,53 @@
+{
+  "summary": "This is a 2016 Toyota Corolla E170 facelift sedan with the 1ZR-FAE 1.6L port-injected engine (97kW/130hp) and Multidrive S CVT transmission, listed at €11,499 with 123,000 km by a dealer in Tallinn. While the engine is excellent (port injection, timing chain, revised 2016 facelift improvements), the transmission is a belt-type CVT — marketed as \"automatic\" on auto24.ee but mechanically a CVT — which is a hard rejection per the buyer's criteria. The European 1.6L Corolla was only offered with a 6-speed manual or this CVT; no torque converter automatic was available. Do not go see this car.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2016,
+    "engine_code": "1ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "CVT (Multidrive S belt-type)",
+    "mileage_km": 123000
+  },
+  "research_findings": "**Engine (1ZR-FAE):** Confirmed as the 1ZR-FAE 1.6L with Valvematic variable valve lift and Dual VVT-i. Port fuel injection (multi-point). Timing chain (no belt replacement needed). The 2016 facelift model received meaningful revisions: hydraulic drive belt tensioner, spin-on oil filter, improved PCV system, and revised Valvematic actuator — making it more reliable than 2014-2015 models. Known issues include timing chain stretch at 150k-200k km, moderate oil consumption (mitigated by using 5W-30), water pump failures around 50k-70k km intervals, and occasional Valvematic controller errors. At 123k km, the engine is approaching but not yet in the typical problem zone. Sources: EngineDNA.com, Wikipedia (Toyota ZR engine), MyMotorList.com.\n\n**Transmission (Multidrive S CVT):** CRITICAL — The \"automatic\" listed on auto24.ee is actually Toyota's Multidrive S, a belt-type CVT from the Aisin K-series (K310/K311). While it uses a torque converter as a launch device, the ratio-change mechanism is a belt-and-pulley CVT system. The European 2016 Corolla 1.6 was only offered with a 6-speed manual or this CVT — no conventional torque converter automatic existed for this market/engine combination. This is a hard-reject transmission per buyer criteria. Sources: auto-data.net, car.info, Wikipedia (Toyota Corolla E170).\n\n**Safety:** Euro NCAP 5-star rating (2013 test): Adult 94%, Child 82%, Pedestrian 67%, Safety Assist 66%. The 2016 facelift may include Toyota Safety Sense (pre-collision, lane departure alert) depending on spec level. An airbag ECU recall was issued for 2011-2019 Corollas — should be verified via VIN. Sources: Euro NCAP.\n\n**Market value:** At €11,499 with 123k km, the price is at the upper end of reasonable. A comparable 2016 Corolla 1.6 CVT with 157k km is listed at €10,490 with a Toyota warranty on Autoportaal.ee. The lower mileage justifies some premium, but the price leaves little negotiation room. Sources: Autoportaal.ee, TheParking.eu.\n\n**Cold weather/rust:** Known rust-prone areas include rocker panels near rear wheel arches, windshield surrounds, and underbody suspension components. The 1ZR-FAE thermostat can fail, preventing the engine from reaching operating temperature in cold weather. CVT fluid thickens in cold, causing sluggish response. Annual underbody rustproofing strongly recommended for Estonian conditions. Sources: DriveMag, ToyotaOwnersClub, ToyotaNation forums.",
+  "scores": {
+    "mechanical_reliability": 7,
+    "maintenance_cost_outlook": 6,
+    "value_for_money": 5,
+    "safety": 8,
+    "cosmetic_condition": 5,
+    "spec_match": 2,
+    "seller_trustworthiness": 6
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 1ZR-FAE engine is well-proven with port injection and timing chain. The 2016 facelift fixes several early-generation issues. At 123k km it's within the reliable range. However, the CVT transmission is less durable long-term than a torque converter auto or manual, and CVT repairs are expensive. Deducted for CVT longevity concerns.",
+    "maintenance_cost_outlook": "Timing chain means no belt replacement, and Toyota parts are reasonably priced in Estonia. However, CVT fluid changes must be done regularly (every 40-60k km), and if the CVT fails, replacement costs €2,000-4,000+. Water pump may need replacement soon if not already done. The Valvematic system adds complexity over a simpler engine.",
+    "value_for_money": "€11,499 is at the high end for this car. A comparable example with 35k more km is €10,490 with warranty. The CVT transmission significantly reduces the car's desirability for this buyer, making the value proposition poor regardless of price.",
+    "safety": "Excellent 5-star Euro NCAP rating with 94% adult occupant protection. Multiple airbags including front passenger isolation mentioned in the listing. Potential Toyota Safety Sense on the 2016 facelift. Deducted slightly because the airbag ECU recall status is unknown and should be verified.",
+    "cosmetic_condition": "Cannot assess without viewing photos in detail. The listing has 13 photos which is reasonable. Gray metallic paint. No information about rust, dents, or interior condition in the description. Neutral score pending in-person inspection.",
+    "spec_match": "HARD FAIL on transmission: the Multidrive S is a belt-type CVT, explicitly rejected by buyer criteria. The engine itself is ideal — port-injected 1ZR-FAE from a preferred brand (Toyota), naturally aspirated, Corolla-sized sedan. But the CVT is disqualifying. Score of 2 reflects the CVT hard requirement violation; the remaining points are for the otherwise excellent engine and brand match.",
+    "seller_trustworthiness": "Dealer sale (CarProf Autokeskus) provides some consumer protection under Estonian law. However, the description is minimal — just a list of basic features with no mention of service history, condition, recent maintenance, or warranty terms. 13 photos is adequate. The listing does not disclose that the 'automatic' is actually a CVT, which could be seen as misleading (though it follows auto24.ee conventions)."
+  },
+  "red_flags": [
+    "HARD REJECT: Transmission is a belt-type CVT (Multidrive S), not a torque converter automatic — violates buyer's hard requirement",
+    "auto24.ee lists transmission as 'automatic' which obscures the CVT nature — a common pitfall on Estonian listings for this model",
+    "No conventional automatic option existed for the European 1.6L Corolla — cannot be resolved by finding a different spec of this model",
+    "Minimal seller description — no service history, maintenance records, or warranty details mentioned",
+    "At 123k km, water pump may be due for replacement (known 50-70k km lifespan)",
+    "Airbag ECU recall status unknown — must verify via VIN",
+    "Price is at the upper end of market range for this model/mileage"
+  ],
+  "green_flags": [
+    "1ZR-FAE engine uses port fuel injection — preferred by buyer",
+    "Timing chain (no belt replacement needed)",
+    "2016 facelift model with revised engine components (improved Valvematic, PCV, oil filter)",
+    "Toyota brand — preferred for reliability and parts availability",
+    "5-star Euro NCAP safety rating (94% adult occupant)",
+    "Corolla sedan is the right size (not too small)",
+    "Reasonable mileage for age (123k km over ~10 years)",
+    "Dealer sale provides Estonian consumer protection"
+  ],
+  "verdict": "SKIP",
+  "verdict_reasoning": "Despite having an excellent port-injected engine from a preferred brand with strong safety credentials, this car must be skipped because its transmission is a belt-type CVT (Toyota Multidrive S). The buyer's hard requirements explicitly reject CVTs, and this is non-negotiable. Importantly, the European 2016 Toyota Corolla 1.6L was never offered with a torque converter automatic — only a 6-speed manual or the CVT. So there is no \"correct spec\" version of this exact car to look for instead. If the buyer wants a Corolla with a conventional automatic, they would need to look at a different generation or a different engine/market combination. The listing's use of \"automatic\" rather than \"CVT\" is a common pitfall on Estonian listings that buyers should be aware of.",
+  "weighted_score": 5.8
+}

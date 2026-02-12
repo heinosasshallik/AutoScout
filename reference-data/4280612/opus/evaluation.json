@@ -1,0 +1,54 @@
+{
+  "summary": "This is a 2007 Toyota Corolla E150 sedan with the 1.6L 1ZR-FE port-injected petrol engine and a 4-speed Aisin torque converter automatic transmission, listed at €3,250 with 220,000 km from a private seller in Estonia. The 1ZR-FE is a generally reliable engine with port injection (the buyer's preferred type), and the U340E/U341E is a proven torque converter automatic — both pass the hard requirements. However, at 220,000 km, the car is approaching the upper end of the 1ZR-FE's typical reliable lifespan (~250,000 km), and the automatic transmission's service life is rated at 150,000-300,000 km depending on maintenance. The price is fair but not a bargain given the mileage. This is a MAYBE — worth considering if the seller can demonstrate good maintenance history, but the high mileage introduces meaningful risk of near-term major repairs (timing chain tensioner, transmission planetary gear, oil consumption).",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2007,
+    "engine_code": "1ZR-FE",
+    "injection_type": "port",
+    "transmission_type": "4-speed torque converter automatic (Aisin U340E/U341E)",
+    "mileage_km": 220000
+  },
+  "research_findings": "**Engine (1ZR-FE 1.6L):** The 1ZR-FE is a 1,598cc DOHC 16-valve engine with Dual VVT-i producing 91 kW (122 hp). It uses multipoint port fuel injection — not direct injection. It has a timing chain (no belt replacement needed), but the chain tensioner can become noisy and the water pump is known to fail between 50,000-70,000 km intervals. Oil consumption is a documented issue on early ZR-series engines. The aluminum block has no repair sizes, meaning cylinder wall damage requires block replacement. With proper maintenance, the engine is rated for approximately 250,000 km (150,000 miles). At 220,000 km, this car is at roughly 88% of the engine's typical reliable lifespan. Sources: mywikimotors.com, autospruce.com, Wikipedia (Toyota ZR engine).\\n\\n**Transmission (U340E/U341E):** This is a 4-speed torque converter automatic built by Aisin, used in Toyota Corolla/Avensis since 2000. Service life is rated at 150,000-300,000 km depending on maintenance. Known issues include: front planetary gear cracking (major, can require full planetary replacement), oil pump seal leaks, valve body clogging from contaminated ATF, and slipping between 3rd and 4th gears. At 220,000 km, this transmission is well into its service window and ATF condition/history is critical. Sources: go4trans.com, maktrans.net, toyotanation.com.\\n\\n**Safety:** The 2007 Toyota Corolla E150 earned a 5-star Euro NCAP rating when equipped with the full airbag package (dual front airbags standard; side airbags, driver knee airbag, and curtain airbags available depending on trim). ABS with EBD is standard. Note: the 5-star rating specifically requires the knee airbag, so the actual airbag complement of this specific car should be verified. Source: euroncap.com.\\n\\n**Rust/Cold Climate:** The E150 Corolla is susceptible to rust in salt-road climates, particularly in wheel wells, rocker panels, undercarriage, spoiler bolt holes, and brake/fuel lines. At 18 years old in Estonia (heavy road salt use), underbody rust is a significant concern and should be carefully inspected. Sources: toyotanation.com, corolland.com.\\n\\n**Market Value:** A 2007 Toyota Corolla 1.6 automatic with ~220,000 km in Estonia typically falls in the €2,500-5,000 range. At €3,250, this is in the lower-middle of that range, which is fair given the high mileage. Sources: auto24.ee, autoportaal.ee, theparking.eu.",
+  "scores": {
+    "mechanical_reliability": 5,
+    "maintenance_cost_outlook": 6,
+    "value_for_money": 6,
+    "safety": 7,
+    "cosmetic_condition": 5,
+    "spec_match": 9,
+    "seller_trustworthiness": 5
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 1ZR-FE is a solid engine, but at 220,000 km it is approaching its documented reliability ceiling of ~250,000 km. Known issues at this mileage include oil consumption, timing chain tensioner wear, and VVT-i system degradation. The U340E/U341E transmission has a service life of 150,000-300,000 km; at 220,000 km, the front planetary cracking risk and valve body wear become real concerns. Without maintenance records, the remaining reliability margin is uncertain.",
+    "maintenance_cost_outlook": "Parts for the E150 Corolla are widely available and affordable. The timing chain eliminates belt replacement costs. However, at this mileage, upcoming costs may include: water pump replacement, timing chain tensioner, potential transmission ATF service or repair, VVT-i system maintenance, and general age-related items (suspension bushings, seals). If the transmission develops issues, rebuild costs are €2,000-3,000 — nearly the price of the car.",
+    "value_for_money": "At €3,250, this is fair market pricing for a 2007 Corolla 1.6 auto with 220,000 km in Estonia. It's not overpriced, but it's also not a bargain. The high mileage means the buyer is paying for the Toyota badge reliability reputation while accepting meaningful risk of near-term major repairs. A comparable car with 150,000 km would be a notably better value proposition.",
+    "safety": "The E150 Corolla achieved a 5-star Euro NCAP rating with the full airbag package. Standard equipment includes dual front airbags and ABS with EBD. However, the 5-star rating requires the knee airbag and side curtain airbags, which may be trim-dependent. The listing description does not mention airbag count, so verification is needed. No ESC requirement existed when this car was tested. For a 2007 car, safety is good but not exceptional by modern standards.",
+    "cosmetic_condition": "Photos could not be analyzed. The listing has 8 photos which is a reasonable number. The car is black metallic, which can hide or reveal imperfections depending on conditions. At 18 years old in Estonia with salt roads, rust is a major concern — wheel wells, rocker panels, and undercarriage should be carefully inspected in person. Without being able to assess photos, this score is neutral/unknown.",
+    "spec_match": "Excellent spec match. Port injection (buyer's top preference), torque converter automatic (passes hard requirements), petrol, Toyota brand, Corolla-sized sedan (not too small). The only minor ding is that it's a 1.6L rather than the preferred 1.8L 2ZR-FE family, but the 1ZR-FE is still in the same ZR engine family and shares the port injection design. Near-perfect alignment with buyer criteria.",
+    "seller_trustworthiness": "Private seller, which is neutral. The listing has 8 photos and a description that lists features but provides no information about maintenance history, service records, recent work done, or reason for selling. No mention of MOT/inspection status. The description reads more like a feature list than a transparent sale pitch. No phone number listed, which is slightly unusual. Without maintenance history or transparent condition reporting, trust is limited."
+  },
+  "red_flags": [
+    "220,000 km is approaching the 1ZR-FE engine's documented reliability ceiling (~250,000 km) and well into the U340E transmission's service life window",
+    "No maintenance history or service records mentioned in the listing",
+    "18-year-old car in Estonia — high risk of underbody rust, brake line corrosion, and suspension component deterioration from road salt",
+    "Automatic transmission at this mileage: if ATF was not regularly changed, transmission failure risk is elevated (rebuild cost €2,000-3,000)",
+    "Listing description is just a feature list — no information about condition, recent repairs, or reason for selling",
+    "No seller phone number listed",
+    "1ZR-FE aluminum block has no repair sizes — cylinder wall damage requires full block replacement",
+    "Airbag complement unclear — 5-star Euro NCAP rating requires knee airbag and curtain airbags that may not be fitted on all trims"
+  ],
+  "green_flags": [
+    "Port fuel injection — buyer's preferred injection type, no carbon buildup concerns",
+    "Torque converter automatic — passes hard requirements, no CVT/DCT concerns",
+    "Timing chain — no timing belt replacement needed",
+    "Toyota Corolla — one of the most proven and parts-available platforms worldwide",
+    "1ZR-FE engine family is well-documented and generally reliable",
+    "Fair market price at €3,250 — not overpriced",
+    "8 photos provided — reasonable documentation",
+    "Corolla-sized sedan — fits buyer's size preference perfectly"
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "This car matches the buyer's specs almost perfectly — port injection, torque converter auto, Toyota Corolla, petrol — and the price is fair. However, the 220,000 km mileage is the critical concern. Both the engine (ceiling ~250,000 km) and the automatic transmission (service life 150,000-300,000 km) are in the zone where major failures become increasingly likely, especially without documented maintenance history. The 18-year age in Estonian salt-road conditions adds rust risk. If the seller can produce service records showing regular oil changes and ATF services, this becomes much more attractive. Without that documentation, the buyer is essentially gambling that the car has another 30,000-80,000 km of reliable life — possible but not certain. Worth inquiring about maintenance history before committing to a viewing. Ask specifically about: (1) oil change frequency and brand, (2) ATF change history, (3) whether the timing chain tensioner has been inspected/replaced, (4) any underbody rust proofing done, and (5) most recent technical inspection results.",
+  "weighted_score": 6.1
+}

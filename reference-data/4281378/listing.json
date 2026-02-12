@@ -1,0 +1,31 @@
+{
+  "id": "4281378",
+  "url": "https://eng.auto24.ee/vehicles/4281378",
+  "make": "Toyota",
+  "model": "Avensis",
+  "year": 2009,
+  "price_eur": 2300,
+  "mileage_km": 270000,
+  "fuel_type": "petrol",
+  "transmission": "manual",
+  "engine_cc": 1794,
+  "power_kw": 95,
+  "body_type": "touring",
+  "drivetrain": "front-wheel drive",
+  "color": "gray",
+  "location": "Estonia",
+  "seller_type": "private",
+  "seller_name": "Svetlana Kucur",
+  "seller_phone": null,
+  "description": "anti-theft alarm system (with interior motion sensor)\nseatbelt pre-tighteners on front seats\nelectrically adjustable mirrors (heated mirrors, folding)\ncup holders (in the front, in the back)\nfront armrest (with compartment)\npockets on backside of the front seats\nsteering wheel adjustment (height and depth)\nspecial light switch-dim-dip-light",
+  "photo_urls": [
+    "https://img13.img-bcg.eu/h30/266b69/s1/205294114.jpg",
+    "https://img13.img-bcg.eu/h30/a8c61a/s1/205294115.jpg",
+    "https://img13.img-bcg.eu/h30/a83d6a/s1/205294120.jpg",
+    "https://img13.img-bcg.eu/h30/ab4c92/s1/205294119.jpg",
+    "https://img13.img-bcg.eu/h30/016a6f/s1/205294121.jpg",
+    "https://img13.img-bcg.eu/h30/6e84f7/s1/205294117.jpg",
+    "https://img13.img-bcg.eu/h30/d719d2/s1/205294116.jpg",
+    "https://img13.img-bcg.eu/h30/e0d22b/s1/205294118.jpg"
+  ]
+}

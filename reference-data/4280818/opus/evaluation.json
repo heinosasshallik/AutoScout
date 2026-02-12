@@ -1,0 +1,54 @@
+{
+  "summary": "This is a 2017 Toyota Avensis Touring (T270 facelift) with the 1.8L 2ZR-FAE Valvematic petrol engine, 6-speed manual, and 151,484 km on the clock, listed at €13,300 by a private seller in Tallinn. The Avensis is a solid, safe, Corolla-sized-and-up wagon with a 5-star Euro NCAP rating and Toyota reliability heritage. However, the 2ZR-FAE engine has well-documented issues — oil consumption, Valvematic actuator failures, and timing chain stretch — and this car sits right at the critical 150k km maintenance threshold. The asking price is significantly above market value for this mileage and spec. It's worth seeing only if the seller can demonstrate a thorough service history and you're prepared to negotiate hard on price.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis Touring (T270)",
+    "year": 2017,
+    "engine_code": "2ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "6-speed manual",
+    "mileage_km": 151484
+  },
+  "research_findings": "**Engine (2ZR-FAE 1.8L Valvematic):** This is a port-injected 1,798cc DOHC 16-valve engine producing 108kW/147hp. It uses Toyota's Valvematic continuously variable valve lift system on top of Dual VVT-i. Port injection is good news — no carbon buildup on intake valves. However, the 2ZR-FAE has several well-documented problems: (1) **Oil consumption** — the 2ZR family is notorious for burning oil, caused by piston ring wear, valve seal degradation, and PCV system issues. Early units (2008-2009) were worst, but later versions still trend toward progressive consumption. (2) **Valvematic actuator failures** — the variable valve lift controller can foul, throw codes, or fail entirely, causing rough idle, misfires, and stalling. Replacement costs $700–$2,400 and requires significant disassembly. (3) **Timing chain stretch** — the chain typically needs attention around 150,000 km, which is exactly where this car sits. Sources: Wikipedia Toyota ZR engine, GetUsedEngine.com, ZipTek Auto Parts, EngineChecklist.com, MyEngineSpecs.com.\n\n**Transmission:** The 6-speed manual is the preferred choice for the Avensis — Toyota manuals are generally very reliable. Known minor issues include cold-weather first-gear stiffness and synchronizer wear at higher mileages. No major systemic problems. Source: Autodoc, BreakerLink.\n\n**Model-specific (T270 facelift 2015-2018):** Recalls issued for steering column rattle, braking imbalance, and rear suspension arm torque. Common wear items at 150k km include suspension bushes, steering rack (squeaking/knocking), and clutch. Electrical gremlins (random warning lights, sensor faults) are reported but not widespread. Source: DriveMag, BreakerLink, BreakerYard, WhatCar.\n\n**Safety:** The 2015 Avensis earned a 5-star Euro NCAP rating with 93% adult occupant protection and 85% child occupant protection. Equipment includes 7 airbags (dual front, side chest, side curtain, driver knee), plus front passenger airbag deactivation for child seats. The listing confirms driver drowsiness detection is fitted. Source: Euro NCAP 2015 results, Toyota Media UK.\n\n**Cold weather / Estonia:** The 2ZR-FAE is reported to struggle with cold starts and run rough until warm. Thermostat failures preventing the engine from reaching operating temperature are a known issue — particularly problematic in Estonian winters (-20°C). The manual gearbox can be stiff in first gear after cold soaking overnight. Rust resistance is generally good for Toyota, but the rear beam underside and boot area are known corrosion-prone spots that should be inspected carefully given Estonia's salted roads. Source: Toyota Owners Club forums, Autodoc.\n\n**Market value:** Comparable 2017 Avensis listings in the Baltic market range €9,000–€12,500 depending on mileage and spec. A 2015 Avensis 1.8 auto with 141k km was listed at €12,990; a 2017 2.0L auto with 95k km at €12,290. For a 1.8L manual with 151k km, fair market value is approximately €9,500–€11,500. The €13,300 asking price appears overpriced by €1,800–€3,800. Source: Autoportaal.ee, auto24.ee comparable listings.",
+  "scores": {
+    "mechanical_reliability": 5,
+    "maintenance_cost_outlook": 5,
+    "value_for_money": 4,
+    "safety": 9,
+    "cosmetic_condition": 5,
+    "spec_match": 8,
+    "seller_trustworthiness": 5
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 2ZR-FAE is not Toyota's best engine. While port-injected and generally long-lived, it has well-documented oil consumption issues, Valvematic actuator failures, and timing chain stretch. At 151k km, this car is at the critical threshold where timing chain and Valvematic problems typically emerge. The manual gearbox is a reliability positive. Score of 5 reflects a mixed picture: Toyota DNA is good, but this specific engine has more documented issues than the buyer would want.",
+    "maintenance_cost_outlook": "Timing chain may need replacement imminently (~€800-1,200). Valvematic actuator failure would cost €700-2,400. Oil consumption monitoring and potential repair is another concern. Suspension bushes and steering rack are likely wear items at this mileage. Regular maintenance (oil, filters, brakes) is cheap for a Toyota, but the Valvematic system adds complexity and cost that a simpler engine wouldn't have. Score of 5 reflects moderate-to-high expected maintenance costs in the near term.",
+    "value_for_money": "At €13,300, this car is significantly overpriced. Comparable listings suggest €9,500-€11,500 is fair for this spec and mileage. The 1.8L manual is the least desirable powertrain combination, and 151k km is on the higher side. The buyer would be paying a premium for a car that likely needs near-term maintenance investment. Score of 4 reflects poor value at asking price.",
+    "safety": "Excellent. 5-star Euro NCAP with 93% adult protection. Seven airbags including driver knee airbag and side curtains. Driver drowsiness detection confirmed in the listing. The Avensis is a proper mid-size car with good crash structure. Only missing the very latest active safety tech (autonomous emergency braking was optional, not confirmed here). Score of 9.",
+    "cosmetic_condition": "Cannot fully assess without viewing photos in detail. The listing has 12 photos which is reasonable. Private seller, 151k km — expect normal wear. Description mentions xenon headlights and standard equipment but nothing about condition. No mention of damage or repairs, which could be positive or an omission. Score of 5 is neutral pending physical inspection.",
+    "spec_match": "Port injection (2ZR-FAE) is exactly what the buyer wants — no carbon buildup concerns. Manual transmission is preferred. Petrol, front-wheel drive, Toyota brand — all match perfectly. The Avensis Touring is well above Yaris-sized, fitting the size requirement. Valvematic adds complexity the buyer might prefer to avoid, and 1.8L is slightly underpowered for a wagon, but these are minor. Score of 8 — strong spec match with only the Valvematic complexity as a small detractor.",
+    "seller_trustworthiness": "Private seller named 'Kadri' with no phone number listed. 12 photos is decent. Description is basically a feature list copy-paste — no personal narrative about the car's history, maintenance, reason for selling, or condition notes. No mention of service history, recent work done, or known issues. The lack of transparency about the car's condition and maintenance history is a yellow flag. Score of 5 — neutral, neither trustworthy nor suspicious, but lacking the information a careful buyer needs."
+  },
+  "red_flags": [
+    "Asking price €13,300 is €1,800–€3,800 above fair market value for this spec and mileage",
+    "At 151,484 km — right at the critical timing chain stretch threshold for the 2ZR-FAE",
+    "2ZR-FAE engine has well-documented oil consumption problems across the ZR family",
+    "Valvematic actuator is a known failure point — replacement costs €700–€2,400",
+    "Cold-start and thermostat issues are particularly concerning for Estonian winters",
+    "Seller description is a generic feature list with zero information about maintenance history, condition, or reason for selling",
+    "No phone number listed for the seller",
+    "No mention of recent servicing, timing chain status, or oil consumption behavior"
+  ],
+  "green_flags": [
+    "Port fuel injection — avoids direct injection carbon buildup problems",
+    "6-speed manual transmission — most reliable option, no CVT or DCT concerns",
+    "Toyota brand with generally good parts availability and service network",
+    "5-star Euro NCAP with 93% adult protection and 7 airbags",
+    "Avensis Touring is a practical, well-sized wagon — good fit for the buyer's size requirement",
+    "Driver drowsiness detection and xenon headlights suggest decent equipment level",
+    "12 photos provided — reasonable transparency",
+    "2017 model year — relatively recent, should have modern safety features"
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "The 2017 Avensis Touring ticks many boxes: it's a Toyota, port-injected, manual, safe, and the right size. However, three issues hold it back from a \"GO SEE IT\" verdict. First, the price is significantly too high — at €13,300 it's €2,000–€3,000 above fair market value. Second, the 2ZR-FAE engine, while port-injected, is not Toyota's most trouble-free unit — the Valvematic system and oil consumption tendency add complexity and risk that a simpler engine (like the 3ZR-FAE in the 2.0L Avensis or a Honda R18) wouldn't have. Third, the car is sitting right at 150k km where timing chain and Valvematic issues tend to surface, meaning potential near-term maintenance costs of €1,000–€3,000. If the seller can provide a documented service history showing regular oil changes, no excessive oil consumption, and ideally recent timing chain inspection — AND is willing to negotiate to the €10,000–€11,000 range — then this becomes worth seeing. Without that, the buyer's money is better spent on a lower-mileage example or a different model with fewer known engine concerns.",
+  "weighted_score": 5.7
+}

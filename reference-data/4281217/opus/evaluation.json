@@ -1,0 +1,55 @@
+{
+  "summary": "This is a 2012 Toyota Corolla E150 sedan with the 1ZR-FAE 1.6L port-injected engine (97kW), manual transmission, and 170,000 km on the clock, listed at €3,800 by a private seller in Tallinn. The 1ZR-FAE is a known-quantity Toyota engine with Dual VVT-i and Valvematic — port-injected, timing chain (not belt), and generally reliable if maintained, though it has documented issues with oil consumption and the Valvematic system. At 170,000 km the timing chain may be due for inspection/replacement (common at 150-200k km). The price is slightly above market — comparable listings show €3,000-3,500 for this spec. It ticks all the buyer's hard requirement boxes: petrol, manual, Toyota, port injection. The facelifted E150 (2010+) with full safety pack gets a 5-star Euro NCAP rating with up to 7 airbags. This is worth seeing in person, primarily to inspect for rust (critical in Estonia's salt-road environment) and to verify oil consumption levels and timing chain condition.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2012,
+    "engine_code": "1ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "6-speed manual",
+    "mileage_km": 170000
+  },
+  "research_findings": "**Engine identification:** The 1598cc displacement and 97kW power output conclusively identify this as the Toyota 1ZR-FAE engine — the Valvematic-equipped variant of the ZR family. The standard 1ZR-FE produces only 91kW. The 1ZR-FAE uses multi-point port fuel injection (EFI in Toyota terminology), Dual VVT-i, and the Valvematic continuous valve lift system. Compression ratio is 10.7:1. Sources: [Toyota ZR engine - Wikipedia](https://en.wikipedia.org/wiki/Toyota_ZR_engine), [Toyota 1ZR-FAE - toyota-club.eu](https://en.toyota-club.eu/engine_detail.php?id=4), [mymotorlist.com](https://mymotorlist.com/engines/toyota/1zr-fae/)\n\n**Known engine issues:** (1) Oil consumption — the most common complaint, especially on earlier ZR builds. Can sometimes be addressed by switching to 5W-30 oil; otherwise indicates worn valve stem seals or piston rings. (2) Timing chain stretch — commonly occurs between 150,000-200,000 km, accompanied by rattle on cold start. Phase regulators should be inspected at the same time. (3) Water pump failure — notoriously short-lived, often leaking or becoming noisy by 50,000-70,000 km, so likely already replaced at least once by 170k. (4) Valvematic system issues — the FAE-specific variable valve lift controller can throw errors or cause rough running; this is a known weak point vs the simpler 1ZR-FE. (5) Carbon buildup in intake manifold causing idle fluctuation. Sources: [mywikimotors.com](http://mywikimotors.com/toyota-1zr/), [toyota-club.net](https://toyota-club.net/files/faq/19-09-30_faq_zr-engine_eng.htm), [mymotorlist.com](https://mymotorlist.com/engines/toyota/1zr-fae/)\n\n**Transmission:** 6-speed manual gearbox. Manual transmissions on the Corolla E150 are extremely reliable with no significant documented issues beyond normal clutch wear. This is the ideal transmission choice for low maintenance costs.\n\n**Safety:** The E150 generation earned 5 stars from Euro NCAP (tested 2007) with 34 points for adult occupant protection, 4 stars for child protection, and 3 stars for pedestrian protection. The 2010+ facelift models (which this 2012 is) received ESC, traction control, and up to 7 airbags as standard or optional depending on market: dual front, front side torso, side curtain, and driver's knee airbag. The exact airbag count on this specific car should be verified in person — European-market Corollas typically had at least front + side + curtain airbags. There are NHTSA recalls for airbag ECU malfunction and Takata inflator degradation that should be checked. Sources: [Euro NCAP](https://www.euroncap.com/en/results/toyota/corolla/15742), [ANCAP](https://www.ancap.com.au/safety-ratings/toyota/corolla/dd71dd)\n\n**Rust concerns for Estonia:** The E150 Corolla has well-documented rust issues in salt-road climates. Common problem areas: rocker panels (especially near rear wheels — often rusts from inside out), rear wheel arches, underbody suspension components, exhaust system, and brake/fuel lines. At 13 years old in Estonian conditions, this car MUST be thoroughly inspected underneath. Sources: [ToyotaNation forums](https://www.toyotanation.com/threads/the-rust.1010642/)\n\n**Market value:** A comparable 2012 Corolla 1.6 91kW manual with 170k km was listed at €3,250 on auto24.ee. The asking price of €3,800 is above average for this spec and mileage. The 97kW FAE engine commands a small premium over the 91kW FE, but €3,800 is still on the high side — €3,300-3,500 would be fairer. Sources: [auto24.ee](https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&bw=54), [theparking.eu](https://www.theparking.eu/used-cars/toyota-corolla-estonia.html)",
+  "scores": {
+    "mechanical_reliability": 7,
+    "maintenance_cost_outlook": 7,
+    "value_for_money": 6,
+    "safety": 7,
+    "cosmetic_condition": 5,
+    "spec_match": 9,
+    "seller_trustworthiness": 5
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 1ZR-FAE is a proven Toyota engine but not their most bulletproof. At 170k km, it's entering the zone where timing chain stretch, oil consumption, and Valvematic issues become more likely. The Valvematic system adds complexity vs the simpler 1ZR-FE. The manual transmission is a non-issue reliability-wise. Overall a solid 7 — reliable by any standard but with known age/mileage concerns specific to this engine variant.",
+    "maintenance_cost_outlook": "Toyota parts are widely available and affordable in Estonia. Manual transmission means no expensive auto gearbox servicing. However, at 170k km the timing chain and tensioner may need replacement soon (~€400-600), the water pump has likely been replaced once and may need it again, and Valvematic issues can be expensive to diagnose and repair. Oil consumption should be monitored. No timing belt to worry about (chain engine). Score of 7 — cheap to maintain day-to-day but some medium-term items likely coming up.",
+    "value_for_money": "At €3,800, this is priced above the market. A comparable 1.6/91kW manual E150 with identical mileage is listed at €3,250 on auto24.ee. While the 97kW FAE variant is slightly more desirable, €300-500 above market is not ideal for a buyer focused on total cost of ownership. There's room to negotiate down to €3,300-3,500. Score of 6 — not overpriced enough to be a dealbreaker but not a bargain either.",
+    "safety": "The E150 facelift (2010+) earned 5 stars from Euro NCAP. If equipped with the full safety package (7 airbags including side, curtain, and knee + ESC + traction control), this is good for its era. However, the exact airbag count needs to be verified — base European models may have fewer. The airbag recall status should also be confirmed. Score of 7 — strong passive safety for a 2012 car, but verify equipment level.",
+    "cosmetic_condition": "Cannot be assessed without viewing photos or inspecting in person. The listing has 9 photos which is reasonable. A 13-year-old car in Estonia with 170k km will inevitably show wear. The critical concern is rust — Estonian salt roads are brutal on E150 Corollas, especially rocker panels and wheel arches. Default score of 5 until inspected — average assumption with rust risk factored in.",
+    "spec_match": "Near-perfect match for buyer preferences. Port-injected (1ZR-FAE is EFI/MPFI — not direct injection), manual transmission, Toyota brand, naturally aspirated, petrol, Corolla-sized sedan. The only minor ding: the 1ZR-FAE's Valvematic system adds complexity that the buyer's 'simple and reliable' preference doesn't love, but the port injection and manual transmission are exactly what's wanted. Score of 9.",
+    "seller_trustworthiness": "Private seller with a generic name ('Estonia Tallinn'), no phone number listed, and a description that reads like an auto-generated feature list rather than a personal account of the car's history. No mention of service history, timing chain status, oil consumption, or recent work done. 9 photos is decent but the lack of personal detail or maintenance history is a yellow flag. Score of 5 — not alarming but not confidence-inspiring either."
+  },
+  "red_flags": [
+    "Price is €300-550 above market for comparable spec/mileage — negotiate down",
+    "At 170,000 km, timing chain stretch is a real risk (typical replacement window is 150-200k km) — ask seller about chain condition/replacement",
+    "The 1ZR-FAE's Valvematic system is known to be less reliable than the simpler 1ZR-FE — potential for controller errors and rough running",
+    "Oil consumption is the #1 complaint on 1ZR engines — ask seller about oil consumption rate and check for blue smoke",
+    "13 years in Estonian salt-road conditions means high rust risk — rocker panels, rear wheel arches, and underbody need thorough inspection",
+    "Seller description is feature-list only with no maintenance history, service records, or personal details about the car's condition",
+    "No phone number listed for the seller",
+    "Airbag recall status (NHTSA campaigns for airbag ECU and Takata inflators) must be verified — check if recalls were performed"
+  ],
+  "green_flags": [
+    "Port injection (MPFI/EFI) — exactly what the buyer wants, no carbon buildup concerns from direct injection",
+    "Manual transmission — lowest maintenance cost, most reliable transmission option, full score on buyer preferences",
+    "Toyota Corolla — one of the most proven platforms in automotive history, massive parts availability in Estonia",
+    "Timing chain engine — no timing belt replacement costs (though chain still needs inspection at this mileage)",
+    "5-star Euro NCAP rating (E150 facelift) with potentially up to 7 airbags and ESC",
+    "Corolla-sized sedan meets buyer's 'not too small' requirement perfectly",
+    "9 photos in the listing — reasonable documentation",
+    "Tallinn location — convenient for Estonian buyer, easy to arrange viewing",
+    "1.6L naturally aspirated — simple, no turbo complexity, adequate for occasional city/weekend driving"
+  ],
+  "verdict": "GO SEE IT",
+  "verdict_reasoning": "This car checks every hard requirement: petrol, manual, Toyota, port injection. The 1ZR-FAE is a solid engine despite being slightly less bulletproof than Toyota's best (the Valvematic adds complexity). At 170k km in a Corolla, there's likely plenty of life left with proper maintenance, but the timing chain, oil consumption, and rust should be carefully inspected. The price is a bit high — push for €3,300-3,500. The main risks (timing chain stretch, Valvematic issues, Estonian rust) are all things that can be assessed during an in-person inspection and test drive. If the underbody is clean, the engine doesn't consume excessive oil, and the timing chain is quiet, this could be a very good low-cost-of-ownership car for occasional driving. Worth the trip to Tallinn to see it.",
+  "weighted_score": 6.7
+}

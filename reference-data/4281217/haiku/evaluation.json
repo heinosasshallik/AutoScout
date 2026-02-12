@@ -1,0 +1,54 @@
+{
+  "summary": "This is a 2012 Toyota Corolla sedan with 170,000 km (106,000 miles) powered by the reliable 2ZR-FE 1.8L port-injection engine paired with a 5-speed manual transmission. It's priced at €3,800, which appears reasonable for this age and mileage in the Estonian market. The Corolla is a solid choice for low-mileage ownership due to the bulletproof 2ZR-FE engine, proven reliability track record, and excellent safety rating (5-star Euro NCAP). Primary concerns at this mileage include potential timing chain tensioner wear if maintenance history is unknown, possible oil consumption issues, and Estonian winter/salt road exposure. The description lacks detail about service history, which is critical for verification at this mileage. Worth seeing in person to inspect for rust, verify maintenance records, and assess overall condition.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2012,
+    "engine_code": "2ZR-FE",
+    "injection_type": "port",
+    "transmission_type": "manual",
+    "mileage_km": 170000
+  },
+  "research_findings": "**Engine Identification:** The 2012 Toyota Corolla with 1.8L (1,798 cc) and 97 kW power uses the 2ZR-FE engine with PORT fuel injection (sequential, 12-hole injectors). This is excellent—one of Toyota's most reliable engines. The 2ZR-FE has been used in 2008-2013 Corollas and is known for bulletproof reliability.\\n\\n**Known Issues:** Research indicates the 2012 Corolla has several documented concerns at higher mileage:\\n- Oil consumption: Some owners report excess oil burn, especially at higher mileage. This is manageable with regular oil checks and follows Toyota's recommended service intervals (10,000 km normal, 5,000 km severe conditions).\\n- Timing chain issues: While the 2ZR-FE uses a timing CHAIN (not belt, which is good), the timing chain tensioner can fail if oil changes are neglected. The chain itself is rated for 250,000+ km with proper maintenance. Tensioner failure typically manifests as chain rattle on cold starts.\\n- Timing cover oil leaks: Some reported cases of leaks from the timing chain cover.\\n- Water pump failures: Known weak point on this engine; typical replacement cost €150-300.\\n- Starter and alternator issues: Reported across multiple 2009-2013 Corollas.\\n\\n**Transmission:** The 5-speed manual transmission is mechanically simple and highly reliable. No major known issues for this specific transmission type in 2012 Corollas.\\n\\n**Safety:** Euro NCAP testing (2013 model year, same generation as 2012) achieved a full 5-star rating. The car is equipped with 7 SRS airbags as standard. Good crash test performance across all body regions. This meets the buyer's safety requirements well.\\n\\n**Estonian Relevance:** The Corolla is proven in cold climates and salt roads. Recommendations include rustproofing for vehicles kept long-term in salt environments. At 170,000 km with 13 years of age, underbody rust inspection is critical. Winter traction control performed well in testing. FWD is adequate for Estonian winter driving with proper winter tires.\\n\\n**Market Value:** No Estonia-specific pricing was available in search results. Global data (US: $2,200-$6,000; Australia: $4,400-$11,330) suggests €3,800 is reasonable for a European market with this mileage. The private seller listing, while lacking detail, is typical for Estonian classifieds.\"",
+  "scores": {
+    "mechanical_reliability": 8,
+    "maintenance_cost_outlook": 7,
+    "value_for_money": 7,
+    "safety": 9,
+    "cosmetic_condition": 6,
+    "spec_match": 10,
+    "seller_trustworthiness": 6
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 2ZR-FE is among the most reliable Toyota engines ever made. At 170,000 km, the engine should have significant remaining life if maintained. However, at this mileage (well into the high-use zone), the timing chain tensioner requires verification through maintenance records. Oil consumption may develop. Score reflects engine reputation minus 2 points for mileage uncertainty and age-related component wear.",
+    "maintenance_cost_outlook": "The 2ZR-FE is known for low running costs. Timing chain (not belt) eliminates expensive belt replacement costs typical of other engines. Main risks at 170k km: potential water pump failure (€150-300), possible timing tensioner issues if neglected (€1,500-2,000 if it fails), and normal fluid changes. Port injection means no carbon buildup concerns. Maintenance costs should remain moderate. Scored 7 for potential component wear at this mileage.",
+    "value_for_money": "€3,800 for a 2012 Corolla with 170,000 km appears reasonable based on global market data. The car is in the mid-range of typical pricing for this age/mileage. The 2ZR-FE engine holds value well due to reputation. However, the lack of detailed service history and cosmetic condition assessment creates some uncertainty. Scored 7 as a reasonable price point with room for negotiation based on actual condition.",
+    "safety": "Full 5-star Euro NCAP rating for the 2013 generation (same as 2012). Standard 7 SRS airbags. Good crash test performance. Excellent safety credentials. Scored 9 instead of 10 because the vehicle is 13 years old—while still safe, it lacks modern active safety features like autonomous emergency braking found in newer vehicles.",
+    "cosmetic_condition": "The listing provides minimal cosmetic detail. Description focuses on interior equipment rather than body condition. Light gray color is practical for Estonia. Nine photos are provided, but their quality/clarity is unclear without viewing. At 170,000 km and 13 years old, surface rust and paint wear are expected. Without detailed condition assessment, scored conservatively at 6. Inspection is necessary.",
+    "spec_match": "Perfect match to buyer requirements: Petrol fuel (check), Manual transmission (check), Toyota brand (check), Port injection—the 2ZR-FE uses port fuel injection exclusively, which is ideal. Not direct injection, no CVT, no hybrid premium. Engine size (1.8L) is appropriate for the Corolla-sized and up requirement. Full 10-point score.",
+    "seller_trustworthiness": "Private seller from Tallinn (positive—no dealer markup). Listing includes vehicle name/location but phone number is null. Description is functional but lacks detail: no mention of service history, accident history, or recent work. This minimalist approach raises concern about transparency. Seller appears legitimate but provides minimal verification details. Scored 6 due to lack of service history documentation and minimal condition details."
+  },
+  "red_flags": [
+    "Service history not mentioned—at 170,000 km, previous maintenance is critical for timing chain tensioner and water pump status",
+    "Minimal condition description—despite 9 photos, no cosmetic or mechanical details provided; no mention of rust or accident history",
+    "Oil consumption risk at mileage—the 2ZR-FE can develop oil consumption issues requiring verification through compression testing",
+    "Timing chain tensioner age risk—at 170k km and 13 years, the tensioner may need attention if oil changes were not consistently performed",
+    "Estonian winter exposure—13 years of salt roads increases rust risk; underbody inspection is essential",
+    "No reason for sale stated—unclear why owner is selling, could indicate hidden issues",
+    "Phone number redacted—limits buyer's ability to directly contact seller for clarification"
+  ],
+  "green_flags": [
+    "Excellent engine choice—2ZR-FE is one of the most reliable small-displacement engines in automotive history, known for 250k+ km longevity",
+    "Port fuel injection—no direct-injection carbon buildup concerns; sequential port injection is simple and proven",
+    "5-speed manual transmission—simple, reliable mechanical design with no CVT or DCT complexity",
+    "7 SRS airbags standard—exceeds safety requirements with full 5-star Euro NCAP rating for generation",
+    "Reasonable price—€3,800 appears fair based on global comparable data",
+    "Private seller—typically lower cost than dealer, with opportunity for negotiation",
+    "Multiple photos provided—nine images suggest transparency and willingness to document vehicle",
+    "Appropriate size—Corolla meets 'Corolla-sized and up' requirement; not a subcompact",
+    "FWD for Estonia—adequate for local winter conditions with proper winter tires; proven in cold climates",
+    "Timing chain not belt—eliminates major maintenance cost of belt replacement that affects other engines"
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "This is a mechanically promising car with an excellent engine (2ZR-FE), ideal specifications for the buyer, and solid safety credentials. However, the evaluation is significantly constrained by lack of transparency: no service history documentation, minimal condition details, and unclear maintenance records at 170,000 km. The verdict is MAYBE rather than GO SEE IT because the buyer should first contact the seller to request: (1) Complete service history records, especially timing chain tensioner and water pump status; (2) Evidence of regular oil changes and any recent engine work; (3) Detailed photos and inspection reports for rust/underbody condition; (4) Reason for sale. If the seller provides satisfactory documentation of consistent maintenance, this car becomes very attractive—the 2ZR-FE engine is reliable enough to justify the mileage. If the seller cannot provide maintenance history, the risk rises significantly. The in-person inspection must include compression testing, cold-start listen for chain rattle, and thorough rust inspection. Price negotiation opportunity exists if deferred maintenance is identified.\""
+}

@@ -1,0 +1,52 @@
+{
+  "summary": "This is a 2018 Toyota Avensis Touring (wagon) with the 1.8L 2ZR-FAE port-injected petrol engine producing 108 kW, paired with a Multidrive S CVT automatic transmission (Toyota K311 belt-type CVT). At 84,000 km with a private seller asking €14,225, it's a well-maintained, practical family wagon. However, the automatic transmission on this model is a belt-type CVT (Multidrive S), which directly violates the buyer's hard requirement against CVTs. Despite the engine being excellent (port-injected, reliable 2ZR-FAE), this listing should be skipped due to the transmission type.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis Touring",
+    "year": 2018,
+    "engine_code": "2ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "CVT (Multidrive S / K311 belt-type)",
+    "mileage_km": 84000
+  },
+  "research_findings": "**Engine (2ZR-FAE):** This is Toyota's 1.8L DOHC 16-valve port-injected engine with Valvematic (continuously variable intake valve lift) and dual VVT-i. It uses sequential multi-port fuel injection — confirmed port injection, not direct injection. The 'E' in the engine code denotes electronic/sequential fuel injection. This is a well-regarded engine in the ZR family, used across Corolla, Matrix, and Avensis models. Known issues include: (1) progressive oil consumption at higher mileages due to worn piston rings/valve seals, (2) water pump failures around 60,000-65,000 km requiring proactive replacement, (3) Valvematic system issues causing power loss at low RPM on warm engines, (4) timing chain noise from chain tensioner wear, and (5) oil leaks from the timing chain cover or oil filter housing. With proper maintenance, these engines reliably exceed 300,000+ km. Sources: [Toyota 2ZR-FAE Engine Problems](https://myenginespecs.com/toyota/toyota-2zr-fae-engine-problems-and-solutions/), [2ZR-FE/FAE Specs & Reliability](https://www.ziptekautoparts.com/News/Toyota-2ZR-FE-FAE-FXE-1-8L-Engine-Specs-Problems-Reliability.html)\\n\\n**Transmission (Multidrive S / K311 CVT):** CRITICAL — This is a belt-type CVT manufactured by Aisin, using two cone-shaped pulleys and a steel V-belt. While it does include a torque converter as its launch device, the transmission itself is continuously variable — NOT a traditional stepped automatic. Toyota UK confirmed it as K311 CVT internally. The transmission simulates 7-speed stepped shifts under load. Forum reports suggest generally good reliability when CVT fluid is changed every 2-3 years, but any failure requires full replacement at very high cost. Sources: [Toyota UK Blog](https://blog.toyota.co.uk/toyota-avensis-automatics-for-the-people), [Toyota K CVT Wikipedia](https://en.wikipedia.org/wiki/Toyota_K_CVT_transmission), [Honest John Forum](https://www.honestjohn.co.uk/forum/post/index.htm?t=110118)\\n\\n**Safety:** The 2015 Euro NCAP test (applicable to 2018 models, as the generation didn't change) awarded 5 stars with 98% adult occupant protection, 85% child occupant, 78% pedestrian, and 81% safety assist. Standard airbags include dual frontal, side chest, side curtain, and driver knee airbag (7 airbags total). Toyota Safety Sense is standard with autonomous emergency braking (city & interurban) and lane support. Sources: [Euro NCAP Toyota Avensis 2015](https://www.euroncap.com/en/results/toyota/avensis/20854), [Toyota Media UK](https://media.toyota.co.uk/toyota-safety-sense-helps-new-avensis-secure-five-star-euro-ncap-rating/)\\n\\n**Market Value:** A comparable 2018 Avensis Active Plus 1.8 108kW with 86,540 km is listed on auto24.ee at €15,900. The asking price of €14,225 for 84,000 km appears to be below market, representing decent value. The 2016-2017 models range from €9,900-€14,990 depending on mileage and trim. Sources: [auto24.ee listings](https://eng.auto24.ee/toyota)\\n\\n**Estonian Relevance:** The Avensis Touring is a practical choice for Estonian conditions. Salt road rust concerns are moderate — the third-generation Avensis has reasonable corrosion protection but should be inspected for underbody and wheel arch rust. Cold-weather starting is not an issue with the naturally aspirated port-injected engine. Winter tires (studded) are included with this listing.",
+  "scores": {
+    "mechanical_reliability": 7,
+    "maintenance_cost_outlook": 6,
+    "value_for_money": 7,
+    "safety": 9,
+    "cosmetic_condition": 5,
+    "spec_match": 1,
+    "seller_trustworthiness": 5
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 2ZR-FAE engine is generally reliable with known but manageable issues (oil consumption, water pump, Valvematic). At 84,000 km it's well within the engine's comfortable lifespan. However, the CVT transmission is the weak link — while Toyota CVTs are among the better ones, belt-type CVTs have inherently higher failure risk than traditional automatics, and failures require expensive full replacement. Score of 7 reflects good engine offset by CVT concerns.",
+    "maintenance_cost_outlook": "Port-injected engine keeps maintenance simple — no carbon buildup worries. Timing chain (not belt) reduces major service costs. However, the CVT requires regular fluid changes (every 2-3 years) and if it fails, replacement is extremely expensive. Water pump should be proactively replaced. Valvematic system adds complexity. Score of 6 reflects the CVT's potential for catastrophic repair costs.",
+    "value_for_money": "At €14,225, this is priced below the comparable €15,900 listing for similar spec/mileage. For a 2018 Toyota with 84,000 km, this represents fair to good value in the Estonian market. The Avensis Touring offers good practicality. Score of 7 reflects competitive pricing despite the CVT transmission being less desirable.",
+    "safety": "Excellent safety credentials — 5-star Euro NCAP with 98% adult occupant protection. 7 airbags standard including driver knee airbag. Toyota Safety Sense with autonomous emergency braking and lane support as standard. One of the safest cars in its class for the era. Score of 9.",
+    "cosmetic_condition": "Cannot fully assess without viewing photos in detail. The listing has 9 photos which is reasonable. Blue metallic paint. Private seller with no mention of damage or bodywork. Score of 5 is neutral pending physical inspection — no red flags but no strong positives either from the listing description alone.",
+    "spec_match": "HARD REJECT on transmission. The Multidrive S is a belt-type CVT, which the buyer explicitly excludes. Even though the engine is excellent (port-injected 2ZR-FAE, naturally aspirated, from the preferred engine family), and the car matches on brand (Toyota), fuel type (petrol), and size (Corolla-sized and up), the CVT transmission is a dealbreaker. Score of 1 — hard requirement violated.",
+    "seller_trustworthiness": "Private seller (Jevgeni P) with no phone number listed. 9 photos provided. Description is mostly a feature list rather than a narrative about the car's history or condition. No mention of service history, number of owners, or maintenance records. No dealer warranty. Score of 5 — neutral, nothing suspicious but nothing particularly confidence-inspiring either."
+  },
+  "red_flags": [
+    "HARD REJECT: Belt-type CVT transmission (Multidrive S / K311) — buyer explicitly requires manual or torque converter automatic only, rejecting all belt-type CVTs",
+    "CVT transmission failure would be extremely expensive to repair (effectively requires full replacement)",
+    "No phone number listed for seller — contact may be difficult",
+    "No mention of service history or maintenance records in the listing",
+    "Water pump on 2ZR-FAE engines is known to fail and may need proactive replacement around this mileage",
+    "Valvematic system can develop issues causing power loss at low RPM"
+  ],
+  "green_flags": [
+    "Excellent engine: 2ZR-FAE is port-injected (preferred type), naturally aspirated, timing chain (not belt)",
+    "Strong safety: 5-star Euro NCAP, 98% adult occupant protection, 7 airbags, Toyota Safety Sense standard",
+    "Below-market pricing at €14,225 vs comparable listings at €15,900",
+    "Low mileage for age (84,000 km on a 2018 model)",
+    "Practical Touring (wagon) body style with good cargo space",
+    "Comes with both summer and winter (studded) tires plus alloy wheels",
+    "Last model year of Avensis production — most refined version of the generation",
+    "ISOFIX child seat preparation and good family car features"
+  ],
+  "verdict": "SKIP",
+  "verdict_reasoning": "Despite being an otherwise attractive listing — excellent port-injected engine (2ZR-FAE), strong safety credentials, below-market pricing, and low mileage — this car must be skipped because it has a belt-type CVT transmission (Toyota Multidrive S / K311). The buyer's hard requirements explicitly reject belt-type CVTs, and this is non-negotiable. The Multidrive S uses a steel belt and cone pulleys for continuously variable ratio changes, which is fundamentally a belt-type CVT regardless of it having a torque converter as its launch device. If the buyer wants a Toyota Avensis 1.8, they should look for a manual transmission version instead.",
+  "weighted_score": 6.2
+}

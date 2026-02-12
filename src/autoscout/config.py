@@ -6,19 +6,20 @@ from pathlib import Path
 from autoscout.scraper import BRAND_IDS, FUEL_IDS, TRANSMISSION_IDS
 
 
-def load_config(config_dir: Path) -> tuple[dict, dict, str, dict]:
+def load_config(config_dir: Path) -> tuple[dict, dict, dict, str, dict]:
     """Load configuration from a config directory.
 
-    Returns (search_cfg, score_weights, prompt, schema).
+    Returns (search_cfg, score_weights, eval_cfg, prompt, schema).
     Raises ValueError if config is invalid.
     """
     search_cfg = json.loads((config_dir / "search.json").read_text(encoding="utf-8"))
     score_weights = json.loads((config_dir / "scoring.json").read_text(encoding="utf-8"))
+    eval_cfg = json.loads((config_dir / "evaluation.json").read_text(encoding="utf-8"))
     prompt = (config_dir / "prompt.md").read_text(encoding="utf-8")
     schema = json.loads((config_dir / "eval-output-schema.json").read_text(encoding="utf-8"))
 
     validate_config(search_cfg, score_weights, schema)
-    return search_cfg, score_weights, prompt, schema
+    return search_cfg, score_weights, eval_cfg, prompt, schema
 
 
 def validate_config(search_cfg: dict, score_weights: dict, schema: dict) -> None:

@@ -157,7 +157,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    search_cfg, score_weights, prompt, schema = load_config(CONFIG_DIR)
+    search_cfg, score_weights, eval_cfg, prompt, schema = load_config(CONFIG_DIR)
 
     # Step 1: Search
     logger.info("Step 1: Searching auto24.ee...")
@@ -196,7 +196,11 @@ def main() -> None:
             listing_dir = LISTINGS_DIR / lid
             logger.info("Evaluating %d/%d: listing %s", i, len(new_ids), lid)
             try:
-                evaluation, cost_usd = evaluate_listing(listing_dir, prompt, schema, score_weights)
+                evaluation, cost_usd = evaluate_listing(
+                    listing_dir, prompt, schema, score_weights,
+                    model=eval_cfg["model"],
+                    max_budget_usd=eval_cfg["max_budget_usd"],
+                )
                 total_cost += cost_usd
                 display_result(evaluation, score_weights)
                 logger.info("  Cost: $%.2f (running total: $%.2f)", cost_usd, total_cost)

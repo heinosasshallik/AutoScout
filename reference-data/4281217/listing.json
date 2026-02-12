@@ -1,0 +1,32 @@
+{
+  "id": "4281217",
+  "url": "https://eng.auto24.ee/vehicles/4281217",
+  "make": "Toyota",
+  "model": "Corolla",
+  "year": 2012,
+  "price_eur": 3800,
+  "mileage_km": 170000,
+  "fuel_type": "petrol",
+  "transmission": "manual",
+  "engine_cc": 1598,
+  "power_kw": 97,
+  "body_type": "sedan",
+  "drivetrain": "front-wheel drive",
+  "color": "light gray",
+  "location": "Tallinn, Estonia",
+  "seller_type": "private",
+  "seller_name": "Estonia Tallinn",
+  "seller_phone": null,
+  "description": "central locking (with remote control)\nelectrically adjustable mirrors\nfront armrest (with compartment)\nleather-coated hand brake handle\npockets on backside of the front seats\nsteering wheel adjustment (height and depth)\ncar stereo (CD, MP3, with USB interface, original)\ncomes with the car (summer tires)\nspecial light switch-dim-dip-light",
+  "photo_urls": [
+    "https://img13.img-bcg.eu/h30/083779/s1/205290937.jpg",
+    "https://img13.img-bcg.eu/h30/b1bb3c/s1/205290933.jpg",
+    "https://img13.img-bcg.eu/h30/40575f/s1/205290940.jpg",
+    "https://img13.img-bcg.eu/h30/5f49cd/s1/205290935.jpg",
+    "https://img13.img-bcg.eu/h30/34e08b/s1/205290936.jpg",
+    "https://img13.img-bcg.eu/h30/31f182/s1/205290938.jpg",
+    "https://img13.img-bcg.eu/h30/bf754d/s1/205290932.jpg",
+    "https://img13.img-bcg.eu/h30/8892a4/s1/205290934.jpg",
+    "https://img13.img-bcg.eu/h30/bd975a/s1/205290939.jpg"
+  ]
+}

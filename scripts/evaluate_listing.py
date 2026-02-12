@@ -40,7 +40,7 @@ def main() -> None:
         print(f"Usage: {sys.argv[0]} <listing_id_or_url>", file=sys.stderr)
         sys.exit(1)
 
-    _search_cfg, score_weights, prompt, schema = load_config(CONFIG_DIR)
+    _search_cfg, score_weights, eval_cfg, prompt, schema = load_config(CONFIG_DIR)
     listing_id = extract_listing_id(sys.argv[1])
 
     # Scrape
@@ -48,7 +48,11 @@ def main() -> None:
     listing_dir = scrape_listing(listing_id, LISTINGS_DIR)
 
     # Evaluate and display
-    evaluation, cost_usd = evaluate_listing(listing_dir, prompt, schema, score_weights)
+    evaluation, cost_usd = evaluate_listing(
+        listing_dir, prompt, schema, score_weights,
+        model=eval_cfg["model"],
+        max_budget_usd=eval_cfg["max_budget_usd"],
+    )
     display_result(evaluation, score_weights)
     print(f"--- Cost: ${cost_usd:.2f} ---\n")
 

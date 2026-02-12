@@ -1,0 +1,54 @@
+{
+  "summary": "This is a 2009 Toyota Avensis T270 Touring (wagon) with the 2ZR-FE 1.8L port-injected petrol engine producing 95 kW, paired with a manual gearbox and front-wheel drive. At 270,000 km it has high mileage, but the 2ZR-FE is a proven, simple engine from the preferred engine family. The asking price of €2,300 is at the low end of the market for this vintage, reflecting the high mileage. The car earned 5 stars in Euro NCAP with 9 airbags. The main concerns are the very high mileage (clutch wear, suspension, underside rust in Estonia's salt road environment), a sparse listing description that reads like auto-generated equipment text with no mention of service history or mechanical condition, and the age/mileage combination meaning many wear items will be due. It's worth considering if a thorough pre-purchase inspection checks out, but the lack of seller transparency and very high mileage make it a cautious prospect.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis Touring",
+    "year": 2009,
+    "engine_code": "2ZR-FE",
+    "injection_type": "port",
+    "transmission_type": "6-speed manual",
+    "mileage_km": 270000
+  },
+  "research_findings": "The 2009 Toyota Avensis T270 with the 1.8L 95 kW engine uses the 2ZR-FE — a naturally aspirated, port-injected inline-4 with Dual VVT-i (but no Valvematic, which is the 2ZR-FAE at 108 kW). The 2ZR-FE is one of the simpler, more reliable engines in Toyota's modern lineup. It uses a timing chain (no belt replacement needed), sequential multi-point port injection, and has a 10.0:1 compression ratio.\\n\\n**Known issues (2ZR-FE):**\\n- Oil consumption: Toyota issued a service bulletin for 2009 models regarding higher-than-expected oil consumption, linked to piston rings. This is the most commonly reported issue. At 270k km, oil consumption should be carefully checked. (Sources: Toyota Nation Forum, Corolla Forum)\\n- Water pump failures: Some regional service campaigns addressed water pump leaks. (Source: ziptekautoparts.com)\\n- Head gasket concerns on 2007-2010 production: Highest incidence of head gasket issues in early production years; caution warranted with high-mileage examples. (Source: ziptekautoparts.com)\\n\\n**Avensis T270 specific issues:**\\n- Clutch wear: The Avensis is known for premature clutch wear, especially relevant at 270k km on a manual. (Source: BreakerYard.com)\\n- Fuel hose deterioration: Engine heat can cause premature deterioration of fuel hoses. (Source: BreakerLink Blog)\\n- Steering rack issues: A recall addressed steering column rattling; a more serious steering rack squeak/knock may require full replacement. (Source: BreakerYard.com)\\n- Underside rust: T270 owners report surface rust on subframe and rear beam, especially in salt road climates. At 16 years old in Estonia, underside corrosion is a real concern. (Source: Toyota Owners Club forums)\\n- Headlight condensation: Common cosmetic issue. (Source: BreakerLink Blog)\\n\\n**Safety:** Euro NCAP 5-star rating (2009 protocol) with 90% adult occupant score and 9 airbags including a knee airbag — first in its class. (Source: Euro NCAP)\\n\\n**Market value:** In Estonia, high-mileage (300k+) 2009 Avensis 1.8 examples sell for €1,500-2,000. Moderate-mileage examples (128k km) go for €6,500+. The asking price of €2,300 at 270k km is reasonable but not a bargain — it's at the upper edge for this mileage bracket. (Sources: auto24.ee, Autoportaal.ee, AutoScout24)",
+  "scores": {
+    "mechanical_reliability": 6,
+    "maintenance_cost_outlook": 6,
+    "value_for_money": 5,
+    "safety": 8,
+    "cosmetic_condition": 5,
+    "spec_match": 9,
+    "seller_trustworthiness": 3
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 2ZR-FE is fundamentally a reliable engine with timing chain, but at 270,000 km it's well into high-mileage territory. Known oil consumption issues on 2009 models (piston rings), head gasket concerns for early production years, and general wear at this mileage (water pump, thermostat, sensors) all reduce confidence. The engine can last 300k+ km with proper maintenance, but we have no evidence of maintenance history.",
+    "maintenance_cost_outlook": "Toyota parts are relatively affordable and widely available in Estonia. The 2ZR-FE is simple (no Valvematic complexity, port injection = no carbon buildup issues). However, at 270k km, expect near-term costs: clutch replacement (Avensis known issue, ~€500-800), suspension bushings, possibly water pump, brake components, and potential oil consumption remediation. No timing belt to worry about (chain). Overall moderate future costs but several items likely due soon.",
+    "value_for_money": "At €2,300 for 270,000 km, this is at the upper end of comparable listings. A similar-mileage Avensis 1.8 (328k km) was listed at €1,499 on Autoportaal. European comparisons show higher prices (€4,000-5,500 for similar mileage) but those are in stronger markets. For Estonia, €2,300 is fair but not a deal — you're paying a slight Toyota tax. The high mileage means significant near-term maintenance costs should be factored in.",
+    "safety": "Excellent safety credentials: Euro NCAP 5-star rating under the 2009 protocol with 90% adult occupant protection. 9 airbags including driver knee airbag (first in class), front dual-stage airbags, side and curtain airbags. Seatbelt pre-tensioners on front seats mentioned in the listing. Only minor deduction for the side pole test chest protection rating (rated weak) and the car's age meaning no modern active safety features (no AEB, no lane assist).",
+    "cosmetic_condition": "Cannot fully assess without viewing photos in detail. The listing has 8 photos which is a reasonable number. At 16 years old and 270k km in Estonia (salt roads, cold winters), expect some cosmetic wear. The description doesn't mention any body damage or rust, but it also doesn't proactively address condition — it only lists equipment features. Neutral score pending inspection; underside rust is a significant concern for this age/location.",
+    "spec_match": "Near-perfect spec match for the buyer. The 2ZR-FE is port-injected (preferred), naturally aspirated, with a manual transmission (full marks). Toyota brand (preferred). Corolla-plus sizing in the Touring body (practical wagon). The only minor consideration is that the 2ZR-FE is not on the 'preferred engine families' list (the 2ZR-FE/FAE is listed, and this is the FE variant, so it qualifies). Port injection means no carbon buildup concerns.",
+    "seller_trustworthiness": "Private seller (Svetlana Kucur) with no phone number listed. The description is entirely auto-generated equipment features — no personal description of the car's condition, no mention of service history, maintenance records, recent work done, reason for selling, or any mechanical details. This is a significant red flag. A seller who provides zero narrative about a 270k km car either doesn't care about the sale or is hiding something. 8 photos is adequate but the complete absence of substantive description is concerning."
+  },
+  "red_flags": [
+    "No service history or maintenance records mentioned in the listing",
+    "Seller description is only auto-generated equipment list — zero information about car condition, history, or reason for selling",
+    "No phone number listed for the seller",
+    "270,000 km is very high mileage — many wear items will be due",
+    "2009 model year is in the range with highest incidence of 2ZR oil consumption and head gasket concerns",
+    "16 years in Estonia means significant salt road exposure — underside rust likely",
+    "Avensis known for premature clutch wear — at 270k km on a manual, clutch status is critical",
+    "Price is at the upper end for this mileage bracket in Estonia"
+  ],
+  "green_flags": [
+    "2ZR-FE port injection engine — simple, proven, preferred injection type",
+    "Manual transmission — full marks for spec match, no CVT/DCT concerns",
+    "Timing chain engine — no timing belt replacement needed",
+    "Toyota Avensis T270 — 95.6% reliability score in What Car? study",
+    "Euro NCAP 5-star with 9 airbags — excellent passive safety",
+    "Touring (wagon) body — practical size, Corolla-plus dimensions",
+    "Low asking price overall — affordable entry point if mechanically sound",
+    "Front-wheel drive — simpler drivetrain, fewer components to fail"
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "The fundamentals are right: port-injected Toyota 2ZR-FE engine, manual gearbox, good safety, practical wagon body — this ticks nearly every box on the buyer's spec sheet. However, the listing quality is poor (no condition description, no service history, no phone number), the mileage is very high at 270k km, and the price isn't cheap enough to compensate for the risk. The 2009 model year falls in the window with known oil consumption and head gasket concerns for the 2ZR. In Estonia's salt road environment, underside rust at 16 years is a real worry. This car is worth pursuing ONLY if: (1) the seller can provide service records, (2) a pre-purchase inspection reveals solid mechanicals (compression test, oil consumption check, clutch condition), and (3) underside inspection shows no structural corrosion. Without those assurances, the risk-reward ratio doesn't justify the €2,300 asking price when similar cars can be found for less.",
+  "weighted_score": 6.15
+}

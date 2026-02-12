@@ -1,0 +1,31 @@
+{
+  "id": "4280612",
+  "url": "https://eng.auto24.ee/vehicles/4280612",
+  "make": "Toyota",
+  "model": "Corolla",
+  "year": 2007,
+  "price_eur": 3250,
+  "mileage_km": 220000,
+  "fuel_type": "petrol",
+  "transmission": "automatic",
+  "engine_cc": 1598,
+  "power_kw": 91,
+  "body_type": "sedan",
+  "drivetrain": "front-wheel drive",
+  "color": "black met.",
+  "location": "Estonia",
+  "seller_type": "private",
+  "seller_name": "Margus Moorits",
+  "seller_phone": null,
+  "description": "central locking (with remote control)\nelectrically adjustable mirrors (heated mirrors)\nelectrical tailgate opening system (remote)\nmirrors in sunshields (enlighted)\nvirtual interior rear view mirror\nadjustable seat height (driver's seat)\nfront armrest (with compartment)\ngear change from steering wheel\nrear armrest (with compartment)\nsteering wheel adjustment (height and depth)\ncomes with the car (summer tires)",
+  "photo_urls": [
+    "https://img13.img-bcg.eu/h30/64ddf0/s1/205280321.jpg",
+    "https://img13.img-bcg.eu/h30/a97721/s1/205280323.jpg",
+    "https://img13.img-bcg.eu/h30/03801d/s1/205280324.jpg",
+    "https://img13.img-bcg.eu/h30/5d9696/s1/205280320.jpg",
+    "https://img13.img-bcg.eu/h30/28ea00/s1/205280325.jpg",
+    "https://img13.img-bcg.eu/h30/4ae6d0/s1/205280322.jpg",
+    "https://img13.img-bcg.eu/h30/0ab48a/s1/205280318.jpg",
+    "https://img13.img-bcg.eu/h30/e4d727/s1/205280319.jpg"
+  ]
+}

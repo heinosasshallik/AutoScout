@@ -45,7 +45,10 @@ async def scrape_listing_async(
     return out_dir
 
 
-def run_claude_evaluation(listing_dir: Path, prompt: str, schema: dict) -> dict:
+def run_claude_evaluation(
+    listing_dir: Path, prompt: str, schema: dict,
+    model: str = "sonnet", max_budget_usd: float = 5,
+) -> dict:
     """Run Claude Code against a listing directory and return the structured evaluation."""
     schema_json = json.dumps(schema)
 
@@ -54,7 +57,8 @@ def run_claude_evaluation(listing_dir: Path, prompt: str, schema: dict) -> dict:
         "-p", prompt,
         "--output-format", "json",
         "--json-schema", schema_json,
-        "--max-budget-usd", "5",
+        "--model", model,
+        "--max-budget-usd", str(max_budget_usd),
         "--allowedTools", "Read,WebSearch,WebFetch",
     ]
 
@@ -97,13 +101,14 @@ def save_evaluation(evaluation: dict, listing_dir: Path) -> Path:
 
 
 def evaluate_listing(
-    listing_dir: Path, prompt: str, schema: dict, score_weights: dict
+    listing_dir: Path, prompt: str, schema: dict, score_weights: dict,
+    model: str = "sonnet", max_budget_usd: float = 5,
 ) -> tuple[dict, float]:
     """Full evaluation flow: run Claude, compute score, save.
 
     Returns (evaluation_dict, cost_usd).
     """
-    response = run_claude_evaluation(listing_dir, prompt, schema)
+    response = run_claude_evaluation(listing_dir, prompt, schema, model, max_budget_usd)
     cost_usd = response.get("total_cost_usd", 0.0)
     evaluation = parse_evaluation_response(response)
     evaluation["weighted_score"] = compute_weighted_score(
