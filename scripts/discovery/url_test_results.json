@@ -1,0 +1,453 @@
+{
+  "test1a_honda_b30": {
+    "test": "Test 1a: Honda b=30",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=30&ae=8&af=20",
+    "status": "ok",
+    "total_rows": 0,
+    "brands": {},
+    "fuel_types": {},
+    "transmissions": {},
+    "first_3_titles": [],
+    "last_3_titles": [],
+    "first_3_prices": [],
+    "first_3_years": [],
+    "page_title": "Rover - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 725097
+  },
+  "test1b_honda_b1": {
+    "test": "Test 1b: Brand b=1",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=1&ae=8&af=20",
+    "status": "ok",
+    "total_rows": 20,
+    "brands": {
+      "Honda": 20
+    },
+    "fuel_types": {
+      "Petrol + gas (LPG)": 3,
+      "Diesel": 5,
+      "Petrol": 10,
+      "Hybrid (petrol / electric)": 1,
+      "Electric": 1
+    },
+    "transmissions": {
+      "Automatic": 16,
+      "Manual": 4
+    },
+    "first_3_titles": [
+      "HondaCivic1.6 81kW",
+      "HondaCR-V2.2 110kW",
+      "HondaCivic1.6 88kW"
+    ],
+    "last_3_titles": [
+      "HondaCivic1.8 104kW",
+      "HondaCivic1.8 104kW",
+      "HondaCivic1.8 104kW"
+    ],
+    "first_3_prices": [
+      "\u20ac2490",
+      "\u20ac7500",
+      "\u20ac14,900"
+    ],
+    "first_3_years": [
+      "2002",
+      "2013",
+      "2019"
+    ],
+    "page_title": "Honda - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 789960
+  },
+  "test2a_mazda_b56": {
+    "test": "Test 2a: Mazda b=56",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=56&ae=8&af=20",
+    "status": "ok",
+    "total_rows": 0,
+    "brands": {},
+    "fuel_types": {},
+    "transmissions": {},
+    "first_3_titles": [],
+    "last_3_titles": [],
+    "first_3_prices": [],
+    "first_3_years": [],
+    "page_title": "Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 718020
+  },
+  "test2b_mazda_b6": {
+    "test": "Test 2b: Brand b=6",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=6&ae=8&af=20",
+    "status": "ok",
+    "total_rows": 20,
+    "brands": {
+      "Mazda": 20
+    },
+    "fuel_types": {
+      "Petrol": 9,
+      "Diesel": 1,
+      "Electric": 3,
+      "Hybrid (petrol / electric)": 6,
+      "Plug-in hybrid (petrol / electric)": 1
+    },
+    "transmissions": {
+      "Manual": 4,
+      "Automatic": 16
+    },
+    "first_3_titles": [
+      "Mazda62.0 108kW",
+      "Mazda388kW",
+      "MazdaCX-52.2 129kW"
+    ],
+    "last_3_titles": [
+      "Mazda6e190kW",
+      "Mazda6e190kW",
+      "MazdaCX-802.5 241kW"
+    ],
+    "first_3_prices": [
+      "\u20ac2200",
+      "\u20ac7990",
+      "\u20ac9190"
+    ],
+    "first_3_years": [
+      "2008",
+      "2014",
+      "2013"
+    ],
+    "page_title": "Mazda - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 793694
+  },
+  "test3a_toyota_ae8": {
+    "test": "Test 3a: Toyota ae=8 (current)",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&ae=8&af=20",
+    "status": "ok",
+    "total_rows": 20,
+    "brands": {
+      "Toyota": 20
+    },
+    "fuel_types": {
+      "Petrol": 8,
+      "Diesel": 4,
+      "Petrol + gas (LPG)": 2,
+      "Hybrid (petrol / electric)": 6
+    },
+    "transmissions": {
+      "Manual": 8,
+      "Automatic": 12
+    },
+    "first_3_titles": [
+      "ToyotaAvensis1.8 95kW",
+      "ToyotaCorolla1.6 91kW",
+      "ToyotaAvensis1.8 95kW"
+    ],
+    "last_3_titles": [
+      "ToyotaCorolla1.2 85kW",
+      "ToyotaCamry2.5 131kW",
+      "ToyotaHilux3.0 126kW"
+    ],
+    "first_3_prices": [
+      "\u20ac2300",
+      "\u20ac3250",
+      "\u20ac3795"
+    ],
+    "first_3_years": [
+      "2009",
+      "2007",
+      "2008"
+    ],
+    "page_title": "Toyota - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 791775
+  },
+  "test3b_toyota_a100_ae8": {
+    "test": "Test 3b: Toyota a=100 ae=8",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&a=100&ae=8&af=20",
+    "status": "ok",
+    "total_rows": 20,
+    "brands": {
+      "Toyota": 20
+    },
+    "fuel_types": {
+      "Petrol": 8,
+      "Diesel": 4,
+      "Petrol + gas (LPG)": 2,
+      "Hybrid (petrol / electric)": 6
+    },
+    "transmissions": {
+      "Manual": 8,
+      "Automatic": 12
+    },
+    "first_3_titles": [
+      "ToyotaAvensis1.8 95kW",
+      "ToyotaCorolla1.6 91kW",
+      "ToyotaAvensis1.8 95kW"
+    ],
+    "last_3_titles": [
+      "ToyotaCorolla1.2 85kW",
+      "ToyotaCamry2.5 131kW",
+      "ToyotaHilux3.0 126kW"
+    ],
+    "first_3_prices": [
+      "\u20ac2300",
+      "\u20ac3250",
+      "\u20ac3795"
+    ],
+    "first_3_years": [
+      "2009",
+      "2007",
+      "2008"
+    ],
+    "page_title": "Toyota - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 792030
+  },
+  "test3c_toyota_ae1": {
+    "test": "Test 3c: Toyota ae=1",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&ae=1&af=20",
+    "status": "ok",
+    "total_rows": 20,
+    "brands": {
+      "Toyota": 20
+    },
+    "fuel_types": {
+      "Diesel": 3,
+      "Petrol": 6,
+      "Hybrid (petrol / electric)": 9,
+      "Plug-in hybrid (petrol / electric)": 1
+    },
+    "transmissions": {
+      "Automatic": 17,
+      "Manual": 3
+    },
+    "first_3_titles": [
+      "ToyotaYaris1.5 54kW",
+      "ToyotaHilux2.5 106kW",
+      "ToyotaCorolla1.6 97kW"
+    ],
+    "last_3_titles": [
+      "ToyotaCorolla1.2 85kW",
+      "ToyotaProAce City1.5 75kW",
+      "ToyotaCorolla1.6 91kW"
+    ],
+    "first_3_prices": [
+      "\u20ac10,400",
+      "\u20ac15,000",
+      "\u20ac10,400"
+    ],
+    "first_3_years": [
+      "2017",
+      "2014",
+      "2014"
+    ],
+    "page_title": "Toyota - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 794005
+  },
+  "test4_petrol": {
+    "test": "Test 4: Toyota petrol h[]=1",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&h%5B%5D=1&ae=8&af=20",
+    "status": "ok",
+    "total_rows": 20,
+    "brands": {
+      "Toyota": 20
+    },
+    "fuel_types": {
+      "Petrol": 20
+    },
+    "transmissions": {
+      "Manual": 9,
+      "Automatic": 11
+    },
+    "first_3_titles": [
+      "ToyotaAvensis1.8 95kW",
+      "ToyotaCorolla1.6 91kW",
+      "ToyotaAvensis1.8 95kW"
+    ],
+    "last_3_titles": [
+      "ToyotaAuris1.6 97kW",
+      "ToyotaAuris1.6 97kW",
+      "ToyotaYaris1.3 73kW"
+    ],
+    "first_3_prices": [
+      "\u20ac2300",
+      "\u20ac3250",
+      "\u20ac3795"
+    ],
+    "first_3_years": [
+      "2009",
+      "2007",
+      "2008"
+    ],
+    "page_title": "Toyota - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 791591
+  },
+  "test5_petrol_manual": {
+    "test": "Test 5: Toyota petrol manual h[]=1&i[]=1",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&h%5B%5D=1&i%5B%5D=1&ae=8&af=20",
+    "status": "ok",
+    "total_rows": 20,
+    "brands": {
+      "Toyota": 20
+    },
+    "fuel_types": {
+      "Petrol": 20
+    },
+    "transmissions": {
+      "Manual": 20
+    },
+    "first_3_titles": [
+      "ToyotaAvensis1.8 95kW",
+      "ToyotaAvensis1.8 95kW",
+      "ToyotaYaris1.3 73kW"
+    ],
+    "last_3_titles": [
+      "ToyotaCorolla1.5 92kW",
+      "ToyotaCorolla1.5 92kW",
+      "ToyotaCorolla1.5 92kW"
+    ],
+    "first_3_prices": [
+      "\u20ac2300",
+      "\u20ac3795",
+      "\u20ac6999"
+    ],
+    "first_3_years": [
+      "2009",
+      "2008",
+      "2016"
+    ],
+    "page_title": "Toyota - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 795118
+  },
+  "test6a_af100": {
+    "test": "Test 6a: Toyota af=100",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&ae=8&af=100",
+    "status": "ok",
+    "total_rows": 100,
+    "brands": {
+      "Toyota": 100
+    },
+    "fuel_types": {
+      "Petrol": 34,
+      "Diesel": 29,
+      "Petrol + gas (LPG)": 4,
+      "Hybrid (petrol / electric)": 30,
+      "Electric": 1
+    },
+    "transmissions": {
+      "Manual": 33,
+      "Automatic": 66
+    },
+    "first_3_titles": [
+      "ToyotaAvensis1.8 95kW",
+      "ToyotaCorolla1.6 91kW",
+      "ToyotaAvensis1.8 95kW"
+    ],
+    "last_3_titles": [
+      "ToyotaAuris1.8 73kW",
+      "ToyotaYaris1.5 54kW",
+      "ToyotaCorolla1.2 85kW"
+    ],
+    "first_3_prices": [
+      "\u20ac2300",
+      "\u20ac3250",
+      "\u20ac3795"
+    ],
+    "first_3_years": [
+      "2009",
+      "2007",
+      "2008"
+    ],
+    "page_title": "Toyota - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 990596
+  },
+  "test6b_af200": {
+    "test": "Test 6b: Toyota af=200",
+    "url": "https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&ae=8&af=200",
+    "status": "ok",
+    "total_rows": 100,
+    "brands": {
+      "Toyota": 100
+    },
+    "fuel_types": {
+      "Petrol": 34,
+      "Diesel": 29,
+      "Petrol + gas (LPG)": 4,
+      "Hybrid (petrol / electric)": 30,
+      "Electric": 1
+    },
+    "transmissions": {
+      "Manual": 33,
+      "Automatic": 66
+    },
+    "first_3_titles": [
+      "ToyotaAvensis1.8 95kW",
+      "ToyotaCorolla1.6 91kW",
+      "ToyotaAvensis1.8 95kW"
+    ],
+    "last_3_titles": [
+      "ToyotaAuris1.8 73kW",
+      "ToyotaYaris1.5 54kW",
+      "ToyotaCorolla1.2 85kW"
+    ],
+    "first_3_prices": [
+      "\u20ac2300",
+      "\u20ac3250",
+      "\u20ac3795"
+    ],
+    "first_3_years": [
+      "2009",
+      "2007",
+      "2008"
+    ],
+    "page_title": "Toyota - Vehicle ads - auto24.ee",
+    "is_cloudflare": false,
+    "total_text": null,
+    "found_text": null,
+    "sort_selected": null,
+    "error_text": null,
+    "html_length": 990520
+  }
+}

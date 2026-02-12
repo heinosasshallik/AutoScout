@@ -69,8 +69,8 @@ https://www.auto24.ee/kasutatud/auto.php?id={numeric_id}
 | `by` | Sort option | `1` |
 | `otsi` | Search trigger | `otsi` |
 
-Brand IDs of interest: Toyota=`76`, Lexus=`35`, Honda=TBD, Mazda=TBD. Exact IDs
-need to be confirmed by inspecting the search form.
+Brand IDs of interest: Toyota=`13`, Lexus=`35`, Honda=`1`, Mazda=`6`. Confirmed
+by testing against the live search form (Feb 2026).
 
 ### Listing Data Fields
 

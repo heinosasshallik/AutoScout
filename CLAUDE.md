@@ -55,7 +55,7 @@ Pipeline orchestration: a script that scrapes all matching listings, skips alrea
 ### Brand IDs (auto24.ee)
 
 ```python
-BRAND_IDS = {"toyota": 13, "lexus": 35, "honda": 30, "mazda": 56}
+BRAND_IDS = {"toyota": 13, "lexus": 35, "honda": 1, "mazda": 6}
 ```
 
 ### Buyer Hard Requirements

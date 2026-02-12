@@ -27,8 +27,8 @@ CLOUDFLARE_TIMEOUT = 30.0
 BRAND_IDS = {
     "toyota": 13,
     "lexus": 35,
-    "honda": 30,
-    "mazda": 56,
+    "honda": 1,
+    "mazda": 6,
 }
 
 
@@ -41,13 +41,25 @@ class Auto24Scraper:
       Brand page: /{brand_name}  (e.g., /toyota)
 
     Parameters for nimekiri.php:
-      b   = brand ID (13=Toyota, 35=Lexus, 30=Honda, 56=Mazda)
+      b   = brand ID (13=Toyota, 35=Lexus, 1=Honda, 6=Mazda)
       bw  = model ID (54=Corolla, 82=Yaris, etc.)
       f1  = year min
       f2  = year max
-      ae  = vehicle type (8=used passenger cars)
+      ae  = vehicle type / sort (8=used passenger cars by relevance)
       ak  = pagination offset (0, 50, 100, ...)
-      af  = results per page (50, 200)
+      af  = results per page (20, 50, 100)
+      h[] = fuel type (1=petrol, 2=diesel, 5=hybrid, 6=electric)
+      i[] = transmission (1=manual, 2=automatic)
+      g1  = price min (EUR)
+      g2  = price max (EUR)
+      l1  = mileage min (km)
+      l2  = mileage max (km)
+      k1  = power min (kW)
+      k2  = power max (kW)
+      p[] = drivetrain (1=FWD, 2=RWD, 3=4WD)
+      j[] = body type (1=sedan, 2=hatch, 3=touring, 4=minivan)
+      ab[]= location (-1=Estonia)
+      ad  = ad age (1=1 day, 2=2 days, 3=3 days, 7=7 days)
     """
 
     def __init__(
@@ -195,12 +207,14 @@ class Auto24Scraper:
         model_id: int | None = None,
         year_min: int | None = None,
         year_max: int | None = None,
+        price_min: int | None = None,
+        price_max: int | None = None,
+        mileage_max: int | None = None,
+        fuel_types: list[int] | None = None,
+        transmission_types: list[int] | None = None,
         offset: int = 0,
     ) -> list[SearchResultItem]:
-        """Fetch one page of search results and parse them.
-
-        URL: /kasutatud/nimekiri.php?b=BRAND&bw=MODEL&f1=YEAR_MIN&f2=YEAR_MAX&ae=8&ak=OFFSET
-        """
+        """Fetch one page of search results and parse them."""
         params = ["ae=8"]  # ae=8 = used passenger cars
         if brand_id is not None:
             params.append(f"b={brand_id}")
@@ -210,6 +224,18 @@ class Auto24Scraper:
             params.append(f"f1={year_min}")
         if year_max is not None:
             params.append(f"f2={year_max}")
+        if price_min is not None:
+            params.append(f"g1={price_min}")
+        if price_max is not None:
+            params.append(f"g2={price_max}")
+        if mileage_max is not None:
+            params.append(f"l2={mileage_max}")
+        if fuel_types:
+            for ft in fuel_types:
+                params.append(f"h[]={ft}")
+        if transmission_types:
+            for tt in transmission_types:
+                params.append(f"i[]={tt}")
         if offset > 0:
             params.append(f"ak={offset}")
 
@@ -226,6 +252,11 @@ class Auto24Scraper:
         model_id: int | None = None,
         year_min: int | None = None,
         year_max: int | None = None,
+        price_min: int | None = None,
+        price_max: int | None = None,
+        mileage_max: int | None = None,
+        fuel_types: list[int] | None = None,
+        transmission_types: list[int] | None = None,
         max_pages: int = 10,
         results_per_page: int = 50,
     ) -> list[SearchResultItem]:
@@ -238,6 +269,11 @@ class Auto24Scraper:
                 model_id=model_id,
                 year_min=year_min,
                 year_max=year_max,
+                price_min=price_min,
+                price_max=price_max,
+                mileage_max=mileage_max,
+                fuel_types=fuel_types,
+                transmission_types=transmission_types,
                 offset=offset,
             )
             if not results:
