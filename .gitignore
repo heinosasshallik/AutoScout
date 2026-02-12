@@ -13,6 +13,7 @@ build/
 
 # Runtime data
 data/
+listings/
 
 # HTML fixtures (large, fetched by scraper)
 tests/fixtures/*.html
