@@ -275,8 +275,14 @@ class Auto24Scraper:
         max_pages: int = 10,
         results_per_page: int = 50,
     ) -> list[SearchResultItem]:
-        """Fetch all pages of search results up to max_pages."""
+        """Fetch all pages of search results up to max_pages.
+
+        Stops early if a page returns no results or only duplicates
+        (auto24.ee wraps around to page 1 when offset exceeds total).
+        """
         all_results: list[SearchResultItem] = []
+        seen_ids: set[str] = set()
+
         for page_nr in range(max_pages):
             offset = page_nr * results_per_page
             results = await self.search(
@@ -294,11 +300,22 @@ class Auto24Scraper:
             if not results:
                 logger.info("No results at offset %d, stopping pagination", offset)
                 break
-            all_results.extend(results)
+
+            new_results = [r for r in results if r.id not in seen_ids]
+            if not new_results:
+                logger.info(
+                    "All %d results at offset %d are duplicates, stopping pagination",
+                    len(results), offset,
+                )
+                break
+
+            seen_ids.update(r.id for r in new_results)
+            all_results.extend(new_results)
             logger.info(
-                "Offset %d: %d results (total: %d)",
+                "Offset %d: %d results (%d new, total: %d)",
                 offset,
                 len(results),
+                len(new_results),
                 len(all_results),
             )
         return all_results
