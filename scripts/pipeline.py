@@ -185,6 +185,7 @@ def main() -> None:
         sys.exit(0)
 
     # Step 3: Scrape new listings
+    total_cost = 0.0
     if new_ids:
         logger.info("Step 2: Scraping %d new listings...", len(new_ids))
         asyncio.run(scrape_new_listings(new_ids))
@@ -195,8 +196,10 @@ def main() -> None:
             listing_dir = LISTINGS_DIR / lid
             logger.info("Evaluating %d/%d: listing %s", i, len(new_ids), lid)
             try:
-                evaluation = evaluate_listing(listing_dir, prompt, schema, score_weights)
+                evaluation, cost_usd = evaluate_listing(listing_dir, prompt, schema, score_weights)
+                total_cost += cost_usd
                 display_result(evaluation, score_weights)
+                logger.info("  Cost: $%.2f (running total: $%.2f)", cost_usd, total_cost)
             except Exception as e:
                 logger.error("Failed to evaluate listing %s: %s", lid, e)
     else:
@@ -209,6 +212,10 @@ def main() -> None:
         display_rankings(all_evaluations, score_weights)
     else:
         logger.info("No evaluations to rank")
+
+    # Cost summary
+    if total_cost > 0:
+        print(f"--- Total evaluation cost: ${total_cost:.2f} ({len(new_ids)} listings) ---\n")
 
 
 if __name__ == "__main__":

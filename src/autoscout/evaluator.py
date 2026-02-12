@@ -98,15 +98,19 @@ def save_evaluation(evaluation: dict, listing_dir: Path) -> Path:
 
 def evaluate_listing(
     listing_dir: Path, prompt: str, schema: dict, score_weights: dict
-) -> dict:
-    """Full evaluation flow: run Claude, compute score, save. Returns evaluation dict."""
+) -> tuple[dict, float]:
+    """Full evaluation flow: run Claude, compute score, save.
+
+    Returns (evaluation_dict, cost_usd).
+    """
     response = run_claude_evaluation(listing_dir, prompt, schema)
+    cost_usd = response.get("total_cost_usd", 0.0)
     evaluation = parse_evaluation_response(response)
     evaluation["weighted_score"] = compute_weighted_score(
         evaluation["scores"], score_weights
     )
     save_evaluation(evaluation, listing_dir)
-    return evaluation
+    return evaluation, cost_usd
 
 
 def display_result(evaluation: dict, score_weights: dict) -> None:

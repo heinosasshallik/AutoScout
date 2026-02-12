@@ -48,8 +48,9 @@ def main() -> None:
     listing_dir = scrape_listing(listing_id, LISTINGS_DIR)
 
     # Evaluate and display
-    evaluation = evaluate_listing(listing_dir, prompt, schema, score_weights)
+    evaluation, cost_usd = evaluate_listing(listing_dir, prompt, schema, score_weights)
     display_result(evaluation, score_weights)
+    print(f"--- Cost: ${cost_usd:.2f} ---\n")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,6 @@
   "brands": ["toyota", "lexus", "honda", "mazda"],
   "fuel": ["petrol"],
   "transmission": ["manual", "automatic"],
-  "price_min": null,
-  "price_max": null
+  "price_min": 2000,
+  "price_max": 15000
 }
