@@ -1,25 +1,41 @@
 # AutoScout
 
-Monitors [auto24.ee](https://www.auto24.ee) for used car listings, evaluates them
-with Claude AI, and produces a ranked list of cars worth seeing in person.
+Scrapes [auto24.ee](https://www.auto24.ee) for used car listings, evaluates them
+with Claude AI, and surfaces the best cars to go see in person.
 
 Built for a specific use case: finding a reliable, low-maintenance petrol car in
 Estonia (Toyota, Lexus, Honda, Mazda) with the lowest total cost of ownership.
 
-## How it works
+## Setup
 
-```
-SCRAPE → INGEST → DIFF → SCREEN → EVALUATE → RANK → NOTIFY
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]"
+python -m playwright install chromium
+./install_playwright_deps.sh
 ```
 
-1. Scrapes auto24.ee search results for configured filters
-2. Parses listing pages, downloads photos
-3. Detects new and changed listings
-4. Quick AI screen (Haiku) rejects obvious mismatches
-5. Full AI evaluation (Sonnet + Vision) scores remaining listings
-6. Produces ranked list, pushes top finds via Telegram
+## Configuration
+
+Edit the files in `config/` to customize your search and evaluation criteria:
+
+- **`config/search.json`** — Search filters (brands, fuel type, price range)
+- **`config/scoring.json`** — Score category weights for ranking
+- **`config/prompt.md`** — Evaluation prompt sent to Claude AI (buyer profile, hard requirements, scoring rubric)
+- **`config/eval-output-schema.json`** — JSON output schema for Claude's structured response
+
+## Usage
+
+Evaluate a single listing:
+
+```bash
+python scripts/evaluate_listing.py 4281217
+python scripts/evaluate_listing.py https://eng.auto24.ee/vehicles/4281217
+```
+
+Results are saved to `listings/{id}/evaluation.json`.
 
 ## Docs
 
-- [Project plan](docs/plan.md) — requirements, architecture, schema, config
+- [Project plan](docs/plan.md) — requirements, architecture, cost estimates
 - [Research](docs/research.md) — car knowledge base, platform details, sources

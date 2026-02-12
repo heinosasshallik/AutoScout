@@ -31,6 +31,21 @@ BRAND_IDS = {
     "mazda": 6,
 }
 
+# Fuel type IDs (h[]= parameter)
+FUEL_IDS = {
+    "petrol": 1,
+    "diesel": 2,
+    "hybrid": 5,
+    "electric": 6,
+}
+
+# Transmission type IDs (i[]= parameter)
+TRANSMISSION_IDS = {
+    "manual": 1,
+    "automatic": 2,
+    "semi-automatic": 3,
+}
+
 
 class Auto24Scraper:
     """Drives Playwright to scrape auto24.ee listings.

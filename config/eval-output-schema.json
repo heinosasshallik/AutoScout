@@ -1,0 +1,72 @@
+{
+  "type": "object",
+  "properties": {
+    "summary": {
+      "type": "string",
+      "description": "One paragraph: what is this car, and is it worth seeing in person?"
+    },
+    "vehicle": {
+      "type": "object",
+      "properties": {
+        "make": {"type": "string"},
+        "model": {"type": "string"},
+        "year": {"type": "integer"},
+        "engine_code": {"type": "string"},
+        "injection_type": {
+          "type": "string",
+          "enum": ["port", "direct", "dual_port_direct"]
+        },
+        "transmission_type": {"type": "string"},
+        "mileage_km": {"type": "integer"}
+      },
+      "required": ["make", "model", "year", "engine_code", "injection_type", "transmission_type", "mileage_km"]
+    },
+    "research_findings": {
+      "type": "string",
+      "description": "What you found online about this engine/model/year. Known issues, reliability, common problems. Cite sources."
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "mechanical_reliability": {"type": "integer", "minimum": 1, "maximum": 10},
+        "maintenance_cost_outlook": {"type": "integer", "minimum": 1, "maximum": 10},
+        "value_for_money": {"type": "integer", "minimum": 1, "maximum": 10},
+        "safety": {"type": "integer", "minimum": 1, "maximum": 10},
+        "cosmetic_condition": {"type": "integer", "minimum": 1, "maximum": 10},
+        "spec_match": {"type": "integer", "minimum": 1, "maximum": 10},
+        "seller_trustworthiness": {"type": "integer", "minimum": 1, "maximum": 10}
+      },
+      "required": ["mechanical_reliability", "maintenance_cost_outlook", "value_for_money", "safety", "cosmetic_condition", "spec_match", "seller_trustworthiness"]
+    },
+    "score_reasoning": {
+      "type": "object",
+      "properties": {
+        "mechanical_reliability": {"type": "string"},
+        "maintenance_cost_outlook": {"type": "string"},
+        "value_for_money": {"type": "string"},
+        "safety": {"type": "string"},
+        "cosmetic_condition": {"type": "string"},
+        "spec_match": {"type": "string"},
+        "seller_trustworthiness": {"type": "string"}
+      },
+      "required": ["mechanical_reliability", "maintenance_cost_outlook", "value_for_money", "safety", "cosmetic_condition", "spec_match", "seller_trustworthiness"]
+    },
+    "red_flags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "green_flags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "verdict": {
+      "type": "string",
+      "enum": ["GO SEE IT", "MAYBE", "SKIP"]
+    },
+    "verdict_reasoning": {"type": "string"}
+  },
+  "required": [
+    "summary", "vehicle", "research_findings", "scores",
+    "score_reasoning", "red_flags", "green_flags", "verdict", "verdict_reasoning"
+  ]
+}

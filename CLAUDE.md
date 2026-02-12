@@ -36,9 +36,14 @@ python scripts/evaluate_listing.py https://eng.auto24.ee/vehicles/4281217
 - **`src/autoscout/parser.py`** — BeautifulSoup HTML parsers for search results and listing pages. CSS selectors target `div.result-row`, `table.main-data`, `div.vImages`, `div.vTechData`.
 - **`src/autoscout/models.py`** — Pydantic models (`SearchResultItem`, `Listing`).
 - **`scripts/evaluate_listing.py`** — Standalone evaluation script. Scrapes one listing, sends to Claude Code CLI (`claude -p`) with `--json-schema` for structured output, computes weighted scores, saves results. Uses `--allowedTools Read,WebSearch,WebFetch`.
-- **`prompts/evaluate.md`** — Evaluation prompt: buyer profile, hard requirements, research instructions, scoring rubric.
+- **`config/`** — All user-editable configuration:
+  - `search.json` — search filters (brands, fuel, transmission, price range)
+  - `scoring.json` — score category weights (must sum to 1.0, categories must match eval-output-schema.json)
+  - `prompt.md` — evaluation prompt sent to Claude (buyer profile, hard requirements, scoring rubric)
+  - `eval-output-schema.json` — JSON schema for structured Claude output (verdict enum, score categories, etc.)
 - **`listings/{id}/`** — Runtime output. Each listing gets `listing.json` (scraped) and `evaluation.json` (AI evaluation).
 - **`tests/`** — Unit tests for parser, integration tests for scraper, canary tests for detecting site changes.
+- **`scripts/discovery/`** — One-off scripts for discovering/verifying auto24.ee search form parameters.
 
 ### What's Next
 
@@ -52,13 +57,15 @@ Pipeline orchestration: a script that scrapes all matching listings, skips alrea
 
 ## Key Reference
 
-### Brand IDs (auto24.ee)
+### auto24.ee ID Mappings (in `scraper.py`)
 
 ```python
 BRAND_IDS = {"toyota": 13, "lexus": 35, "honda": 1, "mazda": 6}
+FUEL_IDS = {"petrol": 1, "diesel": 2, "hybrid": 5, "electric": 6}
+TRANSMISSION_IDS = {"manual": 1, "automatic": 2}
 ```
 
-### Buyer Hard Requirements
+### Buyer Hard Requirements (defined in `config/prompt.md`)
 
 - Petrol only (no hybrids)
 - Manual or torque converter auto only (reject CVT, eCVT, DCT)

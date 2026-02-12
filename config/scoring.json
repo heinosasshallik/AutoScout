@@ -1,0 +1,9 @@
+{
+  "mechanical_reliability": 0.20,
+  "maintenance_cost_outlook": 0.20,
+  "value_for_money": 0.20,
+  "safety": 0.15,
+  "cosmetic_condition": 0.10,
+  "spec_match": 0.10,
+  "seller_trustworthiness": 0.05
+}
