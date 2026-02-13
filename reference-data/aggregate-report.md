@@ -24,17 +24,40 @@ The most critical task: given displacement + power output, identify the correct 
 | 4280612 (1598cc, 91kW) | 1ZR-FE | **correct** | **correct** | 3ZZ-FE |
 | 4280818 (1798cc, 108kW) | 2ZR-FAE | **correct** | 2ZR-FE | **correct** |
 | 4281217 (1598cc, 97kW) | 1ZR-FAE | **correct** | **correct** | 2ZR-FE |
-| 4281378 (1794cc, 95kW) | 2ZR-FE | **correct** | 2ZR-FAE | 2ZR-FAE |
+| 4281378 (1794cc, 95kW) | **1ZZ-FE** | 2ZR-FE | 2ZR-FAE | 2ZR-FAE |
 
 | Model | Correct | Wrong | Accuracy |
 |-------|---------|-------|----------|
-| **Opus** | 6 | 0 | **100%** |
+| **Opus** | 5 | 1 | **83%** |
 | **Sonnet** | 4 | 2 | 67% |
 | **Haiku** | 3 | 3 | 50% |
+
+**Correction (4281378):** The original report listed the correct engine as 2ZR-FE and credited
+Opus with a correct identification. This was wrong. The listing shows **1794cc** and **95kW**.
+The 2ZR-FE displaces **1798cc** (bore 80.5 × stroke 88.3), not 1794cc. The engine with
+exactly 1794cc (bore 79.0 × stroke 91.5) and 95kW is the **1ZZ-FE** — a completely different,
+older engine family (ZZ series, not ZR series). The 1ZZ-FE was used in the Avensis T250
+(2nd generation, 2003-2008). A "2009 Avensis" with 1794cc/95kW is a late-production T250,
+not a T270. All three models got this wrong — Opus called it 2ZR-FE, Sonnet and Haiku called
+it 2ZR-FAE. None identified the correct engine family.
 
 ### How engine errors affected evaluations
 
 Each engine misidentification caused downstream scoring errors:
+
+- **All models on 4281378**: All three identified the engine as a 2ZR variant (ZR family)
+  when it's actually a 1ZZ-FE (ZZ family). The 1ZZ-FE has significantly worse oil consumption
+  issues (Toyota issued warranty extensions for undersized piston rings) than any 2ZR variant.
+  All three also assumed the car is a T270 (3rd gen Avensis) when it's a T250 (2nd gen),
+  meaning they referenced wrong safety ratings, wrong known issues, and wrong chassis
+  characteristics. Sonnet and Haiku additionally flagged Valvematic risks (2ZR-FAE) that
+  don't exist on this engine.
+
+- **Sonnet on 4280818**: Called it 2ZR-FE instead of 2ZR-FAE. Missed the Valvematic system
+  entirely, called the engine "bulletproof," and gave reliability 8/10 and maintenance 8/10.
+  Produced the highest weighted score in the entire comparison (7.80) for a car that Opus
+  rated 5.70. **This is the most consequential engine error** — it would lead to prioritizing
+  a risky, overpriced car.
 
 - **Haiku on 4281217**: Called it 2ZR-FE (1.8L) instead of 1ZR-FAE (1.6L). Inflated scores
   because the 2ZR-FE is simpler and more reliable. Weighted score 7.65 vs Opus's 6.70.
@@ -43,18 +66,31 @@ Each engine misidentification caused downstream scoring errors:
   up the wrong Euro NCAP rating (3 stars instead of 5), dropping safety to 5/10. Cascading
   generation error.
 
-- **Sonnet on 4280818**: Called it 2ZR-FE instead of 2ZR-FAE. Missed the Valvematic system
-  entirely, called the engine "bulletproof," and gave reliability 8/10 and maintenance 8/10.
-  Produced the highest weighted score in the entire comparison (7.80) for a car that Opus
-  rated 5.70. **This is the most consequential error** — it would lead to prioritizing a
-  risky, overpriced car.
+## Transmission Identification
 
-- **Sonnet on 4281378**: Called it 2ZR-FAE instead of 2ZR-FE. Flagged Valvematic risks that
-  don't exist on this car. Over-penalized maintenance cost.
+### MMT misidentification on listing 4280612
 
-- **Haiku on 4281378**: Same error as Sonnet. Called it 2ZR-FAE instead of 2ZR-FE.
+**All three models misidentified the transmission on the 2007 Corolla 1.6 automatic.**
 
-## CVT Detection
+| Model | Called It | Actual |
+|-------|----------|--------|
+| Opus | 4-speed Aisin U340E/U341E torque converter auto | **5-speed MMT (robotized manual)** |
+| Sonnet | 4-speed U341E torque converter auto | **5-speed MMT (robotized manual)** |
+| Haiku | U-series torque converter auto | **5-speed MMT (robotized manual)** |
+
+The European E150 Corolla 1.6 was **not offered** with a torque converter automatic — the only
+non-manual option was the MMT (MultiMode Manual Transmission), a robotized single-clutch
+manual. The 4-speed U341E was available only in Asian/Middle Eastern markets. The listing
+description contains "gear change from steering wheel" — the MMT's paddle shifters — which
+the U341E did not have.
+
+**Impact:** All three models gave spec_match 9/10 praising the "torque converter automatic"
+as meeting the buyer's hard requirement. The MMT is not a torque converter automatic. It has
+a notoriously poor reliability record (actuator failures, premature clutch wear). This error
+means all three evaluations gave an inflated spec_match score and may have recommended the
+buyer visit a car with a problematic transmission.
+
+### CVT Detection
 
 All three models correctly identified the CVT transmission on both CVT-equipped cars
 (3872109 and 4272435) and gave SKIP verdicts. This is the most critical safety check —
@@ -65,6 +101,15 @@ a model that misses a CVT would recommend a car that violates the buyer's hard r
 | **Opus** | 2/2 | 100% |
 | **Sonnet** | 2/2 | 100% |
 | **Haiku** | 2/2 | 100% |
+
+## Euro NCAP Inconsistency
+
+Opus reported **different Euro NCAP adult occupant scores** for the same Avensis generation:
+- Listing 3872109 (2018 Avensis): "98% adult occupant protection"
+- Listing 4280818 (2017 Avensis): "93% adult occupant protection"
+
+These are the same T270 generation, tested in the same 2015 Euro NCAP evaluation. The actual
+result is 93%. Opus hallucinated the 98% figure for listing 3872109.
 
 ## Verdict Agreement
 
@@ -127,22 +172,28 @@ for the other 5 Opus evaluations.
 
 ## Conclusions
 
-### Opus: Most Reliable (recommended for production use)
+### Opus: Best available, but not infallible
 
-- **100% engine identification accuracy** — the only model with a perfect record.
-- Most consistent scoring (lowest variance). Scores are well-calibrated and defensible.
-- Best at detecting overpricing (gave 4/10 on value for the overpriced Avensis).
+- **83% engine identification accuracy** (5/6). Got 4281378 wrong — called it 2ZR-FE when
+  the 1794cc displacement and 95kW output identify it as a 1ZZ-FE (different engine family,
+  different car generation). This error was present in the original report but went undetected
+  because the reviewer also assumed 2ZR-FE was correct.
+- **Missed the MMT transmission** on 4280612 — called it a torque converter automatic when
+  the European E150 Corolla 1.6 only came with MMT. All three models made this same error.
+- **Hallucinated a Euro NCAP score** — cited 98% adult occupant for the 2018 Avensis when
+  the actual result is 93%.
+- Most consistent scoring (lowest variance). Best at detecting overpricing.
 - Most conservative on seller trustworthiness — appropriately suspicious of sparse listings.
-- Only model to give a GO SEE IT verdict (for the Corolla 4281217), showing willingness to
-  commit when the evidence supports it.
-- **Downside**: 2x the cost of Sonnet, 10x the cost of Haiku.
+- Only model to give a GO SEE IT verdict (for the Corolla 4281217).
+- **Still the best model** — its errors are less consequential than Sonnet's or Haiku's, and
+  its scoring consistency is the strongest. But manual verification is needed.
 
 ### Sonnet: Good but has blind spots
 
 - Caught both CVTs correctly. Generally thorough analysis with good red flag identification.
-- **2 engine misidentifications (67% accuracy)**. The 4280818 error is serious — it would
-  have led the buyer to prioritize a risky car. The 4281378 error over-flagged nonexistent
-  Valvematic issues.
+- **2 engine misidentifications (67% accuracy)**. The 4280818 error is the most consequential
+  in the entire comparison — it would have led the buyer to prioritize a risky car.
+- Also got 4281378 wrong (2ZR-FAE instead of 1ZZ-FE), like all three models.
 - Most conservative scorer on average, which is good for a risk-averse buyer — but the
   conservatism collapses when it gets the engine wrong (7.80 for an overpriced high-mileage
   Avensis).
@@ -154,7 +205,7 @@ for the other 5 Opus evaluations.
 
 - **3 engine misidentifications (50% accuracy)**. Two different types of errors:
   wrong engine family (3ZZ-FE vs 1ZR-FE) and wrong engine variant (2ZR-FE vs 1ZR-FAE,
-  2ZR-FAE vs 2ZR-FE).
+  2ZR-FAE vs 1ZZ-FE).
 - **Systematically inflated scores.** Haiku's weighted scores are consistently the highest,
   averaging 6.95 vs Opus's 6.11. A SKIP car (3872109) scored 7.65 — higher than several
   MAYBE cars from Opus and Sonnet.
@@ -166,11 +217,15 @@ for the other 5 Opus evaluations.
 
 ### Recommendation
 
-**Use Opus for evaluations.** The engine identification accuracy alone justifies the cost —
-a wrong engine ID cascades into wrong reliability assessments, wrong maintenance predictions,
-and wrong purchasing decisions. At ~$0.75 per listing, evaluating 50 cars costs ~$37.50,
-which is trivial compared to the cost of buying the wrong car.
+**Use Opus for evaluations, but verify engine codes manually.** Opus is the most accurate and
+consistent model, but its 83% engine accuracy and the MMT miss show that no model can be
+fully trusted on technical identification. Cross-check the engine code against the listing's
+displacement and power output — a 4cc discrepancy (1794 vs 1798) was enough to indicate a
+completely different engine family. Also verify transmission type against the specific
+market/generation, since auto24.ee labels both torque converter autos and MMTs as "automatic."
 
-If cost is a hard constraint, **Sonnet is acceptable with manual verification** of the engine
-code. Cross-check the engine identification against the listing's displacement and power
-output before trusting the scores. Don't use Haiku for full evaluations.
+At ~$0.75 per listing, evaluating 50 cars costs ~$37.50, which is trivial compared to the
+cost of buying the wrong car.
+
+If cost is a hard constraint, **Sonnet is acceptable with manual verification** of both the
+engine code and transmission type. Don't use Haiku for full evaluations.
