@@ -1,0 +1,62 @@
+{
+  "green_flags": [
+    "2ZR-FE engine is port injection only - no carbon buildup issues",
+    "Timing chain (not belt) - no expensive replacement at 150k+ km",
+    "Manual transmission is reliable 6-speed from Toyota Poland",
+    "Euro NCAP 5-star with 93% adult occupant protection, 9 airbags including driver knee airbag",
+    "Private seller with detailed description and 12 photos",
+    "Toyota Avensis excellent reliability record, proven 200k+ miles in taxi service",
+    "Well-equipped with Xenon headlights, driver drowsiness detection, remote central locking",
+    "2017 model year - after all major T270 issues were addressed",
+    "Touring (wagon) body style - practical and spacious",
+    "Located in Tallinn - easy to inspect"
+  ],
+  "red_flags": [
+    "151,484 km is moderate-high mileage for a 2017 (avg ~19k km/year - slightly above normal)",
+    "Price at €13,300 seems high for mileage - comparable 2016 model with 92k km listed at €11,999",
+    "No mention of service history or maintenance records in description",
+    "Early 2009 2ZR-FE had oil consumption issues, water pump problems - check if engine has been maintained properly",
+    "T270 generation had multiple recalls (steering column, brake imbalance, suspension arm) - verify recall completion",
+    "Potential rust concerns on underside (rear beam) for cars in cold/salt climates - thorough underside inspection needed",
+    "No mention of recent major service at 150k km interval",
+    "Private sale means no dealer warranty or return period"
+  ],
+  "research_findings": "This is a 2017 Toyota Avensis T270 (third generation, post-2015 facelift) with the 1.8L 2ZR-FE petrol engine producing 108 kW (147 hp with Valvematic). The engine is **port injection only** (not direct injection), which eliminates carbon buildup concerns common in DI engines.\n\n**Engine Reliability:** The 2ZR-FE is a proven, reliable engine with timing chain (not belt, no replacement needed). Early 2009 models had oil consumption issues, water pump failures, and gasket leaks, but these were resolved by 2010-2011. At 151k km, this engine should have substantial life remaining if properly maintained - examples regularly exceed 300k km. No major service required except monitoring VVTi components and chain tensioner.\n\n**Transmission:** 6-speed manual from Toyota Motor Manufacturing Poland - robust unit with excellent reliability record.\n\n**Known Issues:** T270 generation had recalls for steering column rattle, brake imbalance, suspension arm separation, and turbo bolt torque (diesel). Petrol models less affected. Common issues include clutch master cylinder, EGR valve blockage (diesel), and potential underside rust (rear beam). The 1.8 petrol had fewer problems than diesels in taxi service, reaching nearly 200k miles.\n\n**Safety:** Euro NCAP 5-star rating (2015 test: 93% adult, 85% child, 78% pedestrian, 81% safety assist). Equipped with 9 airbags including unique-in-class driver knee airbag. Excellent crash protection with maximum points in side barrier test.\n\n**Estonian Context:** Cold winters and salt roads pose rust risk. Toyota Avensis generally rust-resistant (2002 models showed no rust despite neglect), but underside inspection critical. Regular washing and undercoating recommended.\n\n**Market Value:** €13,300 asking price appears slightly high. Comparable 2016 Avensis with 92k km listed at €11,999 in Estonia. Average annual mileage ~19k km/year is above normal 12-15k km/year, suggesting possibly commercial/commuter use.\n\n**Maintenance Costs:** Toyota averages €400-500/year. Basic services €100-150. 2ZR-FE has no timing belt expense. Major service due around 150-160k km.\n\n**Sources:**\n- [Toyota 2ZR-FE Engine Specs](https://www.ziptekautoparts.com/News/Toyota-2ZR-FE-FAE-FXE-1-8L-Engine-Specs-Problems-Reliability.html)\n- [2ZR-FE Common Problems](https://low-offset.com/toyota/2zr-fe-engine/)\n- [Toyota Avensis T270 Reliability](https://drivemag.com/car-review/toyota-avensis-t270-review-specs-problems/)\n- [Toyota Avensis Common Problems](https://www.breakerlink.com/blog/cars/toyota-avensis-common-problems/)\n- [Euro NCAP 2015 Avensis Rating](https://www.euroncap.com/en/results/toyota/avensis/20854)\n- [2ZR-FE Port Injection Confirmation](https://www.toyotanation.com/threads/2012-corolla-1-8l-port-or-direct-injection.1724290/)\n- [2ZR-FE Timing Chain Info](https://www.toyotanation.com/threads/2zr-fe-timing-chain-belt-non-intereference.291890/)\n- [Toyota Maintenance Costs](https://www.automoblog.com/reviews/auto-warranty/toyota-maintenance-cost/)",
+  "scores": {
+    "mechanical_reliability": 8,
+    "maintenance_cost_outlook": 8,
+    "value_for_money": 6,
+    "safety": 9,
+    "cosmetic_condition": 7,
+    "spec_match": 10,
+    "seller_trustworthiness": 7
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "2ZR-FE is a proven, bulletproof port-injection engine with timing chain. At 151k km, should have 150k+ km remaining life if maintained. Early production issues (2009) were resolved. Deducted 2 points for higher-than-average mileage (19k/year) and lack of visible service history in listing.",
+    "maintenance_cost_outlook": "Excellent outlook: no timing belt replacement ever needed, port injection eliminates carbon cleaning costs, Toyota parts reasonably priced, low average annual costs (€400-500). Manual transmission very reliable. Deducted 2 points for age-related wear items coming due (clutch potentially, suspension bushings) and potential VVTi/chain tensioner monitoring needed at this mileage.",
+    "value_for_money": "Price of €13,300 is high for 151k km mileage. Comparable 2016 with 92k km listed at €11,999. Would expect this car around €11,000-12,000 given mileage. Well-equipped (Xenon, safety features) adds some value. Deducted 4 points for above-market asking price and depreciation acceleration above 150k km.",
+    "safety": "Outstanding: Euro NCAP 5-star with 93% adult occupant protection (2015 test). Nine airbags including unique driver knee airbag. Driver drowsiness detection system. Maximum points in side impact. Deducted 1 point only because it's a 2015-design (pre-AEB standard), though safety assist scored 81%.",
+    "cosmetic_condition": "12 photos provided show car appears clean with no obvious damage visible in listing photos. Dark gray touring wagon. Cannot assess underside rust without in-person inspection - critical for Estonian salt/winter conditions. T270 known for underside rust issues (rear beam). Assigned middle score (7) pending thorough inspection, particularly underside.",
+    "spec_match": "Perfect match: petrol fuel (not hybrid), manual transmission (not CVT/DCT), Toyota brand, port injection preferred, naturally aspirated. 2ZR-FE is on the preferred engine list. Manual 6-speed is ideal. Corolla-sized and up requirement met (touring wagon). No deductions - exactly what buyer wants.",
+    "seller_trustworthiness": "Private seller (Kadri) in Tallinn with detailed feature description and 12 photos showing transparency. No service history mentioned, no phone listed (possible privacy concern or dealer masquerading as private). Description focuses on features but lacks maintenance/service details. Deducted 3 points for missing service documentation and limited seller background info."
+  },
+  "summary": "This is a 2017 Toyota Avensis T270 touring (wagon) with the highly reliable 1.8L 2ZR-FE port-injection engine and 6-speed manual transmission. At 151,484 km, it represents a solid, mechanically sound option with the preferred powertrain (port injection, manual gearbox, timing chain) from Toyota's reliable lineup. The car ticks all the buyer's hard requirements and offers excellent safety (Euro NCAP 5-star, 9 airbags). However, the €13,300 asking price is 10-15% above market value for this mileage, and the slightly high annual mileage (19k km/year) plus lack of documented service history warrant caution. Worth seeing in person to verify condition (especially underside rust), confirm recall completion, and negotiate price down to €11,500-12,000 range.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis",
+    "year": 2017,
+    "engine_code": "2ZR-FE",
+    "injection_type": "port",
+    "transmission_type": "6-speed manual",
+    "mileage_km": 151484
+  },
+  "verdict": "MAYBE",
+  "verdict_reasoning": "This Avensis is mechanically excellent (perfect engine/transmission combo, 10/10 spec match, proven reliability), but has two concerns: 1) Price is €1,300-2,300 too high for the mileage - should be €11,000-12,000, and 2) No service history mentioned despite being at critical 150k km service interval. The car deserves a viewing because the fundamentals are outstanding (2ZR-FE port injection, manual gearbox, timing chain, Euro NCAP 5-star), but buyer must: inspect underside thoroughly for rust (rear beam), verify all T270 recalls completed, obtain full service history, and negotiate price down significantly. If service history is complete and underside is clean, this could be upgraded to GO SEE IT at the right price (€11,500 max). At asking price with unknowns, it's a conditional MAYBE.",
+  "weighted_score": 7.8,
+  "_meta": {
+    "model": "sonnet",
+    "listing_id": "4280818",
+    "cost_usd": 0.305,
+    "elapsed_seconds": 140.2
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "summary": "This is a 2007 Toyota Corolla (E120) sedan with a reliable 3ZZ-FE 1.6L port-injected petrol engine and torque converter automatic transmission. At 220,000 km with private seller asking €3,250, it represents a solid budget option for low-cost, practical transportation. The engine is post-2005 (so improved oil consumption vs. earlier models) and uses torque converter auto (acceptable). Price is reasonable but fair for the age and mileage. The car meets all hard requirements (petrol, Toyota, torque converter auto). Main concerns are: high mileage approaching the 200k km typical service life for this engine; age-related rust in Estonian climate; automatic transmission longevity at this mileage (though generally reliable, some 2007 automatics have failed). Photos show good cosmetic condition. Worth seeing if service history is available and timing chain/transmission haven't been abused.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2007,
+    "engine_code": "3ZZ-FE",
+    "injection_type": "port",
+    "transmission_type": "automatic torque converter",
+    "mileage_km": 220000
+  },
+  "research_findings": "**Engine:** The 3ZZ-FE is a 1.6L (1,598cc) DOHC 4-valve port fuel injection engine producing 110 PS (81 kW). It uses multipoint sequential fuel injection with VVT-i. This is a post-2005 model, so it avoids the oil consumption issues common in pre-2002 variants. The engine features a timing chain (not belt), which is durable if maintained. Expected service life is approximately 200,000 km with proper maintenance, though well-maintained examples exceed this. Source: [Toyota 3ZZ-FE Specifications](https://www.engine-specs.net/toyota/3zz-fe.html), [Engine Reliability Info](https://myenginespecs.com/toyota/engine-3zz-fe-1-6/)\n\n**Transmission:** The 4-speed automatic is Aisin U-series with torque converter (confirmed acceptable type, not CVT). Generally very reliable and durable. Consumer Reports documents occasional issues (rebuilds, torque converter problems) but overall reliability is high. Source: [Toyota Transmissions](https://en.wikipedia.org/wiki/List_of_Toyota_transmissions), [2007 Corolla Transmission](https://www.justanswer.com/toyota/7evah-long-does-2007-toyota-corolla-transmission-last-mine.html)\n\n**E120 Generation (2000-2007):** Known for strong reliability, though now 19 years old. Common age-related issues include timing chain tensioner oil leaks, potential oil consumption (if poorly maintained), water pump/radiator leaks, and coil pack issues. Timing chain breakage is rare if oil levels maintained. Source: [E120 Reliability](https://redriven.com/cheat-sheets/used-toyota-corolla-e120-9th-gen-review/), [Known Problems](https://www.whatcar.com/toyota/corolla/hatchback/used-review/n658/advice)\n\n**Safety:** Euro NCAP 3-star rating for 2002-2007 Corolla generation (older standard). Equipped with dual front airbags, ABS with EBD standard. Source: [Euro NCAP 2007 Corolla](https://www.euroncap.com/en/results/toyota/corolla/15742), [Euro NCAP 2002 Corolla](https://www.euroncap.com/en/results/toyota/corolla/15596)\n\n**Estonian Climate Concerns:** Toyota Corolla handles cold weather well and is reliable in winter with proper tires. However, older Corollas (now 19 years old) are rust-prone, particularly in salt road environments like Estonia. Regular underbody washing and rust prevention are critical. Source: [Winter Driving Guide](https://vehq.com/toyota-corolla-owner-should-know-about-winter/), [Rust Concerns](https://www.grcorollaforum.com/threads/rust-and-thoughts-on-how-to-avoid-it.1620/)\n\n**Market Value:** €3,250 for a 2007 Corolla with 220,000 km is reasonable and fair for Estonia private seller market. Comparable 2007 models range from €3k-€8k depending on condition and mileage. Source: [Estonian Used Car Market](https://eng.auto24.ee/kasutatud/nimekiri.php?b=13&bw=54)",
+  "scores": {
+    "mechanical_reliability": 6,
+    "maintenance_cost_outlook": 6,
+    "value_for_money": 7,
+    "safety": 5,
+    "cosmetic_condition": 7,
+    "spec_match": 9,
+    "seller_trustworthiness": 7
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "6/10 - The 3ZZ-FE is solid but this car is at 220k km (approaching the ~200k km service life for this engine). At this age/mileage, wear on timing chain, oil seals, and transmission is expected. The engine is from the improved post-2005 generation, which helps. No major red flags but age and mileage are concerning factors. Requires pre-purchase inspection of service records.",
+    "maintenance_cost_outlook": "6/10 - As a 19-year-old car with 220k km, expect typical aging costs: potential water pump/radiator replacement (common at this age), possible oil seal leaks, brake wear, suspension maintenance. Timing chain replacement is not imminent but could be needed in next 50-100k km if chain has stretched. Parts availability is good for Toyota. Budget for rust prevention in Estonian climate.",
+    "value_for_money": "7/10 - €3,250 is fair market value for this configuration in Estonia. The buyer gets a proven reliable model with low annual mileage profile (occasional city/weekend use fits perfectly with low km/year). Not a bargain, but not overpriced either. Toyota reliability reputation offers peace of mind at this price point.",
+    "safety": "5/10 - Euro NCAP 3-star rating (2007 test standard) is adequate but dated. Dual front airbags present. By modern standards, this is lower safety than newer cars. However, for occasional low-speed city/weekend driving (per buyer profile), risk is mitigated. ABS and EBD help with winter conditions.",
+    "cosmetic_condition": "7/10 - Listing shows 8 photos indicating seller documented condition well. Black metallic paint shows well in photos. Cannot assess actual rust underbody/undercarriage from images alone. Described features are standard for model. No visible major body damage reported. Age means potential hidden surface rust/paint issues.",
+    "spec_match": "9/10 - Excellent match to buyer criteria: petrol fuel (✓), manual or torque converter auto (✓ - has torque converter), Toyota brand (✓), port fuel injection (✓ - full score on injection type preference). Only minor deduction because direct injection is penalized, but this car uses port injection so full preference met.",
+    "seller_trustworthiness": "7/10 - Private seller with quality listing (8 photos, detailed feature list suggests care). Name provided (Margus Moorits). No major red flags, but no phone/contact details visible in description. Seller transparency is good. Missing: service history, accident history, detailed maintenance records. Request these before purchase."
+  },
+  "red_flags": [
+    "High mileage (220,000 km) at or approaching the ~200k km typical service life for 3ZZ-FE engines",
+    "19 years old - expect age-related electrical, seal, and corrosion issues",
+    "Automatic transmission at 220k km carries moderate risk of costly failure (U-series Aisin is reliable but failures reported in 2007 models at this mileage)",
+    "No phone number provided by seller - slightly unusual, makes pre-purchase communication harder",
+    "Euro NCAP 3-star rating is below modern safety standards (now 14+ years since test)",
+    "Rust concerns for Estonia: 19-year-old Corolla in salt-road environment without documented rust prevention history",
+    "Listing lacks service history - cannot verify timing chain maintenance or transmission fluid changes at this critical mileage"
+  ],
+  "green_flags": [
+    "Port fuel injection (preferred over direct injection) - 3ZZ-FE uses multipoint SFI with VVT-i",
+    "Torque converter automatic (acceptable, not CVT or DCT - meets hard requirements)",
+    "Toyota brand - proven reliability for basic transport",
+    "Post-2005 3ZZ-FE generation - avoids oil consumption issues of earlier variants",
+    "Private seller documentation - 8 photos, detailed feature list suggests owner care",
+    "Reasonable price (€3,250 for this age/mileage in Estonia market)",
+    "Timing chain (not belt) - theoretically more durable if maintained, less catastrophic failure risk than belt",
+    "Matches buyer profile perfectly: petrol, manual/auto torque converter, Toyota, port injection - all green"
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "This car is acceptable but requires caution. It meets all hard requirements (petrol, Toyota, torque converter auto, port injection) and is fairly priced for the Estonian market. The 3ZZ-FE engine is reliable if maintained. However, at 220,000 km and 19 years old, this is a high-mileage used car where major repairs (timing chain, transmission, rust remediation) could arise soon, potentially negating the low purchase price. The buyer's use case (low annual km, occasional weekend trips) is actually well-suited to this car - buying proven reliability over new capability. Verdict: **MAYBE** - Worth inspecting in person IF service records show consistent maintenance and no underbody rust. Reject if timing chain tensioner has failed, if transmission shows signs of slipping, or if rust is extensive. Request pre-purchase inspection by trusted mechanic focusing on transmission (fluid condition, shift quality) and underbody/suspension rust. If records are clean and inspection passes, this is a reasonable low-cost reliable transport option.\"",
+  "weighted_score": 6.5,
+  "_meta": {
+    "model": "haiku",
+    "listing_id": "4280612",
+    "cost_usd": 0.0703,
+    "elapsed_seconds": 94.4
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "summary": "This is a 2016 Toyota Corolla 1.6 Valvematic sedan with 123,000 km, powered by the 1ZR-FAE engine (port injection) paired with a MultiDrive S CVT transmission. While the Corolla is a solid platform and port injection is preferred, this specific variant has concerning issues: the 1ZR-FAE engine is known for high oil consumption, Valvematic system failures, timing chain stretch around 150k km, and short-lived water pumps (50k km). The CVT is a belt-type unit, which violates the buyer's hard requirement for manual or torque converter automatics only. The asking price of €11,499 is fair to slightly high compared to market (similar cars at €9,600 with higher mileage). This is NOT worth seeing—the CVT disqualifies it immediately, and even without that, the engine's reliability issues make it a poor choice for low-cost ownership.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2016,
+    "engine_code": "1ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "CVT (MultiDrive S, belt-type)",
+    "mileage_km": 123000
+  },
+  "research_findings": "**Engine: 1ZR-FAE 1.6L (97kW/132hp)**\nThis is a port-injected DOHC 16v engine with Dual VVT-i and Valvematic variable valve lift. However, it has significant known issues:\n- **Oil consumption**: High oil consumption is a common complaint, especially on higher-mileage engines. Some early production units had severe oil consumption issues.\n- **Timing chain stretch**: After 150,000 km, timing chain stretch is expected and requires replacement.\n- **Water pump**: Very short lifespan—only 50,000 km before replacement needed.\n- **Valvematic system failures**: The Valvematic controller frequently throws errors or shuts down the engine. Actuators can seize causing low power and no-start conditions. Dirt fouling in the intake manifold is common.\n- **Carbon deposits**: Intake manifold carbon deposits cause floating RPM.\n- **Engine revision**: There was an engine revision in late 2015/early 2016, so 2016 models should have fewer Valvematic issues than 2014-2015 models, but problems persist.\n\n**Transmission: MultiDrive S CVT (Belt-Type)**\nThe European 1.6L Corolla uses Toyota's MultiDrive S continuously variable transmission, which is a belt-type CVT. This violates the buyer's hard requirement for manual or torque converter automatic only. CVT issues reported include:\n- A 2018 recall for valve body damage\n- Some isolated CVT failures around 130,000-150,000 km\n- High-pitched hiss/whine noise after reaching operating temperature (TSB issued)\n- Requires CVT fluid changes every 60,000 km under normal conditions\n\n**Safety**\nThe E170 Corolla received a 5-star Euro NCAP rating when tested in 2013. Standard equipment includes dual front airbags, side airbags, driver knee airbag, and head-protecting side curtains.\n\n**Common TSBs**\n- Fuel cap \"no click\" issue\n- CVT transmission noise (high-pitched hiss/whine)\n- Steering clicking noise on full lock turns\n- Water pump leak inspection updates\n\n**Market Value**\nComparable 2016 Corolla 1.6 models in Estonia with higher mileage (148,500 km) are listed at €9,600. At 123,000 km, fair market value should be €9,500-€10,500. The asking price of €11,499 is on the higher end but not unreasonable for a dealer sale.\n\n**Estonian/Cold Climate Concerns**\nModern Corollas have good corrosion resistance, but regular winter undercarriage washing is essential to prevent salt corrosion. No specific cold-weather issues reported for the 1ZR-FAE engine.\n\n**Sources:**\n- [Toyota 1ZR-FAE Engine Specifications](https://en.toyota-club.eu/engine_detail.php?id=4)\n- [Toyota ZR Engine Wikipedia](https://en.wikipedia.org/wiki/Toyota_ZR_engine)\n- [Toyota 1ZR-FE/FAE Engine Issues](http://mywikimotors.com/toyota-1zr/)\n- [2014-2019 Toyota Corolla Common Problems](https://www.toyotanation.com/threads/2014-2019-toyota-corolla-common-problems.1681558/)\n- [Toyota Corolla E170 Review - Samarins](https://www.samarins.com/reviews/corolla.html)\n- [2016 Corolla CVT Transmission Failure](https://www.toyotanation.com/threads/2016-corolla-cvt-transmission-failure.1715074/)\n- [Corolla CVT Reliability Discussion](https://www.toyotanation.com/threads/corolla-cvt-reliability.1687781/)\n- [Euro NCAP 2013 Corolla Safety Rating](https://www.euroncap.com/en/results/toyota/corolla/8893)\n- [2016 Toyota Corolla TSBs](https://www.carcomplaints.com/Toyota/Corolla/2016/tsbs/)\n- [Estonian Used Car Listing](https://autoportaal.ee/et/kasutatud-autod/44176)",
+  "scores": {
+    "mechanical_reliability": 4,
+    "maintenance_cost_outlook": 3,
+    "value_for_money": 5,
+    "safety": 8,
+    "cosmetic_condition": 7,
+    "spec_match": 1,
+    "seller_trustworthiness": 6
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 1ZR-FAE engine has a poor track record: chronic oil consumption issues, Valvematic system failures (controller errors, seized actuators), timing chain stretch at 150k km, and water pumps lasting only 50k km. The CVT has had reliability issues including a 2018 recall for valve body damage and isolated failures around this mileage. At 123,000 km, this car is approaching the timing chain replacement interval and is vulnerable to Valvematic failures. Score: 4/10.",
+    "maintenance_cost_outlook": "Expected high maintenance costs: timing chain replacement due around 150k km (expensive), water pump replacement every 50k km, potential Valvematic system repairs (controller/actuator failures are common and costly), CVT fluid changes every 60k km, and high oil consumption requiring frequent top-ups. CVT repairs/replacement are very expensive if issues arise. Score: 3/10.",
+    "value_for_money": "At €11,499 for 123,000 km, the price is fair to slightly high compared to market (similar cars with 148,500 km listed at €9,600). However, given the engine's poor reliability and impending major maintenance (timing chain, water pump), the true cost of ownership will be much higher than the purchase price suggests. Price alone is reasonable, but poor value considering reliability. Score: 5/10.",
+    "safety": "5-star Euro NCAP rating (2013 test). Standard equipment includes dual front airbags, side airbags, driver knee airbag, and head-protecting side curtains. Good passive safety for its class. No major safety recalls or concerns. Score: 8/10.",
+    "cosmetic_condition": "13 photos provided by dealer. From listing photos, the exterior appears to be in good condition with no visible body damage or significant rust. Gray metallic paint in decent shape. Interior appears clean and well-maintained. Cannot fully assess without in-person inspection, but based on available photos, cosmetic condition seems acceptable. Score: 7/10.",
+    "spec_match": "CRITICAL FAILURE: The CVT transmission is a belt-type unit, which directly violates the buyer's hard requirement for manual or torque converter automatic only. CVTs are explicitly rejected due to reliability concerns and high repair costs. Additionally, the 1ZR-FAE engine, while port-injected (which is positive), has a poor reliability record that contradicts the buyer's priority for simple, reliable, cheap ownership. Score: 1/10.",
+    "seller_trustworthiness": "CarProf Autokeskus is a dealer in Tallinn. Dealer sales typically offer some consumer protection vs private sales. 13 photos provided (good transparency). Description is minimal, listing only standard features without service history details. No red flags, but lack of service history documentation is concerning for a car approaching major maintenance intervals. Score: 6/10."
+  },
+  "red_flags": [
+    "CVT transmission - violates buyer's hard requirement for manual or torque converter automatic only",
+    "1ZR-FAE engine known for high oil consumption, especially at higher mileage",
+    "Valvematic system failures common - controller errors, seized actuators, engine shutdowns",
+    "Timing chain stretch expected around 150,000 km (approaching this mileage)",
+    "Water pump lifespan only 50,000 km - likely needs replacement soon or recently replaced",
+    "CVT has had reliability issues including 2018 recall for valve body damage",
+    "At 123,000 km, multiple expensive maintenance items due soon",
+    "No service history provided in listing - critical for a car with known engine issues",
+    "Price slightly high at €11,499 vs market comparables at €9,600 (with higher km)"
+  ],
+  "green_flags": [
+    "Port injection (not direct injection) - preferred fuel system type",
+    "Toyota brand - generally reliable, though this specific engine is an exception",
+    "5-star Euro NCAP safety rating with good airbag coverage",
+    "Dealer sale (CarProf Autokeskus) offers some buyer protection vs private sale",
+    "13 photos provided - good transparency",
+    "Corolla-sized platform meets buyer's size requirement",
+    "Located in Tallinn - convenient for buyer in Estonia",
+    "Exterior and interior appear well-maintained in photos"
+  ],
+  "verdict": "SKIP",
+  "verdict_reasoning": "This car is an immediate SKIP for two critical reasons: First, the CVT transmission directly violates the buyer's hard requirement for manual or torque converter automatic only. Belt-type CVTs are explicitly rejected, making this car ineligible regardless of other factors. Second, even if the transmission weren't disqualifying, the 1ZR-FAE engine is one of Toyota's least reliable modern engines, with chronic oil consumption, Valvematic system failures, short-lived water pumps (50k km), and timing chain stretch around 150k km. At 123,000 km, this car is approaching major maintenance expenses. The buyer's top priority is lowest total cost of ownership and simple reliability—this Corolla is the opposite. The asking price of €11,499 is also on the high side vs market. While the Corolla platform and port injection are positives, and safety is good, these cannot overcome the fundamental incompatibility with buyer requirements. Do not waste time viewing this car. Look instead for Toyota/Lexus/Honda/Mazda models with proven reliable engines (2ZR-FE, 3ZR-FAE, K20/K24, R18, SkyActiv-G) paired with manual or torque converter automatic transmissions.",
+  "weighted_score": 4.7,
+  "_meta": {
+    "model": "sonnet",
+    "listing_id": "4272435",
+    "cost_usd": 0.3389,
+    "elapsed_seconds": 157.8
+  }
+}

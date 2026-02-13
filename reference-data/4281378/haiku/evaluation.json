@@ -1,0 +1,63 @@
+{
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis",
+    "year": 2009,
+    "engine_code": "2ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "manual",
+    "mileage_km": 270000
+  },
+  "summary": "This is a 2009 Toyota Avensis with a 1.8L 2ZR-FAE port-injection engine and manual transmission at 270,000 km. The Avensis has an excellent reputation for reliability, achieved a 5-star Euro NCAP rating with 9 airbags, and uses a timing chain (not belt). At this mileage, it's beyond the typical expected engine lifespan (250,000 km) but still has documented reliability. Key concerns are Valvematic system issues, potential oil consumption, and clutch wear at high mileage. The asking price of €2,300 is reasonable for a 17-year-old high-mileage car. Worth seeing in person for mechanical inspection.",
+  "research_findings": "**Engine Analysis:** The 2ZR-FAE is a 1.8L DOHC with Valvematic variable intake valve lift, producing 107 kW (145 PS) and 180 Nm torque. Port injection design is preferred. Uses a timing chain (not belt), which is non-interference and can stretch after 150,000 km. Expected engine life ~250,000 km (research showed both 2ZR-FE/FAE and 3ZR-FAE engines with similar longevity). This car is at 270,000 km—moderately beyond typical lifespan. Oil consumption is a known issue with this engine due to Valvematic design and piston ring wear. Carbon buildup in intake manifold from Valvematic operation can cause floating idle.\n\n**Transmission:** 6-speed manual—no CVT or DCT concerns. However, known issue with Avensis manuals: clutch wear common, particularly with difficulty engaging 2nd gear and reverse on high-mileage units. Clutch replacement at 270,000 km is likely needed.\n\n**Safety:** 2009 Avensis received 5-star Euro NCAP rating (outstanding for its generation). Features 9 airbags (front dual-stage, side, curtain shield), rigid body structure, and excellent side impact protection. Strong score.\n\n**Reliability:** Avensis is highly reliable per What Car? and RAC reviews. Only 16.3% defect rate in 2022 MOT testing vs. 21.6% average for same age. Issues at ultra-high mileage: diesel injectors (not applicable—petrol), dual mass flywheel (not applicable—manual), starter motors. Starter motor can be a concern at this mileage.\n\n**Maintenance Outlook:** Timing chain maintenance: no set interval but can stretch after 150,000 km. At 270,000 km, chain tensioner wear and stretching are possible. Valvematic system repairs are expensive (full unit replacement). Cooling pump noted as unreliable. Clutch replacement likely needed (€200-500 estimate). Oil consumption may require top-ups between services.\n\n**Market Price:** Limited specific Estonia data, but comparable 2009 Avensis models in EU: €2,700 (2007 model, 120k km), €4,400 (Latvia). Price of €2,300 for 270,000 km is reasonable to slightly favorable, reflecting high mileage.\n\n**Estonia/Cold Weather:** Toyotas have good rust resistance reputation, but road salt and freeze-thaw cycles accelerate corrosion. At 17 years old in Estonia, undercarriage and wheel wells should be inspected. Overall, Avensis scores well for Nordic durability if maintained.\n\n**Seller Profile:** Private seller (Svetlana Kucur), decent listing description with comfort features noted. Positive: 8 photos provided. No red flags but typical private-seller limited warranty.\n\nSources:\n- [Toyota 3ZR-FAE Engine Reliability - MotorReviewer](https://www.motorreviewer.com/engine.php?engine_id=154)\n- [Toyota Avensis Reliability - What Car?](https://www.whatcar.com/toyota/avensis/saloon/used-review/n881/reliability)\n- [Official Euro NCAP Avensis Rating](https://www.euroncap.com/en/results/toyota/avensis/11065)\n- [Toyota Avensis 2009-2015 Safety - Toyota Media](https://media.toyota.co.uk/5-star-safety-toyota-iq-and-avensis-achieve-top-euro-ncap-safety-rating/)\n- [2ZR-FAE Engine Specs - CarFolio](https://www.carfolio.com/toyota-avensis-1.8-valvematic-200794)\n- [Avensis Timing Chain Info - TimingBeltOrChain.net](https://timingbeltorchain.net/toyota-avensis-t27-2009-2018-3th-generation-timing-belt-or-chain-1337)\n- [2ZR-FAE Problems - ZipTek Auto Parts](https://www.ziptekautoparts.com/News/Toyota-2ZR-FE-FAE-FXE-1-8L-Engine-Specs-Problems-Reliability.html)\n- [Toyota Winter Rust Prevention - Gresham Toyota](https://www.greshamtoyota.com/blogs/4950/index.php/2024/02/19/protecting-your-toyota-from-salt-and-rust-in-winter/)",
+  "scores": {
+    "mechanical_reliability": 6,
+    "maintenance_cost_outlook": 6,
+    "value_for_money": 7,
+    "safety": 9,
+    "cosmetic_condition": 7,
+    "spec_match": 9,
+    "seller_trustworthiness": 7
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "Avensis has strong general reliability, but this car is at 270,000 km—moderately beyond the 250,000 km expected engine lifespan for 2ZR-FAE. Timing chain may be stretching; Valvematic system and starter motor are potential failure points at this mileage. Recent maintenance history unknown. Score reflects: solid brand reputation (-2 for high mileage, -1 for Valvematic risk).",
+    "maintenance_cost_outlook": "Timing chain not due yet but may need inspection. Clutch replacement likely needed soon (€200-500). Valvematic repair if it fails: expensive (full unit replacement, €800+). Cooling pump reliability concern. Oil consumption may require frequent top-ups. Normal maintenance moderate. Score: average-to-slightly-worse due to age and mileage, but not exceptional.",
+    "value_for_money": "€2,300 for a 17-year-old, 270,000 km manual Avensis is reasonable. Comparable 2009 models in EU €2,700-€4,400 range (lower mileage). This price reflects realistic depreciation and high mileage. Buyer gets a proven platform with port injection at a fair cost. Solid value given Avensis reputation.",
+    "safety": "5-star Euro NCAP, 9 airbags, rigid structure, excellent crash test results—outstanding for 2009. No major recalls noted. Minor deduction only for 17-year-old tech vs. modern active safety.",
+    "cosmetic_condition": "No rust or body damage visible in photos provided (8 good-quality images). Interior described as comfortable with seatbelt pre-tensioners and airbags. Car appears well-maintained cosmetically. Gray color hides minor wear. At 270,000 km, some interior wear expected but not reported as severe. Score reflects good external appearance, unknown interior condition.",
+    "spec_match": "Port injection 2ZR-FAE: perfect match (full 10). Manual transmission: perfect match (full 10). Toyota petrol: perfect match. No CVT/DCT/hybrid. Corolla-plus size (Avensis touring). Ideal spec for buyer criteria. Only minor deduction: size not explicitly stated by buyer as 'needed to be large,' just 'no Yaris-sized cars'—Avensis comfortably exceeds minimum.",
+    "seller_trustworthiness": "Private seller with decent listing description and 8 photos—both positive signals. Phone number not listed (neutral). No major red flags. However, limited warranty typical for private sale. Seller name and location provided. Score reflects typical private-seller transparency without exceptional trust signals (like documented service history)."
+  },
+  "red_flags": [
+    "Mileage 270,000 km exceeds typical 2ZR-FAE engine lifespan (~250,000 km). Timing chain may be stretching; requires inspection.",
+    "Valvematic system is a known failure point. If it fails, repair costs €800+. No mention of recent Valvematic servicing.",
+    "Clutch wear expected at 270,000 km; replacement likely needed soon (€200-500).",
+    "Oil consumption is common with 2ZR-FAE engines; buyer should verify oil level and consumption rate.",
+    "Cooling pump noted as unreliable; could fail without warning.",
+    "No service history provided. Maintenance records would reduce uncertainty.",
+    "17 years old in Estonia (salt roads, freeze-thaw cycles). Undercarriage and wheel wells should be inspected for rust/corrosion.",
+    "At ultra-high mileage, starter motor failure possible.",
+    "Private seller (typical limited warranty). No dealer guarantees."
+  ],
+  "green_flags": [
+    "Engine is port injection (2ZR-FAE), not direct injection—preferred per buyer criteria.",
+    "Manual transmission: no CVT or DCT concerns. Five-speed manual is robust.",
+    "Toyota brand: proven reliability, good parts availability in Estonia.",
+    "5-star Euro NCAP rating with 9 airbags—excellent safety for a 2009.",
+    "Timing chain (not belt)—no catastrophic failure risk if it breaks, and no set replacement interval.",
+    "Price €2,300 is reasonable for 270,000 km; good value given condition and specs.",
+    "8 good-quality photos provided; seller transparency.",
+    "Listed as 'touring' (wagon/estate) body type: good size for buyer (Corolla-plus class).",
+    "Decent comfort features listed: heated mirrors, seatbelt pre-tensioners, ABS implied.",
+    "Avensis known for reliable resale platform; not a risky marque."
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "This car meets all hard requirements (petrol, manual, Toyota, port injection) and has excellent safety credentials. The price is fair for the mileage. However, 270,000 km puts it moderately beyond typical 2ZR-FAE engine lifespan, introducing risk around timing chain, Valvematic system, and clutch. No service history is provided, making it impossible to assess quality of past maintenance—critical at this mileage. The Avensis is a reliable platform, but at 270,000 km, a thorough pre-purchase inspection by a qualified mechanic is essential. If the inspection shows good condition (timing chain not stretched, Valvematic functioning, clutch and cooling pump sound), this becomes a good buy. If inspection reveals deferred maintenance, timing chain slop, or Valvematic issues, pass. Recommendation: See in person, request service records, and pay for a diagnostic inspection before deciding. Not a clear GO SEE IT due to mileage uncertainty, but not a SKIP either—Avensis reliability and fair pricing justify inspection.\"",
+  "weighted_score": 7.1,
+  "_meta": {
+    "model": "haiku",
+    "listing_id": "4281378",
+    "cost_usd": 0.0598,
+    "elapsed_seconds": 90.7
+  }
+}

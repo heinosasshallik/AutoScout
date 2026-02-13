@@ -1,0 +1,60 @@
+{
+  "summary": "This is a 2009 Toyota Avensis 1.8 VVT-i wagon with 270,000 km, manual transmission, and the 2ZR-FAE engine. While the Toyota brand and manual transmission are strong points, the high mileage and known issues with the 2ZR-FAE engine (oil consumption, timing chain stretch at 100k miles, Valvematic system problems) present significant reliability concerns. At €2,300, the price is reasonable for the high mileage but expect oil consumption and potential timing chain replacement if not already done. The 5-star Euro NCAP rating and 7 airbags provide good safety. Worth seeing if service records prove timing chain replacement and no oil consumption issues, but otherwise the mileage is too high for a worry-free ownership experience.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis",
+    "year": 2009,
+    "engine_code": "2ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "manual",
+    "mileage_km": 270000
+  },
+  "research_findings": "The 2009 Toyota Avensis features the 2ZR-FAE 1.8L engine with Valvematic variable valve lift system. This engine produces approximately 95kW (127 hp) and uses port fuel injection with dual VVT-i.\n\n**Engine Reliability Concerns:**\nThe 2ZR-FAE has several documented issues. Oil consumption is the most frequently reported problem, with some owners reporting minor consumption at 30,000 miles and significant consumption by 100k miles, caused by piston ring wear and valve seal failure. Timing chain stretch typically occurs at 100,000 miles requiring replacement - critical because this is an interference engine where chain failure causes catastrophic damage. The Valvematic system can develop startup rattles. Water pump failure is also common. With proper maintenance, the engine can reach 160,000-200,000 miles but requires more frequent oil changes than manufacturer recommendations.\n\n**Model-Specific Issues:**\nThe T270 generation Avensis is known to develop rust on the underside, particularly the rear beam, which is concerning for Estonian conditions with heavy salt road use. Some 2010 diesel Avensis models reported cold-starting issues in cold weather, though this specific 2009 petrol model should be less affected.\n\n**Safety:**\nThe 2009 Avensis earned a 5-star Euro NCAP rating with 7 airbags (including driver knee airbag, front airbags, side airbags, and curtain airbags). However, chest protection was rated as weak in side pole impact tests due to rib deflections.\n\n**Market Value:**\nFor Estonian market, 2009 Avensis models with 270,000 km typically range €2,500-€4,000. A comparable example with 350,300 km was listed at €3,050. The asking price of €2,300 is at the lower end of the range, reflecting the very high mileage.\n\n**Sources:**\n- [Toyota ZR engine - Wikipedia](https://en.wikipedia.org/wiki/Toyota_ZR_engine)\n- [Toyota 2ZR-FAE Engine Problems - Low Offset](https://low-offset.com/toyota/2zr-fe-engine/)\n- [2019-2024 Toyota Corolla 1.8L Base Engine - Cararac](https://cararac.com/blog/toyota-corolla-1-8-engine-problems-durability.html)\n- [Toyota 2ZR-FE/FAE/FXE 1.8L Engine Specs - Ziptek](https://www.ziptekautoparts.com/News/Toyota-2ZR-FE-FAE-FXE-1-8L-Engine-Specs-Problems-Reliability.html)\n- [Official Toyota Avensis 2009 safety rating - Euro NCAP](https://www.euroncap.com/en/results/toyota/avensis/11065)\n- [Toyota Avensis T270 review - DriveMag](https://drivemag.com/car-review/toyota-avensis-t270-review-specs-problems/)\n- [Dealing with rust on underside - Toyota Owners Club](https://www.toyotaownersclub.com/forums/topic/190857-dealing-with-rust-on-underside/)",
+  "scores": {
+    "mechanical_reliability": 5,
+    "maintenance_cost_outlook": 4,
+    "value_for_money": 6,
+    "safety": 8,
+    "cosmetic_condition": 6,
+    "spec_match": 9,
+    "seller_trustworthiness": 7
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "At 270,000 km, this car is well beyond the 160,000-mile (257,000 km) threshold where the 2ZR-FAE typically needs expensive repairs. The engine is known for oil consumption issues that worsen with age, timing chain stretch at 100k miles, and Valvematic system problems. Without documentation that the timing chain has been replaced, there's high risk of imminent failure on this interference engine. The very high mileage significantly reduces reliability expectations.",
+    "maintenance_cost_outlook": "Future costs are concerning. If timing chain hasn't been replaced, expect €500-800 for chain, tensioner, and water pump replacement. The engine likely consumes oil requiring frequent top-ups. Valvematic system repairs are expensive if issues develop. However, manual transmission is simpler/cheaper to maintain than automatics. Estonian salt roads increase rust risk requiring underside maintenance. Parts availability for Avensis is good, but at this mileage, multiple wear items will need replacement.",
+    "value_for_money": "At €2,300, the price is reasonable for 270,000 km - it's at the lower end of the €2,500-€4,000 range for this mileage. Comparable Avensis with 350k km listed at €3,050, so this reflects appropriate discount for high mileage. However, buyer should budget €1,000-1,500 for immediate/near-term repairs (timing chain, oil consumption issues). The Toyota badge provides some residual value, and manual wagons hold value better than sedans.",
+    "safety": "Strong safety credentials with 5-star Euro NCAP rating and 7 airbags including driver knee airbag, front, side, and curtain airbags. Good whiplash protection. However, chest protection rated weak in side pole impact due to rib deflections. At 15 years old, lacks modern active safety features like ESP (may or may not be equipped), but crash structure is solid. Deducted 2 points for age-related lack of modern safety tech and weak chest protection rating.",
+    "cosmetic_condition": "Photos show 8 exterior/interior shots suggesting reasonable transparency. Gray wagon appears generally intact with no obvious major body damage visible. However, T270 Avensis is known for underside rust, especially rear beam - critical concern for Estonian salt roads. At 270,000 km and 15 years old, expect wear on interior surfaces, seats, and trim. Cannot fully assess without in-person inspection, but age and mileage suggest moderate cosmetic wear.",
+    "spec_match": "Excellent match to buyer requirements. Toyota brand (preferred manufacturer), 1.8L port injection engine (preferred over direct injection), manual transmission (ideal), petrol fuel (required), wagon body style (Corolla-sized or larger requirement met). The 2ZR-FAE with Valvematic uses port injection - full marks here. Only minor deduction because the 2ZR-FAE is less bulletproof than the preferred 2ZR-FE or 3ZR-FAE non-Valvematic variants.",
+    "seller_trustworthiness": "Private seller (Svetlana Kucur) rather than dealer - mixed implications. Private sales can be more honest but lack dealer warranties. 8 photos provided showing multiple angles is positive. Description lists features but doesn't mention service history, timing chain status, or oil consumption - concerning omissions at this mileage. No phone number visible suggests cautious approach. Seller transparency moderate - would need to request full service records and pre-purchase inspection."
+  },
+  "red_flags": [
+    "270,000 km is very high mileage - well beyond the 160k-200k mile expected lifespan of the 2ZR-FAE engine without major repairs",
+    "No mention of timing chain replacement in description - critical given this engine needs chain replacement at 100k miles and this is an interference engine",
+    "2ZR-FAE engines are notorious for oil consumption issues that worsen with age - likely consuming oil at this mileage",
+    "No service history mentioned in listing despite very high mileage where documentation is essential",
+    "T270 Avensis known for underside rust issues - major concern for Estonian salt roads",
+    "Valvematic system can develop expensive startup rattle issues",
+    "Seller description focuses on features but omits critical maintenance history"
+  ],
+  "green_flags": [
+    "Toyota brand - generally reliable manufacturer",
+    "Manual transmission - simpler, more reliable, and cheaper to maintain than automatics",
+    "Port injection (not direct injection) - avoids carbon buildup issues",
+    "5-star Euro NCAP rating with 7 airbags including driver knee airbag",
+    "Wagon body style - practical and meets size requirements",
+    "Price of €2,300 is fair for the high mileage - not overpriced",
+    "8 photos provided showing multiple angles of the vehicle",
+    "Petrol fuel meets hard requirements (no hybrid complexity)",
+    "Front-wheel drive suitable for Estonian winters with proper tires"
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "This car checks the right boxes (Toyota, manual, port injection, petrol) but the 270,000 km mileage is a significant concern. The 2ZR-FAE engine at this mileage likely has oil consumption issues and needs timing chain replacement if not already done. The €2,300 price is fair but only if you budget €1,000-1,500 for immediate repairs. Worth seeing ONLY if: (1) seller provides complete service records showing timing chain has been replaced, (2) cold start inspection shows no Valvematic rattle, (3) oil consumption test shows minimal oil use, and (4) underside inspection shows no significant rust on rear beam/subframe. Request pre-purchase inspection focusing on timing chain, oil consumption, and rust. If seller cannot provide timing chain replacement documentation, walk away - the repair cost plus unknown oil consumption issues make this a risky purchase even at the low price. For a 'want not need' use case with 7,000 km/year, a lower-mileage example would provide much better peace of mind.",
+  "weighted_score": 6.05,
+  "_meta": {
+    "model": "sonnet",
+    "listing_id": "4281378",
+    "cost_usd": 0.3085,
+    "elapsed_seconds": 153.8
+  }
+}

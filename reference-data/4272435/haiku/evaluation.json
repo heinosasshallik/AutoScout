@@ -1,0 +1,56 @@
+{
+  "summary": "This is a 2016 Toyota Corolla sedan with 1.6L port-injection petrol engine and 123,000 km mileage. However, the automatic transmission is a CVT (continuously variable transmission), which violates the hard requirement of \"Manual or torque converter automatic only.\" While the 1ZR-FAE engine is reliable and the price is reasonable for the market, the CVT disqualification makes this a definite SKIP.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2016,
+    "engine_code": "1ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "CVT (Automatic)",
+    "mileage_km": 123000
+  },
+  "research_findings": "**Engine (1ZR-FAE 1.6L):** Port fuel injection with Dual-VVTi and Valvematic systems. Produces 132 hp at 6400 rpm and 160 Nm torque at 4400 rpm. Timing chain-driven (not belt). Generally reliable engine with a good track record. Common issue reported: timing chain replacement often needed between 150,000-200,000 km. Early 2ZR generations had oil consumption issues addressed by TSB ECU update; this variant is well-matured by 2016. At 123,000 km, timing chain is still within acceptable range but approaching service interval.\\n\\n**Transmission:** The 2016 Corolla automatic uses a CVT (Continuously Variable Transmission), specifically the K-series CVT. This is a belt-type CVT, NOT a torque converter automatic. **This violates the hard requirement.**\\n\\n**Reliability:** Overall 1ZR-FAE engine is known for longevity (200k+ miles with proper maintenance). 2016 model year benefits from 6+ years of production refinement. However, CVT transmission adds risk—CVTs have documented reliability concerns and are generally less durable than torque converter automatics.\\n\\n**Cold Weather/Estonian Concerns:** Corolla performs adequately in winter with ABS, traction control, VSA. However, 2016 model year has documented clear coat/paint durability issues, making rust a concern on Estonian salt roads. This generation requires regular undercarriage washing and rust prevention.\\n\\n**Safety:** 2013 Euro NCAP test (most recent available for this generation) awarded 5 stars. Dual front airbags standard, electronic stability control standard. Whiplash protection rated good. Child occupant protection excellent. 2016 model inherited these safety features.\\n\\n**Market Value:** 11,499 EUR for 123,000 km 2016 Corolla is reasonable for Estonian market based on comparable listings.\\n\\nSources: [1ZR-FAE engine specifications](https://en.toyota-club.eu/engine_detail.php?id=4), [CVT transmission identification](https://www.autolastgh.com/post/uncovering-the-truth-how-to-identify-if-your-toyota-corolla-2014-2019-uses-cvt-or-traditional-transmission), [Euro NCAP 2013 safety rating](https://www.euroncap.com/en/results/toyota/corolla/8893), [Timing chain concerns](https://www.automaniac.org/toyota/2016/12759/toyota-corolla-1.6-valvematic), [Winter performance review](https://vehq.com/toyota-corolla-owner-should-know-about-winter/), [Paint rust issues](https://www.fs1inc.com/blog/2016-toyota-corolla-problems-reliability/)\"",
+  "scores": {
+    "mechanical_reliability": 7,
+    "maintenance_cost_outlook": 6,
+    "value_for_money": 7,
+    "safety": 8,
+    "cosmetic_condition": 6,
+    "spec_match": 3,
+    "seller_trustworthiness": 7
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "1ZR-FAE engine is proven reliable with good longevity. However, timing chain approaching service interval at 123k km (typically needed at 150-200k). CVT transmission is a reliability concern—less durable than torque converter automatics, known for potential issues. Score reflects solid engine offset by CVT weakness. Score: 7/10",
+    "maintenance_cost_outlook": "Engine maintenance is economical. However, CVT fluid changes more frequent than traditional automatics, and CVT failure is expensive ($3,000-$5,000+ for replacement). Timing chain service upcoming (moderate cost). Paint/rust issues may require attention in Estonian climate. Score: 6/10",
+    "value_for_money": "11,499 EUR is fair market price for 123k km, 2016 Corolla in Estonia. However, CVT transmission reduces actual value proposition. Score: 7/10",
+    "safety": "Euro NCAP 5-star rating (2013), dual airbags, electronic stability control, good whiplash protection. Modern safety features for this generation. Score: 8/10",
+    "cosmetic_condition": "No images provided in listing; cannot assess body/rust condition directly. However, 2016 Corolla known for clear coat/paint durability issues—rust concern in Estonian winter. Dealer listing suggests possible reconditioning. Score: 6/10 (neutral due to lack of photo data)",
+    "spec_match": "**CRITICAL FAILURE:** Automatic transmission is CVT, not torque converter. This is a hard rejection criterion. Engine is port injection (preferred), so scores well on injection type (9/10), but CVT transmission override dominates spec match negatively. Score: 3/10 due to transmission violation",
+    "seller_trustworthiness": "Dealer (CarProf Autokeskus) vs private seller is positive. Multiple photos (13) provided. Description lists features but sparse on maintenance history or known issues. Dealer provides some confidence vs private, though no specific service history mentioned. Score: 7/10"
+  },
+  "red_flags": [
+    "HARD REQUIREMENT VIOLATION: CVT (belt-type continuously variable transmission) is explicitly rejected. Buyer specified 'Manual or torque converter automatic only.' This alone makes the car ineligible regardless of other qualities.",
+    "CVT transmission reliability concerns: CVTs are known for earlier failures than traditional automatics, especially in high-mileage situations. Repair costs are steep ($3k-$5k+).",
+    "Timing chain approaching service interval: At 123,000 km, timing chain is entering the 150-200k replacement window. Service will cost €500-€1,500+.",
+    "2016 Corolla paint/clear coat durability issues: Known problem with this model year. Clear coat peeling leads to rust in Estonian winter conditions with salt roads.",
+    "No maintenance history provided: Listing description focuses on features, not service records. Cannot verify if timing belt/fluids properly maintained.",
+    "Cold-start potential issue in Estonian winters: CVT slower to respond in extreme cold until warmed up; less ideal than manual or traditional auto."
+  ],
+  "green_flags": [
+    "1ZR-FAE engine is port-injected (preferred over direct injection) and proven reliable: 200k+ mile lifespan achievable.",
+    "Good safety credentials: Euro NCAP 5-star rating, dual airbags, electronic stability control standard.",
+    "Reasonable price: 11,499 EUR fair for market and mileage.",
+    "Dealer-sourced: More trustworthy than private; 13 photos suggest transparency.",
+    "Appropriate size for buyer: Corolla is 'Corolla-sized and up' as required.",
+    "Low annual km buyer profile aligns well with car: 123k over 8 years suggests similar usage pattern."
+  ],
+  "verdict": "SKIP",
+  "verdict_reasoning": "This car must be skipped due to a hard requirement violation. The listing specifies an automatic transmission, which research confirms is a CVT (Continuously Variable Transmission) based on the 2016 Corolla's options. The buyer's hard requirements explicitly state: 'Manual or torque converter automatic only. Reject belt-type CVT, eCVT, and dual-clutch (DCT).' The 2016 Corolla with automatic is equipped with a CVT, making it ineligible for purchase regardless of other positive qualities. While the 1ZR-FAE engine is reliable, the price is fair, and safety is good, the transmission is a dealbreaker. Do not pursue this listing.\"",
+  "weighted_score": 6.45,
+  "_meta": {
+    "model": "haiku",
+    "listing_id": "4272435",
+    "cost_usd": 0.0598,
+    "elapsed_seconds": 81.1
+  }
+}

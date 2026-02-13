@@ -1,0 +1,60 @@
+{
+  "summary": "This is a 2018 Toyota Avensis Touring 1.8 petrol with the bulletproof 2ZR-FAE port-injection engine and impressive reliability credentials. However, it is equipped with a CVT (Multidrive S) transmission, which violates the hard requirement for \"manual or torque converter automatic only.\" This is a dealbreaker—CVTs are explicitly rejected. Do not see it.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis",
+    "year": 2018,
+    "engine_code": "2ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "CVT (Multidrive S)",
+    "mileage_km": 84000
+  },
+  "research_findings": "**Engine & Injection:** The 2ZR-FAE is Toyota's legendary 1.8L port-injection engine with sequential fuel injection via 12-hole injectors and Valvematic variable valve lift. This is a proven, bulletproof unit used across multiple Toyota platforms. Port injection means no carbon buildup issues that plague direct injection engines. Expected lifespan well beyond 200,000+ km with proper maintenance.\\n\\n**Transmission - CRITICAL ISSUE:** This vehicle is equipped with the Toyota Multidrive S CVT (Continuously Variable Transmission), not a torque converter automatic. The Multidrive S uses two cone-shaped pulleys with a high-strength V-belt to deliver infinite gear ratios. CVTs are explicitly rejected per buyer hard requirements (\\\"belt-type CVT, eCVT\\\"). This is a hard stop regardless of other merits.\\n\\n**Reliability:** The 2ZR-FAE is one of the most reliable engines ever produced. The main known issues are occasional high oil consumption in some high-mileage examples (worn valve stem seals or piston rings), but at 84,000 km this is not a concern. Timing chain (not belt) provides long-term reliability.\\n\\n**Safety:** The Avensis achieved 5-star Euro NCAP rating (93% adult occupant, 85% child occupant, 78% pedestrian, 81% safety assist) with 9 airbags including dual-stage front airbags, side/curtain airbags, and unique knee airbag. Excellent safety credentials. Recall for side airbag issues on examples built Sept 2016 - Oct 2016; this listing is 2018, so likely clear.\\n\\n**Maintenance:** The 2ZR-FAE has low maintenance needs (timing chain, not belt). No DCT repairs, no dual-mass flywheel issues. Parts are inexpensive and widely available. Service costs low due to simple design. However, the CVT requires specialized servicing and fluid changes.\\n\\n**Market Value:** €14,225 for an 84,000 km 2018 Avensis is reasonable for Estonia market. Comparable models in similar condition and mileage range €12,000-€16,000. No red flags on pricing.\\n\\n**Seller:** Private seller (Jevgeni P) from Estonia. Description includes comprehensive equipment list (ISOFIX, tire pressure monitoring, heated mirrors, climate control apparent). Multiple photos (9). Professional listing format. No obvious red flags on seller trustworthiness.\\n\\n**Estonian Context:** Solid winter performance vehicle with heated mirrors, will handle Estonian winters well. No rust-prone variants of this generation reported. Good cold-weather starting due to port injection reliability.\\n\\nSources:\\n- [Engine specs](https://www.carfolio.com/toyota-avensis-1.8-557920)\\n- [2ZR-FAE engine](https://www.proxyparts.com/car-parts-stock/information/engine-code/2zrfae/part/engine/partid/15417783/)\\n- [Multidrive S CVT transmission](https://blog.toyota.co.uk/toyota-avensis-automatics-for-the-people)\\n- [CVT specifications](https://www.car.info/en-se/toyota/avensis/t27-18-cvt-6668976)\\n- [Euro NCAP Safety Rating](https://www.euroncap.com/en/results/toyota/avensis/20854)\\n- [Avensis 5-star rating](https://newsroom.toyota.eu/2019-new-toyota-avensis-achieves-5-star-euro-ncap-rating/)\\n- [Reliability and known issues](https://www.whatcar.com/toyota/avensis/estate/used-review/n24326/reliability)\\n- [Port injection details](https://www.tractortechspecs.com/toyota_2zr_fae_specs.html)",
+  "scores": {
+    "mechanical_reliability": 9,
+    "maintenance_cost_outlook": 8,
+    "value_for_money": 8,
+    "safety": 9,
+    "cosmetic_condition": 7,
+    "spec_match": 2,
+    "seller_trustworthiness": 8
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "2ZR-FAE is one of Toyota's most reliable engines ever made. Proven across millions of vehicles worldwide. Timing chain (not belt), simple design, excellent track record. At 84,000 km, well within normal service life. Known issues (occasional oil consumption) not relevant at this mileage. Score: 9/10.",
+    "maintenance_cost_outlook": "2ZR-FAE is cheap to maintain: no timing belt replacements needed, parts inexpensive, labor simple. No transmission issues (beyond CVT concerns). However, CVT fluid changes are more expensive than manual transmission maintenance. Overall maintenance outlook good but slightly penalized by CVT. Score: 8/10.",
+    "value_for_money": "€14,225 for 84,000 km 2018 Avensis is fair to good for Estonia market. Model holds value well, fuel economy acceptable (5.5-6.5 L/100km), insurance/taxes moderate. Price reflects market rates. Good value if not for transmission disqualification. Score: 8/10.",
+    "safety": "5-star Euro NCAP rating (93% adult protection), 9 airbags including dual-stage fronts and unique knee airbag, excellent crash test results. Expected recall for 2016-2016 production resolved (this is 2018). Outstanding safety credentials. Score: 9/10.",
+    "cosmetic_condition": "No photos provided to assess bodywork or interior condition directly. Description emphasizes equipment but not cosmetic state. Touring trim suggests decent specification level. Private seller maintenance history unknown. Assumed average cosmetic state for age/mileage. Score: 7/10.",
+    "spec_match": "CRITICAL FAILURE: CVT transmission is explicitly rejected per hard requirements ('Manual or torque converter automatic only. Reject belt-type CVT, eCVT, and dual-clutch'). Despite port injection (full score potential), the transmission violation is disqualifying. Cosmetic concerns: Avensis may be perceived as slightly large by buyer ('nothing too small'), but Touring body style should be acceptable. Score: 2/10 (only points for acceptable port injection and correct brand/fuel/size).",
+    "seller_trustworthiness": "Private seller (Jevgeni P) from Estonia. Detailed equipment description, 9 photos, proper listing format. No phone contact provided but listing professional. No obvious red flags. Typical for private Estonian seller. Score: 8/10."
+  },
+  "red_flags": [
+    "DISQUALIFYING: CVT (Multidrive S) transmission violates hard requirement. Buyer explicitly rejects belt-type CVT.",
+    "CVT transmissions have higher repair/fluid change costs and lower longevity potential than torque converter automatics.",
+    "Potential oil consumption issues on some 2ZR-FAE examples (though 84,000 km is too early to manifest).",
+    "Cosmetic condition unknown—no ability to assess exterior/interior rust or damage.",
+    "All contact is through listing; no phone number provided for direct seller communication."
+  ],
+  "green_flags": [
+    "2ZR-FAE engine is bulletproof—one of Toyota's most reliable engines ever made.",
+    "Port injection (not direct) eliminates carbon buildup concerns.",
+    "Timing chain (not belt) ensures long service life without major replacement costs.",
+    "5-star Euro NCAP safety rating (93%) with 9 airbags—excellent crash protection.",
+    "€14,225 price is fair for market, good value for the spec.",
+    "84,000 km is low mileage—well within engine/transmission healthy range.",
+    "Touring trim with comprehensive equipment (ISOFIX, heated mirrors, tire pressure monitoring).",
+    "Private seller with detailed listing and 9 photos—professional presentation.",
+    "Avensis known for reliability and long ownership without major issues.",
+    "Suitable size for buyer (Touring wagon, not too small like Yaris).",
+    "Cold-weather/winter ready (heated mirrors, winter tires included, port injection reliability)."
+  ],
+  "verdict": "SKIP",
+  "verdict_reasoning": "This vehicle fails a hard requirement: the CVT (Multidrive S) transmission is explicitly rejected by the buyer's criteria. Despite having an excellent engine (2ZR-FAE port injection), outstanding safety (5-star Euro NCAP), competitive pricing (€14,225), and low mileage (84,000 km), the transmission type is non-negotiable. The buyer requested \\\"manual or torque converter automatic only\\\" and explicitly rejected \\\"belt-type CVT, eCVT, and dual-clutch.\\\" This Avensis has the Multidrive S, which is a CVT using pulleys and a V-belt. It is a hard stop. Do not see it in person—disqualification is complete.\"",
+  "weighted_score": 7.65,
+  "_meta": {
+    "model": "haiku",
+    "listing_id": "3872109",
+    "cost_usd": 0.0567,
+    "elapsed_seconds": 96.1
+  }
+}

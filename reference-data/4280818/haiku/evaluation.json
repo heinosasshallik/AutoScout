@@ -1,0 +1,63 @@
+{
+  "summary": "A 2017 Toyota Avensis 1.8L petrol sedan with manual transmission and 151,484 km, equipped with the reliable 2ZR-FAE engine (port fuel injection). The vehicle shows solid Euro NCAP safety ratings and comes from a private seller in Tallinn. At €13,300, this is reasonably priced for the market, but timing chain stretch concerns at this mileage and Valvematic system complexity warrant caution despite the generally strong Toyota reliability reputation.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis",
+    "year": 2017,
+    "engine_code": "2ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "manual",
+    "mileage_km": 151484
+  },
+  "research_findings": "**Engine Analysis:** The 2ZR-FAE is a 1.8L, 4-cylinder naturally aspirated petrol engine with 108 kW (145 bhp) and 180 N·m torque. It uses port fuel injection (not direct injection), which is favorable for avoiding carbon buildup on intake valves. The engine features Dual VVT-i and Valvematic variable valve lift technology ([Engine specs](https://www.tractortechspecs.com/toyota_2zr_fae_specs.html)).\\n\\n**Known Issues - Critical Concerns:** At 151,484 km, this vehicle is approaching the critical threshold for 2ZR-FAE problems. The most significant concerns are: (1) **Timing chain stretch** - documented to begin around 100,000 km and become critical by 160,000 km; (2) **Excessive oil consumption** - approximately 30% of owners report oil dropping between services; (3) **Valvematic system failures** - the intake valve control system is known to glitch, especially on higher-mileage examples; (4) **Water pump failure** - typically fails around 40,000 km and requires replacement ([2ZR-FAE reliability](https://enginechecklist.com/toyota-2zr-fae-engine-problems-insights-and-updates/), [ZR engine info](https://www.ziptekautoparts.com/News/Toyota-2ZR-FE-FAE-FXE-1.8L-Engine-Specs-Problems-Reliability.html)).\\n\\n**Transmission:** The 6-speed manual transmission is reliable and well-proven, with no significant documented issues for this generation ([Avensis transmission](https://en.wikipedia.org/wiki/Toyota_Avensis)).\\n\\n**Safety:** 2015-2018 Avensis achieved 5-star Euro NCAP rating with 98% adult occupant protection score. Standard equipment includes dual frontal airbags, side chest and head airbags (curtains), and driver knee airbag. However, Takata airbag inflators may affect 2017 vehicles registered in high-humidity regions; this recall status should be verified with the specific VIN ([Euro NCAP 2015-2018 rating](https://www.euroncap.com/en/results/toyota/avensis/20854), [Takata recall info](https://www.toyota.com/recall/takata/)).\\n\\n**Avensis Reliability:** Overall, the 2015-2018 generation Avensis ranks 95.6% for reliability despite specific engine and comfort system issues ([BreakerLink reliability](https://www.breakerlink.com/blog/cars/toyota-avensis-common-problems/)).\\n\\n**Market Value:** Limited Estonia-specific pricing available. Regional Baltic market shows 2015-2018 Avensis ranging €7,000-€17,500. UK market shows comparable 2017 Avensis at £10,990-£13,540 (approximately €13,000-€16,000). The asking price of €13,300 appears reasonable for current market, though the high mileage (151,484 km) at this price point suggests this is a fair market listing.\\n\\n**Estonian Relevance:** No specific cold-weather or salt-road rust concerns documented for Avensis beyond standard Toyota resilience. Winter operation is standard for this model in Nordic markets.",
+  "scores": {
+    "mechanical_reliability": 5,
+    "maintenance_cost_outlook": 5,
+    "value_for_money": 6,
+    "safety": 8,
+    "cosmetic_condition": 6,
+    "spec_match": 10,
+    "seller_trustworthiness": 7
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "The 2ZR-FAE engine has a mixed track record. While Toyota's reputation is strong and port injection avoids carbon buildup, this specific vehicle is at or past the critical mileage thresholds for timing chain stretch (100-160k km), excessive oil consumption issues, and Valvematic system failures. At 151,484 km, the engine is likely showing wear. Risk of catastrophic timing chain failure exists if maintenance history shows gaps. Score: 5/10 reflects moderate concern despite Toyota brand heritage.",
+    "maintenance_cost_outlook": "Beyond routine maintenance, this vehicle faces imminent major expenses: timing chain inspection/replacement (€800-1,500), potential Valvematic system repairs (€400-800), water pump replacement if not done recently (€300-500), and ongoing oil top-ups due to consumption. High-mileage clutch inspection needed. Score: 5/10 reflects elevated future maintenance burden typical at this mileage.",
+    "value_for_money": "€13,300 for a 2017 Avensis with 151,484 km is fair to slightly above market when compared to Baltic region pricing (€7,000-€17,500 range). However, the mileage creates risk: buyers can find lower-mileage examples in this price range, and this high-mileage example requires immediate maintenance. The asking price is reasonable but not exceptional value given the condition. Score: 6/10 reflects fair market pricing without strong discount for mileage/condition.",
+    "safety": "Euro NCAP 5-star rating (98% adult occupant protection) with comprehensive airbag suite (dual frontal, side chest, head, knee). However, Takata airbag recall possible (requires VIN verification). No other major safety recalls documented for this model generation. Active safety features include Toyota Safety Sense. Score: 8/10 reflects strong safety ratings offset by potential Takata recall and lack of active safety confirmation.",
+    "cosmetic_condition": "Listing provides no photos or exterior condition description. Seller notes interior features (xenon headlights, steering wheel adjustment, various comfort items) but offers no information on body damage, rust, or paint condition. At 151k km in Estonia (salt roads, cold winters), exterior corrosion assessment is critical but unavailable. Score: 6/10 reflects inability to assess; photos show many quality features but lack body/exterior inspection details.",
+    "spec_match": "Perfect match: petrol fuel (not hybrid), manual transmission (acceptable alternative to torque converter), port fuel injection (preferred over direct injection), and Toyota brand. However, port injection scores full on this rubric. Score: 10/10 - exact buyer requirements met on all mandatory criteria.",
+    "seller_trustworthiness": "Private seller (Kadri) in Tallinn with relatively detailed feature list and 12 photos available. No red flags in description. Reasonable pricing suggests honest listing. However, no mileage history, service records, or accident disclosure provided in listing. Small negative: seller phone number not provided (suggests lower engagement). Score: 7/10 reflects typical private seller: decent transparency but lacking comprehensive documentation and history."
+  },
+  "red_flags": [
+    "Mileage at 151,484 km is at critical threshold for 2ZR-FAE timing chain stretch issues (100-160k km range problematic)",
+    "No service history provided; cannot verify if high-cost maintenance (water pump, chain tensioner) was completed",
+    "Valvematic variable valve lift system has documented reliability issues on older examples; unknown condition on this vehicle",
+    "2017 model may be subject to Takata airbag recall (requires VIN check with Toyota)",
+    "No exterior photos or condition assessment provided; cannot evaluate rust/body damage critical for Estonia winter climate",
+    "No mechanical inspection records; timing chain condition unknown at this high mileage",
+    "2ZR-FAE engines documented for excessive oil consumption; no mention of oil top-up frequency or consumption rate",
+    "At €13,300, slightly above regional market bottom ($7-9k) but well below top ($15-17k); mileage should push price lower",
+    "Seller phone not provided; may indicate lower seller engagement/responsiveness"
+  ],
+  "green_flags": [
+    "Port fuel injection (not direct injection) avoids carbon buildup problems plaguing many modern engines",
+    "Manual transmission is reliable and preferred for simplicity and low maintenance costs",
+    "Toyota brand has strong reliability reputation and parts availability in Estonia",
+    "5-star Euro NCAP safety rating (98% occupant protection) with comprehensive airbag suite",
+    "Touring body type suitable for buyer's need (larger than Yaris; good for city and weekend trips)",
+    "Private seller provides detailed equipment list and multiple photos (12 total)",
+    "Timing chain (not belt) means no replacement needed in normal circumstances if not stretched",
+    "Xenon headlights indicate well-equipped example (optional feature; suggests owner care)",
+    "Reasonable market pricing (not over-inflated)",
+    "Low annual km (buyer stated <7,000 km/year) aligns with Avensis's practical, low-cost operation"
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "This is a vehicle worth inspecting in person IF—and only if—the seller can provide: (1) complete service history verifying timing chain and water pump maintenance; (2) recent mechanical inspection confirming timing chain is not stretched; (3) oil consumption data over recent service intervals; (4) Takata recall status via VIN check. The 2017 Avensis is fundamentally sound (Toyota reliability, excellent safety, correct fuel type and transmission), but it sits at precisely the mileage threshold where the 2ZR-FAE becomes high-risk due to timing chain stretch and Valvematic issues. The port fuel injection is a major plus. At €13,300, pricing is fair but not compelling enough to justify the risk without a clean mechanical inspection and service records. Strong NO if: timing chain has never been inspected, no service records available, or visible rust/damage. Conditional YES if: service history confirms maintenance, recent inspection clears timing chain, and inspection finds no oil consumption or Valvematic issues.",
+  "weighted_score": 6.35,
+  "_meta": {
+    "model": "haiku",
+    "listing_id": "4280818",
+    "cost_usd": 0.0886,
+    "elapsed_seconds": 131.3
+  }
+}

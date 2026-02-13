@@ -1,0 +1,64 @@
+{
+  "green_flags": [
+    "Toyota brand - excellent reliability reputation",
+    "2ZR-FAE engine with port injection - no direct injection carbon buildup concerns",
+    "Private seller with detailed equipment description",
+    "Includes both summer and winter tires (spike tires for Estonian winters)",
+    "2018 model year - very late production (Avensis discontinued August 2018)",
+    "Touring body style - practical and spacious (Corolla-sized or larger)",
+    "84,000 km mileage - reasonable for age",
+    "Euro NCAP 5-star safety rating with 7+ airbags",
+    "Well-equipped with ISOFIX, TPMS, heated/folding mirrors",
+    "2ZR-FAE engine known for 200,000+ mile longevity with maintenance"
+  ],
+  "red_flags": [
+    "HARD REQUIREMENT VIOLATION: Belt-type CVT transmission (buyer requires manual or torque converter automatic only)",
+    "CVT transmissions are expensive to replace if issues occur (~€3,000-5,000)",
+    "CVT requires strict fluid maintenance every 2-4 years or risks failure",
+    "Potential CVT shudder issues at higher mileage (common Toyota CVT problem)",
+    "2ZR-FAE Valvematic system can develop carbon buildup after 120,000 km",
+    "T27 Avensis known for rear beam rust in salt climates (Estonia concern)",
+    "Price €14,225 is at upper end of market range for this mileage",
+    "CVT belt systems are complex and effectively unrepairable - replacement only",
+    "No mention of CVT fluid service history in description",
+    "Private seller with no phone number listed (reduces trust/accessibility)"
+  ],
+  "research_findings": "The 2018 Toyota Avensis features the 2ZR-FAE 1.8L engine (108 kW/147 PS) with port fuel injection and Valvematic variable valve lift technology. This engine is known for excellent reliability with documented examples exceeding 200,000 miles with routine maintenance. Early 2008-2009 models had oil consumption issues, but these were resolved via ECU updates and do not affect 2018 models.\n\nThe transmission is a belt-type CVT (Multidrive S) using cone pulleys and a steel V-belt. While Toyota CVTs are generally reliable, they are complex, expensive to replace (€3,000-5,000+), and require strict fluid maintenance every 2-4 years. High-mileage Toyota CVTs can develop shuddering issues. This transmission type is specifically rejected by the buyer.\n\nThe T27 generation Avensis (2015-2018) achieved a 95.6% reliability score and Euro NCAP 5-star safety rating with 7+ airbags including driver knee airbag. Common issues include DPF problems (diesel only, not applicable), CVT transmission concerns at 80,000-100,000 miles, and rust on rear beam undersides in salt-road climates. The Avensis was designed for European conditions but salt corrosion remains a concern in Estonia.\n\nMarket research shows 2018 Avensis models in Europe range from €12,000-20,000 depending on condition, mileage, and market. For Estonia with 84,000 km, fair market value is approximately €12,000-16,000. The asking price of €14,225 is toward the upper end but reasonable for a well-equipped private sale with winter tires included.\n\nSources: [Carfolio 2018 Avensis Specs](https://www.carfolio.com/toyota-avensis-1.8-557920), [ProxyParts 2ZR-FAE Engine Data](https://www.proxyparts.com/car-parts-stock/information/engine-code/2zrfae/part/engine/partid/15417783/), [Honest John CVT Maintenance](https://www.honestjohn.co.uk/forum/post/index.htm?t=110118), [ZiptekAutoParts 2ZR Reliability](https://www.ziptekautoparts.com/News/Toyota-2ZR-FE-FAE-FXE-1-8L-Engine-Specs-Problems-Reliability.html), [What Car T27 Reliability](https://www.whatcar.com/toyota/avensis/estate/used-review/n24326/reliability), [Euro NCAP 2015 Avensis Rating](https://www.euroncap.com/en/results/toyota/avensis/20854), [Toyota Owners Club Rust Discussion](https://www.toyotaownersclub.com/forums/topic/205386-t27-rust-rear-beam-underneath-treatment-required/), [TractorTechSpecs 2ZR-FAE](https://www.tractortechspecs.com/toyota_2zr_fae_specs.html), [Toyota Blog Multidrive S](https://blog.toyota.co.uk/toyota-avensis-automatics-for-the-people)",
+  "score_reasoning": {
+    "mechanical_reliability": "The 2ZR-FAE engine is proven reliable with 200k+ mile potential. Port injection avoids carbon buildup. However, belt-type CVT is a significant concern - complex, expensive to replace, and prone to shudder at higher mileage. CVT maintenance history unknown. Score: 6/10",
+    "maintenance_cost_outlook": "Engine maintenance is straightforward and affordable. However, CVT requires expensive fluid services every 2-4 years. If CVT fails, replacement costs €3,000-5,000+. Timing chain (not belt) is positive. Valvematic adds complexity. Estonia's salt roads require rust treatment. Score: 5/10",
+    "value_for_money": "Price €14,225 is at upper market range for 84,000 km. Includes winter tires (+€400-600 value). Well-equipped touring model. However, CVT transmission significantly reduces long-term value and resale appeal compared to manual or torque converter auto. Score: 6/10",
+    "safety": "Euro NCAP 5-star rating. Seven airbags including driver knee airbag. ISOFIX child seat anchors. TPMS standard. Excellent safety pedigree for this generation. No safety recalls identified for 2018 model year. Score: 9/10",
+    "cosmetic_condition": "Photos not yet examined in detail, but description suggests good equipment. Rust concern on T27 rear beam is common in salt climates. Private seller indicates well-maintained vehicle. Blue metallic paint. No mention of damage. Score: 7/10",
+    "spec_match": "Port injection with Valvematic is excellent (full marks). However, belt-type CVT is a HARD REQUIREMENT VIOLATION - buyer explicitly rejects CVT transmissions. Touring body meets size requirement. Toyota brand matches perfectly. Score: 3/10 (major transmission penalty)",
+    "seller_trustworthiness": "Private seller (positive - no dealer markup). Detailed equipment description shows knowledge. Includes winter tires. However, no phone number listed reduces accessibility. Cannot verify maintenance history or CVT service records. Score: 6/10"
+  },
+  "scores": {
+    "mechanical_reliability": 6,
+    "maintenance_cost_outlook": 5,
+    "value_for_money": 6,
+    "safety": 9,
+    "cosmetic_condition": 7,
+    "spec_match": 3,
+    "seller_trustworthiness": 6
+  },
+  "summary": "This is a 2018 Toyota Avensis 1.8 Touring (estate) with 84,000 km, powered by the reliable 2ZR-FAE port-injection engine paired with a Multidrive S CVT transmission. While the engine is excellent and safety is top-notch (Euro NCAP 5-star), this vehicle has a CRITICAL DISQUALIFYING ISSUE: it uses a belt-type CVT transmission, which the buyer explicitly rejects. The buyer only accepts manual or torque converter automatics. Despite the car's strong reliability reputation, good equipment, and included winter tires, the CVT transmission makes this unsuitable. CVTs are also expensive to maintain and replace if problems develop. NOT worth seeing in person due to hard requirement violation.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Avensis",
+    "year": 2018,
+    "engine_code": "2ZR-FAE",
+    "injection_type": "port",
+    "transmission_type": "CVT (Multidrive S, belt-type)",
+    "mileage_km": 84000
+  },
+  "verdict": "SKIP",
+  "verdict_reasoning": "This vehicle VIOLATES A HARD REQUIREMENT - the buyer explicitly rejects belt-type CVT transmissions and only accepts manual or torque converter automatics. While the 2ZR-FAE engine is excellent with port injection (avoiding direct injection concerns), and the car has strong safety credentials, the CVT transmission is a dealbreaker. CVTs are expensive to maintain (fluid changes every 2-4 years), prone to shudder issues at higher mileage, and cost €3,000-5,000+ to replace if they fail. The buyer's low annual mileage (under 7,000 km/year) means this car could last 15+ years with them, but the CVT reliability over that timespan is questionable without confirmed maintenance history. The €14,225 asking price is also at the upper market range. There is no point viewing this vehicle as it fundamentally does not meet the transmission requirement.",
+  "weighted_score": 6.05,
+  "_meta": {
+    "model": "sonnet",
+    "listing_id": "3872109",
+    "cost_usd": 0.3362,
+    "elapsed_seconds": 158.8
+  }
+}

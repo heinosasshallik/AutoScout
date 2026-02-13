@@ -1,0 +1,60 @@
+{
+  "summary": "This is a 2007 Toyota Corolla 1.6 sedan with 220,000 km and a 4-speed automatic transmission listed by a private seller in Estonia for €3,250. While the 1ZR-FE port injection engine and torque converter automatic meet buyer requirements, the high mileage combined with known reliability issues (timing chain tensioner, planetary gear problems in transmission, early oil consumption in 1ZR-FE) and rust concerns typical of this generation in cold climates make this a risky purchase. At 220k km, this car is approaching or past the typical service life of both the engine and transmission (150-200k km), meaning significant repairs are likely imminent. Price is fair but not a bargain given the risks. Only worth seeing if the seller has comprehensive service records proving recent timing chain, transmission, and rust prevention work. Otherwise, skip and find a lower-mileage example.",
+  "vehicle": {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2007,
+    "engine_code": "1ZR-FE",
+    "injection_type": "port",
+    "transmission_type": "4-speed automatic (U341E torque converter)",
+    "mileage_km": 220000
+  },
+  "research_findings": "**Engine: 1ZR-FE 1.6L Port Injection**\nThe 1ZR-FE is a DOHC 16-valve engine with dual VVT-i producing 91kW. It uses sequential multi-point port fuel injection (preferred). However, early production 1ZR-FE engines suffered from high oil consumption and increased carbon formation in combustion chambers. The timing chain tensioner commonly makes noise at average RPMs, and timing chain replacement is often needed at 150-200k km. The water pump has extremely low service life and can fail as early as 50k km. The aluminum block has no repair size, limiting rebuild options. Expected lifespan is ~240,000 km (150k miles) with proper maintenance. [Source: mywikimotors.com](http://mywikimotors.com/toyota-1zr/), [Source: Toyota ZR engine - Wikipedia](https://en.wikipedia.org/wiki/Toyota_ZR_engine)\n\n**Transmission: U341E 4-Speed Torque Converter Automatic**\nThis is a conventional torque converter automatic (not CVT), which meets buyer requirements. However, the U341E has documented reliability issues including cracking of the front planetary gear causing instant jamming, metal shavings circulating through the system destroying the rear cover and direct/reverse drum, slipping from 3rd to 4th gear, and harsh shifting. Service life is approximately 150-200k km. At 220k km, this transmission is past its expected lifespan. [Source: TRNW](https://www.trnw.net/z-search/U341E.php), [Source: The Driver Adviser](https://thedriveradviser.com/8-unexpected-transmission-problems-of-the-toyota-corolla/)\n\n**Safety: Euro NCAP 5-Star (2007 Test)**\nThe 2007 Corolla E150 achieved 5 stars for adult occupant protection (34 points, first C-segment sedan to achieve this), 4 stars for child occupant protection, and 3 stars for pedestrian safety. Available with up to 9 airbags including driver's knee airbag, second-generation Whiplash Injury Lessening (WIL) system, and Isofix child seat anchorages. [Source: Euro NCAP](https://www.euroncap.com/en/results/toyota/corolla/15742)\n\n**Rust and Cold Weather Concerns**\nThe E150 generation has documented rust problems \"around the wheel wells appearing in the same spots on every Toyota Corolla\" of this age. In cold climates with road salt (like Estonia), rust is a significant concern. Regular rust-proofing is essential but there's no evidence this car received such treatment. [Source: Consumer Reports](https://www.consumerreports.org/cars/toyota/corolla/2007/reliability), [Source: Toyota Nation Forum](https://www.toyotanation.com/threads/preventing-rust.1285825/)\n\n**Market Value**\nEstonian market pricing for 2007 Corollas ranges €1,900-3,700 depending on mileage and condition. At 220k km, €3,250 is within market range but not a bargain. Similar examples: 2007 1.6 auto with 220k km at €3,250 (this listing), 2009 1.6 auto with 168k km at €3,699. [Source: theparking.eu](https://www.theparking.eu/used-cars/toyota-corolla-estonia.html)",
+  "scores": {
+    "mechanical_reliability": 4,
+    "maintenance_cost_outlook": 3,
+    "value_for_money": 5,
+    "safety": 8,
+    "cosmetic_condition": 6,
+    "spec_match": 9,
+    "seller_trustworthiness": 6
+  },
+  "score_reasoning": {
+    "mechanical_reliability": "At 220,000 km, both the 1ZR-FE engine and U341E transmission are at or past their typical 150-200k km service life. The 1ZR-FE suffers from oil consumption issues, timing chain tensioner problems, and water pump failures. The U341E has documented planetary gear cracking and metal shaving circulation issues. This car is at the stage where major repairs (timing chain, transmission rebuild) are likely imminent. The aluminum block cannot be bored for rebuild. No service history provided to verify recent major work.",
+    "maintenance_cost_outlook": "Extremely poor. The car needs or will soon need: timing chain replacement (~€500-800), transmission rebuild or replacement (~€800-1,500), potential water pump replacement, rust repair for wheel wells. Annual maintenance costs will likely exceed the car's value within 1-2 years. Parts availability is good (Toyota), but labor costs for transmission work are high.",
+    "value_for_money": "Price of €3,250 is fair for market but not a bargain given the 220k km and imminent major repairs. Similar 2009 models with 50k fewer km sell for only €450 more. The buyer would be better served spending €3,700 for a newer, lower-mileage example. Current price would be acceptable only if timing chain and transmission were recently replaced with documentation.",
+    "safety": "Excellent safety pedigree with 5-star Euro NCAP rating (34 points), 4-star child protection, up to 9 airbags including knee airbag, WIL whiplash protection, and Isofix mounts. Safety equipment is comprehensive for a 2007 model. No safety-related recalls mentioned for Estonia market. Loses 2 points only due to age - lacks modern active safety features like stability control that newer cars have.",
+    "cosmetic_condition": "Photos show black metallic paint in decent condition with no obvious major dents or damage. However, the E150 generation is notorious for rust around wheel wells, and there's no mention of rust-proofing in Estonia's harsh salt-road winters. The 8 photos provided show exterior/interior but may not reveal rust underneath. Without undercarriage inspection or rust-proofing history, moderate concern exists. Description is minimal equipment list with no condition notes.",
+    "spec_match": "Excellent match to buyer criteria: Toyota (preferred brand), 1ZR-FE port injection engine (preferred over direct injection), 4-speed torque converter automatic (acceptable, not CVT/DCT), petrol-only (not hybrid), sedan body (Corolla-sized, not too small). Only minor deduction because 1.6L is smaller displacement than preferred 1.8L-2.0L, and the 1ZR-FE is less bulletproof than the legendary 2ZR-FE or Honda K-series.",
+    "seller_trustworthiness": "Private seller (Margus Moorits) with minimal description - just lists equipment features, no service history, condition notes, or reason for selling. 8 photos provided (decent number), but no undercarriage shots to assess rust. No phone number listed. No indication of service records, timing chain replacement, or rust-proofing work. Neutral seller - not suspicious but not confidence-inspiring either. Lack of maintenance documentation is concerning for a 220k km car."
+  },
+  "red_flags": [
+    "220,000 km mileage is at or past the expected service life of both the 1ZR-FE engine (150k miles/240k km) and U341E transmission (150-200k km)",
+    "1ZR-FE engine known for oil consumption issues in early production, timing chain tensioner noise, and water pump failures by 50k km",
+    "U341E transmission has documented planetary gear cracking and service life of 150-200k km - this car is past that threshold",
+    "E150 generation notorious for rust around wheel wells, critical concern in Estonia's salt-road climate with no rust-proofing mentioned",
+    "Minimal seller description with no service history, maintenance records, or documentation of timing chain/transmission work",
+    "No undercarriage photos to assess rust despite it being a known issue area for this generation",
+    "Aluminum block has no repair size, limiting rebuild options when engine reaches end of life",
+    "Price is not a bargain - only €450 less than 2009 models with 50,000 fewer km"
+  ],
+  "green_flags": [
+    "1ZR-FE is port injection (preferred by buyer, no carbon buildup issues like direct injection)",
+    "U341E is torque converter automatic, not CVT/DCT (meets buyer's hard requirement)",
+    "Toyota Corolla is on buyer's preferred brand list with good parts availability",
+    "5-star Euro NCAP safety rating with up to 9 airbags including knee airbag",
+    "Private seller (no dealer markup), transparent pricing at market rate",
+    "Timing chain engine (not interference belt that could destroy engine if it fails)",
+    "Corolla-sized sedan meets buyer's size requirement (not too small)",
+    "8 photos provided showing exterior and interior from multiple angles"
+  ],
+  "verdict": "MAYBE",
+  "verdict_reasoning": "This car technically meets all the buyer's hard requirements (Toyota, petrol, port injection, torque converter automatic), but the 220,000 km mileage creates severe reliability and cost concerns. Both the engine and transmission are at or past their documented service life of 150-200k km, meaning major repairs (timing chain replacement, transmission rebuild) are likely imminent or overdue. Combined with the E150's notorious wheel well rust in salt-road climates and zero maintenance documentation, this is a high-risk purchase. The €3,250 price would be reasonable only if the seller provides records of recent timing chain, transmission overhaul, and rust prevention work. Without such documentation, the buyer should view this as a \"parts car price\" situation - expect to invest €1,500-2,500 in immediate repairs. Verdict is MAYBE only because: (1) if the seller has comprehensive service records proving recent major work, this could be acceptable; (2) the buyer's use case is low annual km, so the car might last 2-3 years before failures; (3) parts are cheap and available. However, the smart move is to SKIP this and find a lower-mileage example (150k km or less) or a better-documented high-mileage car. Only go see it if you can negotiate down to €2,500 and budget for immediate repairs.",
+  "weighted_score": 5.4,
+  "_meta": {
+    "model": "sonnet",
+    "listing_id": "4280612",
+    "cost_usd": 0.3606,
+    "elapsed_seconds": 170.7
+  }
+}
