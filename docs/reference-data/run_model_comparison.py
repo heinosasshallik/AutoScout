@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Run evaluations across multiple models for comparison.
 
-Usage:
-    python scripts/run_model_comparison.py
+This was a one-off research script used to compare Opus, Sonnet, and Haiku
+on the same set of listings. Results are in this directory. See aggregate-report.md
+for findings.
+
+Usage (from repo root):
+    python docs/reference-data/run_model_comparison.py
 """
 
 import json
@@ -17,10 +21,10 @@ from autoscout.evaluator import (
     run_claude_evaluation,
 )
 
-ROOT_DIR = Path(__file__).resolve().parent.parent
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 CONFIG_DIR = ROOT_DIR / "config"
 LISTINGS_DIR = ROOT_DIR / "listings"
-REFERENCE_DIR = ROOT_DIR / "reference-data"
+REFERENCE_DIR = Path(__file__).resolve().parent
 
 logging.basicConfig(
     level=logging.INFO,

@@ -283,6 +283,14 @@ class TestParseListing:
         assert listing.raw_html == listing_html
         assert len(listing.raw_html) > 1000
 
+    def test_has_annual_tax(self, listing_html):
+        listing = parse_listing(listing_html, "4244561")
+        assert listing.annual_tax_eur == 104.86
+
+    def test_has_registration_fee(self, listing_html):
+        listing = parse_listing(listing_html, "4244561")
+        assert listing.registration_fee == "Paid"
+
     def test_url_format(self, listing_html):
         listing = parse_listing(listing_html, "4244561")
         assert listing.url == "https://eng.auto24.ee/vehicles/4244561"

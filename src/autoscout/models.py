@@ -37,6 +37,8 @@ class Listing(BaseModel):
     seller_type: str | None = None
     seller_name: str | None = None
     seller_phone: str | None = None
+    annual_tax_eur: float | None = None
+    registration_fee: str | None = None
     description: str | None = None
     photo_urls: list[str] = []
     raw_html: str = ""

@@ -39,8 +39,8 @@ Score each category on a 1-10 integer scale:
 | Category | What to assess |
 |----------|----------------|
 | Mechanical reliability | Engine/transmission track record, known issues, mileage vs expected lifespan |
-| Maintenance cost outlook | Expected future costs: parts, fluids, timing belt/chain, any special maintenance needed |
-| Value for money | Price vs market for comparable make/model/year/mileage |
+| Maintenance cost outlook | Expected future costs: parts, fluids, timing belt/chain, any special maintenance needed. Factor in the annual motor vehicle tax (`annual_tax_eur` in listing data) — this is a real recurring cost based on CO2 emissions, introduced in Estonia Jan 2025 |
+| Value for money | Price vs market for comparable make/model/year/mileage. If `registration_fee` is not "Paid", the buyer will owe a one-time registration fee on ownership transfer — factor this into the effective purchase price |
 | Cosmetic condition | No visible body damage or rust that would be costly to repair. Aesthetics don't matter — just structural/functional cosmetic issues (note: photos not yet available) |
 | Safety | Euro NCAP rating, number of airbags, active safety features, any safety recalls |
 | Spec match | How well it matches buyer preferences (injection type, transmission, aspiration) |

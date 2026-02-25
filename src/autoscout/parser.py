@@ -323,6 +323,9 @@ def parse_listing(html: str, listing_id: str) -> Listing:
     # Engine text from main data (e.g., "1.6 97kW")
     engine_text = details.get("engine")
 
+    # Tax and emissions data
+    tax_fees = _extract_tax_fees(soup)
+
     listing = Listing(
         id=listing_id,
         url=url,
@@ -342,6 +345,8 @@ def parse_listing(html: str, listing_id: str) -> Listing:
         seller_type=seller_type,
         seller_name=seller_name,
         seller_phone=seller_phone,
+        annual_tax_eur=_parse_annual_tax(tax_fees.get("annual_tax")),
+        registration_fee=tax_fees.get("registration_fee"),
         description=description,
         photo_urls=photo_urls,
         raw_html=html,
@@ -512,6 +517,44 @@ def _extract_location(soup: BeautifulSoup) -> str | None:
             return text
 
     return None
+
+
+def _extract_tax_fees(soup: BeautifulSoup) -> dict[str, str]:
+    """Extract motor vehicle tax data from div.vTaxFees.
+
+    Structure: div.vTaxFees > div.vTaxFees__content >
+               div.vTaxFees__item.-annual-fee > div.vTaxFees__value
+               div.vTaxFees__item.-reg-fee > div.vTaxFees__value
+    """
+    fees: dict[str, str] = {}
+    section = soup.select_one("div.vTaxFees")
+    if not section:
+        return fees
+
+    annual = section.select_one("div.vTaxFees__item.-annual-fee div.vTaxFees__value")
+    if annual:
+        text = _text(annual)
+        if text:
+            fees["annual_tax"] = text
+
+    reg = section.select_one("div.vTaxFees__item.-reg-fee div.vTaxFees__value")
+    if reg:
+        text = _text(reg)
+        if text:
+            fees["registration_fee"] = text
+
+    return fees
+
+
+def _parse_annual_tax(text: str | None) -> float | None:
+    """Parse annual tax like '€104.86' or '€ 50' into float euros."""
+    if not text:
+        return None
+    match = re.search(r"(\d+(?:[.,]\d+)?)", text)
+    if not match:
+        return None
+    return float(match.group(1).replace(",", "."))
+
 
 
 def _extract_make_model(soup: BeautifulSoup) -> tuple[str | None, str | None]:
