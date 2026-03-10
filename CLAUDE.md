@@ -35,10 +35,14 @@ python scripts/evaluate_listing.py https://eng.auto24.ee/vehicles/4281217
 - **`src/autoscout/scraper.py`** — Playwright + stealth scraper for auto24.ee. Handles Cloudflare, pagination, polite delays (5-10s).
 - **`src/autoscout/parser.py`** — BeautifulSoup HTML parsers for search results and listing pages. CSS selectors target `div.result-row`, `table.main-data`, `div.vImages`, `div.vTechData`.
 - **`src/autoscout/models.py`** — Pydantic models (`SearchResultItem`, `Listing`).
+- **`src/autoscout/evaluator.py`** — Core evaluation logic: runs Claude Code CLI, parses structured output, computes weighted scores, saves results.
+- **`src/autoscout/config.py`** — Config loading and validation (score weights sum to 1.0, categories match schema, search values map to known IDs).
 - **`scripts/evaluate_listing.py`** — Standalone evaluation script. Scrapes one listing, sends to Claude Code CLI (`claude -p`) with `--json-schema` for structured output, computes weighted scores, saves results. Uses `--allowedTools Read,WebSearch,WebFetch`.
+- **`scripts/pipeline.py`** — Pipeline orchestrator. Scrapes all matching listings across configured brands, skips already-evaluated ones, evaluates the rest with Claude, and displays ranked results. Supports `--limit` and `--dry-run`.
 - **`config/`** — All user-editable configuration:
   - `search.json` — search filters (brands, fuel, transmission, price range)
   - `scoring.json` — score category weights (must sum to 1.0, categories must match eval-output-schema.json)
+  - `evaluation.json` — evaluation model and max budget per listing
   - `prompt.md` — evaluation prompt sent to Claude (buyer profile, hard requirements, scoring rubric)
   - `eval-output-schema.json` — JSON schema for structured Claude output (verdict enum, score categories, etc.)
 - **`listings/{id}/`** — Runtime output. Each listing gets `listing.json` (scraped) and `evaluation.json` (AI evaluation).
@@ -47,13 +51,14 @@ python scripts/evaluate_listing.py https://eng.auto24.ee/vehicles/4281217
 
 ### What's Next
 
-Pipeline orchestration: a script that scrapes all matching listings, skips already-evaluated ones, evaluates the rest, and shows ranked results. Storage approach TBD — keeping it simple (files or lightweight SQLite) based on what the pipeline actually needs.
+- **Evaluator market pricing is unreliable.** The evaluator uses WebSearch to find comparable prices but gets stale/sold listings it can't distinguish from active ones, making the "value for money" score untrustworthy. Needs research.
 
 ### Evaluation Details
 
 - **Verdicts:** `GO SEE IT` / `MAYBE` / `SKIP` (enum in JSON schema)
-- **Score weights:** Mechanical reliability 20%, Maintenance cost 20%, Value 20%, Safety 15%, Cosmetic 10%, Spec match 10%, Seller trust 5%
-- **Cost:** ~$1-5 per evaluation (Claude Code with web search)
+- **Score weights:** Defined in `config/scoring.json` (must sum to 1.0, categories must match `eval-output-schema.json`)
+- **Model:** Configured in `config/evaluation.json` (currently `opus`)
+- **Cost:** ~$0.50-$1.50 per evaluation (Claude Code with web search)
 
 ## Key Reference
 
